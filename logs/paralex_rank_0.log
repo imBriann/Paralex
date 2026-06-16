@@ -1,0 +1,1326 @@
+[2026-06-16 11:18:16.648] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 8 procesos
+[2026-06-16 11:18:16.658] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 11:18:16.659] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 11:18:16.660] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 11:18:16.670] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (88148 bytes)
+[2026-06-16 11:18:16.671] [INFO] [Rank 0] [Document] Cargado: Ensayo_CUDA (11673 bytes)
+[2026-06-16 11:18:16.674] [INFO] [Rank 0] [Document] Cargado: AvancesObjetivosProyectoDeAula (99688 bytes)
+[2026-06-16 11:18:16.675] [INFO] [Rank 0] [Document] Total documentos cargados: 3
+[2026-06-16 11:18:16.678] [INFO] [Rank 0] [Engine] Distribuidos 3 docs
+[2026-06-16 11:18:16.697] [INFO] [Rank 0] [Mapper] Map completado: InformeFinalFCPD | palabras=6420 | unicas=1785
+[2026-06-16 11:18:16.742] [INFO] [Rank 0] [Reducer] Reduce completado: 3 docs, 14855 palabras, 3610 unicas
+[2026-06-16 11:18:16.767] [INFO] [Rank 0] [SQLite] Base de datos inicializada en: paralex.db
+[2026-06-16 11:18:16.813] [INFO] [Rank 0] [Engine] Índice guardado en SQLite exitosamente
+[2026-06-16 11:18:16.826] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\process_output.json
+[2026-06-16 11:18:38.706] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 4 procesos
+[2026-06-16 11:18:38.709] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 11:18:38.709] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 11:18:38.709] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 11:18:38.712] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (88148 bytes)
+[2026-06-16 11:18:38.712] [INFO] [Rank 0] [Document] Cargado: Ensayo_CUDA (11673 bytes)
+[2026-06-16 11:18:38.713] [INFO] [Rank 0] [Document] Cargado: AvancesObjetivosProyectoDeAula (99688 bytes)
+[2026-06-16 11:18:38.713] [INFO] [Rank 0] [Document] Total documentos cargados: 3
+[2026-06-16 11:18:38.714] [INFO] [Rank 0] [Engine] Distribuidos 3 docs
+[2026-06-16 11:18:38.724] [INFO] [Rank 0] [Mapper] Map completado: InformeFinalFCPD | palabras=6420 | unicas=1785
+[2026-06-16 11:18:38.749] [INFO] [Rank 0] [Reducer] Reduce completado: 3 docs, 14855 palabras, 3610 unicas
+[2026-06-16 11:18:38.759] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\search_output.json
+[2026-06-16 11:19:56.000] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 4 procesos
+[2026-06-16 11:19:56.004] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 11:19:56.004] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 11:19:56.005] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 11:19:56.010] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (88148 bytes)
+[2026-06-16 11:19:56.011] [INFO] [Rank 0] [Document] Cargado: Ensayo_CUDA (11673 bytes)
+[2026-06-16 11:19:56.013] [INFO] [Rank 0] [Document] Cargado: AvancesObjetivosProyectoDeAula (99688 bytes)
+[2026-06-16 11:19:56.013] [INFO] [Rank 0] [Document] Total documentos cargados: 3
+[2026-06-16 11:19:56.014] [INFO] [Rank 0] [Engine] Distribuidos 3 docs
+[2026-06-16 11:19:56.026] [INFO] [Rank 0] [Mapper] Map completado: InformeFinalFCPD | palabras=6420 | unicas=1785
+[2026-06-16 11:19:56.050] [INFO] [Rank 0] [Reducer] Reduce completado: 3 docs, 14855 palabras, 3610 unicas
+[2026-06-16 11:19:56.063] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\tfidf_output.json
+[2026-06-16 11:20:16.087] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 4 procesos
+[2026-06-16 11:20:16.091] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 11:20:16.091] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 11:20:16.091] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 11:20:16.096] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (88148 bytes)
+[2026-06-16 11:20:16.096] [INFO] [Rank 0] [Document] Cargado: Ensayo_CUDA (11673 bytes)
+[2026-06-16 11:20:16.098] [INFO] [Rank 0] [Document] Cargado: AvancesObjetivosProyectoDeAula (99688 bytes)
+[2026-06-16 11:20:16.099] [INFO] [Rank 0] [Document] Total documentos cargados: 3
+[2026-06-16 11:20:16.100] [INFO] [Rank 0] [Engine] Distribuidos 3 docs
+[2026-06-16 11:20:16.114] [INFO] [Rank 0] [Mapper] Map completado: InformeFinalFCPD | palabras=6420 | unicas=1785
+[2026-06-16 11:20:16.150] [INFO] [Rank 0] [Reducer] Reduce completado: 3 docs, 14855 palabras, 3610 unicas
+[2026-06-16 11:20:16.167] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\similarity_output.json
+[2026-06-16 11:20:34.545] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 4 procesos
+[2026-06-16 11:20:34.547] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 11:20:34.548] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 11:20:34.548] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 11:20:34.551] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (88148 bytes)
+[2026-06-16 11:20:34.551] [INFO] [Rank 0] [Document] Cargado: Ensayo_CUDA (11673 bytes)
+[2026-06-16 11:20:34.553] [INFO] [Rank 0] [Document] Cargado: AvancesObjetivosProyectoDeAula (99688 bytes)
+[2026-06-16 11:20:34.553] [INFO] [Rank 0] [Document] Total documentos cargados: 3
+[2026-06-16 11:20:34.564] [INFO] [Rank 0] [Mapper] Map completado: InformeFinalFCPD | palabras=6420 | unicas=1785
+[2026-06-16 11:20:34.566] [INFO] [Rank 0] [Mapper] Map completado: Ensayo_CUDA | palabras=991 | unicas=505
+[2026-06-16 11:20:34.578] [INFO] [Rank 0] [Mapper] Map completado: AvancesObjetivosProyectoDeAula | palabras=7444 | unicas=2247
+[2026-06-16 11:20:34.586] [INFO] [Rank 0] [Reducer] Reduce completado: 3 docs, 14855 palabras, 3610 unicas
+[2026-06-16 11:20:34.589] [INFO] [Rank 0] [Engine] Distribuidos 3 docs
+[2026-06-16 11:20:34.597] [INFO] [Rank 0] [Mapper] Map completado: InformeFinalFCPD | palabras=6420 | unicas=1785
+[2026-06-16 11:20:34.628] [INFO] [Rank 0] [Reducer] Reduce completado: 3 docs, 14855 palabras, 3610 unicas
+[2026-06-16 11:20:34.632] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\benchmark_output.json
+[2026-06-16 12:43:34.071] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 4 procesos
+[2026-06-16 12:43:34.074] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 12:43:34.075] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 12:43:34.075] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 12:43:34.079] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (88148 bytes)
+[2026-06-16 12:43:34.079] [INFO] [Rank 0] [Document] Cargado: Ensayo_CUDA (11673 bytes)
+[2026-06-16 12:43:34.081] [INFO] [Rank 0] [Document] Cargado: AvancesObjetivosProyectoDeAula (99688 bytes)
+[2026-06-16 12:43:34.081] [INFO] [Rank 0] [Document] Total documentos cargados: 3
+[2026-06-16 12:43:34.082] [INFO] [Rank 0] [Engine] Distribuidos 3 docs
+[2026-06-16 12:43:34.091] [INFO] [Rank 0] [Mapper] Map completado: InformeFinalFCPD | palabras=6420 | unicas=1785
+[2026-06-16 12:43:34.113] [INFO] [Rank 0] [Reducer] Reduce completado: 3 docs, 14855 palabras, 3610 unicas
+[2026-06-16 12:43:34.123] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\search_output.json
+[2026-06-16 12:43:49.001] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 1 procesos
+[2026-06-16 12:43:49.003] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 12:43:49.004] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 12:43:49.004] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 12:43:49.007] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (88148 bytes)
+[2026-06-16 12:43:49.008] [INFO] [Rank 0] [Document] Cargado: Ensayo_CUDA (11673 bytes)
+[2026-06-16 12:43:49.010] [INFO] [Rank 0] [Document] Cargado: AvancesObjetivosProyectoDeAula (99688 bytes)
+[2026-06-16 12:43:49.011] [INFO] [Rank 0] [Document] Total documentos cargados: 3
+[2026-06-16 12:43:49.011] [INFO] [Rank 0] [Engine] Distribuidos 3 docs
+[2026-06-16 12:43:49.027] [INFO] [Rank 0] [Mapper] Map completado: InformeFinalFCPD | palabras=6420 | unicas=1785
+[2026-06-16 12:43:49.029] [INFO] [Rank 0] [Mapper] Map completado: Ensayo_CUDA | palabras=991 | unicas=505
+[2026-06-16 12:43:49.047] [INFO] [Rank 0] [Mapper] Map completado: AvancesObjetivosProyectoDeAula | palabras=7444 | unicas=2247
+[2026-06-16 12:43:49.076] [INFO] [Rank 0] [Reducer] Reduce completado: 3 docs, 14855 palabras, 3610 unicas
+[2026-06-16 12:43:49.093] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\search_output.json
+[2026-06-16 12:44:02.653] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 8 procesos
+[2026-06-16 12:44:02.658] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 12:44:02.658] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 12:44:02.658] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 12:44:02.662] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (88148 bytes)
+[2026-06-16 12:44:02.662] [INFO] [Rank 0] [Document] Cargado: Ensayo_CUDA (11673 bytes)
+[2026-06-16 12:44:02.663] [INFO] [Rank 0] [Document] Cargado: AvancesObjetivosProyectoDeAula (99688 bytes)
+[2026-06-16 12:44:02.663] [INFO] [Rank 0] [Document] Total documentos cargados: 3
+[2026-06-16 12:44:02.665] [INFO] [Rank 0] [Engine] Distribuidos 3 docs
+[2026-06-16 12:44:02.673] [INFO] [Rank 0] [Mapper] Map completado: InformeFinalFCPD | palabras=6420 | unicas=1785
+[2026-06-16 12:44:02.694] [INFO] [Rank 0] [Reducer] Reduce completado: 3 docs, 14855 palabras, 3610 unicas
+[2026-06-16 12:44:02.702] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\search_output.json
+[2026-06-16 12:44:21.516] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 4 procesos
+[2026-06-16 12:44:21.519] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 12:44:21.519] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 12:44:21.519] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 12:44:21.522] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (88148 bytes)
+[2026-06-16 12:44:21.522] [INFO] [Rank 0] [Document] Cargado: Ensayo_CUDA (11673 bytes)
+[2026-06-16 12:44:21.524] [INFO] [Rank 0] [Document] Cargado: AvancesObjetivosProyectoDeAula (99688 bytes)
+[2026-06-16 12:44:21.524] [INFO] [Rank 0] [Document] Total documentos cargados: 3
+[2026-06-16 12:44:21.525] [INFO] [Rank 0] [Engine] Distribuidos 3 docs
+[2026-06-16 12:44:21.538] [INFO] [Rank 0] [Mapper] Map completado: InformeFinalFCPD | palabras=6420 | unicas=1785
+[2026-06-16 12:44:21.564] [INFO] [Rank 0] [Reducer] Reduce completado: 3 docs, 14855 palabras, 3610 unicas
+[2026-06-16 12:44:21.581] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\tfidf_output.json
+[2026-06-16 12:44:53.046] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 8 procesos
+[2026-06-16 12:44:53.048] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 12:44:53.048] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 12:44:53.048] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 12:44:53.051] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (88148 bytes)
+[2026-06-16 12:44:53.051] [INFO] [Rank 0] [Document] Cargado: Ensayo_CUDA (11673 bytes)
+[2026-06-16 12:44:53.052] [INFO] [Rank 0] [Document] Cargado: AvancesObjetivosProyectoDeAula (99688 bytes)
+[2026-06-16 12:44:53.052] [INFO] [Rank 0] [Document] Total documentos cargados: 3
+[2026-06-16 12:44:53.053] [INFO] [Rank 0] [Engine] Distribuidos 3 docs
+[2026-06-16 12:44:53.060] [INFO] [Rank 0] [Mapper] Map completado: InformeFinalFCPD | palabras=6420 | unicas=1785
+[2026-06-16 12:44:53.075] [INFO] [Rank 0] [Reducer] Reduce completado: 3 docs, 14855 palabras, 3610 unicas
+[2026-06-16 12:44:53.082] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\similarity_output.json
+[2026-06-16 12:45:19.695] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 4 procesos
+[2026-06-16 12:45:19.697] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 12:45:19.697] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 12:45:19.697] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 12:45:19.699] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (88148 bytes)
+[2026-06-16 12:45:19.699] [INFO] [Rank 0] [Document] Cargado: Ensayo_CUDA (11673 bytes)
+[2026-06-16 12:45:19.700] [INFO] [Rank 0] [Document] Cargado: AvancesObjetivosProyectoDeAula (99688 bytes)
+[2026-06-16 12:45:19.700] [INFO] [Rank 0] [Document] Total documentos cargados: 3
+[2026-06-16 12:45:19.705] [INFO] [Rank 0] [Mapper] Map completado: InformeFinalFCPD | palabras=6420 | unicas=1785
+[2026-06-16 12:45:19.706] [INFO] [Rank 0] [Mapper] Map completado: Ensayo_CUDA | palabras=991 | unicas=505
+[2026-06-16 12:45:19.714] [INFO] [Rank 0] [Mapper] Map completado: AvancesObjetivosProyectoDeAula | palabras=7444 | unicas=2247
+[2026-06-16 12:45:19.721] [INFO] [Rank 0] [Reducer] Reduce completado: 3 docs, 14855 palabras, 3610 unicas
+[2026-06-16 12:45:19.723] [INFO] [Rank 0] [Engine] Distribuidos 3 docs
+[2026-06-16 12:45:19.728] [INFO] [Rank 0] [Mapper] Map completado: InformeFinalFCPD | palabras=6420 | unicas=1785
+[2026-06-16 12:45:19.744] [INFO] [Rank 0] [Reducer] Reduce completado: 3 docs, 14855 palabras, 3610 unicas
+[2026-06-16 12:45:19.747] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\benchmark_output.json
+[2026-06-16 16:34:57.822] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 8 procesos
+[2026-06-16 16:34:57.829] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 16:34:57.829] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 16:34:57.829] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 16:34:57.835] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (66489 bytes)
+[2026-06-16 16:34:57.836] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (66489 bytes)
+[2026-06-16 16:34:57.837] [ERROR] [Rank 0] [Document] No se pudo leer corpus: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\sample_docs\INFORME CORRELACIÓN ENTRE METODOS DE PROGRAMACIÓN.txt
+[2026-06-16 16:34:57.837] [WARN] [Rank 0] [Document] Archivo vacio o no legible: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\sample_docs\INFORME CORRELACIÓN ENTRE METODOS DE PROGRAMACIÓN.txt
+[2026-06-16 16:34:57.837] [INFO] [Rank 0] [Document] Cargado: expoobj1 (195 bytes)
+[2026-06-16 16:34:57.839] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (66490 bytes)
+[2026-06-16 16:34:57.841] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (2) (4873 bytes)
+[2026-06-16 16:34:57.842] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (1) (4873 bytes)
+[2026-06-16 16:34:57.843] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final - copia (28006 bytes)
+[2026-06-16 16:34:57.843] [INFO] [Rank 0] [Document] Cargado: Ensayo_CUDA (11673 bytes)
+[2026-06-16 16:34:57.846] [INFO] [Rank 0] [Document] Cargado: AvancesObjetivosProyectoDeAula (99688 bytes)
+[2026-06-16 16:34:57.847] [INFO] [Rank 0] [Document] Cargado: Avance (39589 bytes)
+[2026-06-16 16:34:57.848] [INFO] [Rank 0] [Document] Cargado: Articulo - Palarex (28103 bytes)
+[2026-06-16 16:34:57.849] [INFO] [Rank 0] [Document] Total documentos cargados: 11
+[2026-06-16 16:34:57.854] [INFO] [Rank 0] [Engine] Distribuidos 11 docs
+[2026-06-16 16:34:57.866] [INFO] [Rank 0] [Mapper] Map completado: InformeFinalFCPD | palabras=5335 | unicas=1533
+[2026-06-16 16:34:57.883] [INFO] [Rank 0] [Mapper] Map completado: AvancesObjetivosProyectoDeAula | palabras=7444 | unicas=2247
+[2026-06-16 16:34:57.986] [INFO] [Rank 0] [Reducer] Reduce completado: 11 docs, 32992 palabras, 4097 unicas
+[2026-06-16 16:34:58.002] [INFO] [Rank 0] [SQLite] Base de datos inicializada en: paralex.db
+[2026-06-16 16:34:58.150] [INFO] [Rank 0] [Engine] Índice guardado en SQLite exitosamente
+[2026-06-16 16:34:58.165] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\process_output.json
+[2026-06-16 16:35:14.983] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 4 procesos
+[2026-06-16 16:35:14.987] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 16:35:14.987] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 16:35:14.987] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 16:35:14.989] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (66489 bytes)
+[2026-06-16 16:35:14.989] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (66489 bytes)
+[2026-06-16 16:35:14.990] [ERROR] [Rank 0] [Document] No se pudo leer corpus: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\sample_docs\INFORME CORRELACIÓN ENTRE METODOS DE PROGRAMACIÓN.txt
+[2026-06-16 16:35:14.990] [WARN] [Rank 0] [Document] Archivo vacio o no legible: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\sample_docs\INFORME CORRELACIÓN ENTRE METODOS DE PROGRAMACIÓN.txt
+[2026-06-16 16:35:14.990] [INFO] [Rank 0] [Document] Cargado: expoobj1 (195 bytes)
+[2026-06-16 16:35:14.991] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (66490 bytes)
+[2026-06-16 16:35:14.991] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (2) (4873 bytes)
+[2026-06-16 16:35:14.991] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (1) (4873 bytes)
+[2026-06-16 16:35:14.992] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final - copia (28006 bytes)
+[2026-06-16 16:35:14.992] [INFO] [Rank 0] [Document] Cargado: Ensayo_CUDA (11673 bytes)
+[2026-06-16 16:35:14.993] [INFO] [Rank 0] [Document] Cargado: AvancesObjetivosProyectoDeAula (99688 bytes)
+[2026-06-16 16:35:14.993] [INFO] [Rank 0] [Document] Cargado: Avance (39589 bytes)
+[2026-06-16 16:35:14.993] [INFO] [Rank 0] [Document] Cargado: Articulo - Palarex (28103 bytes)
+[2026-06-16 16:35:14.993] [INFO] [Rank 0] [Document] Total documentos cargados: 11
+[2026-06-16 16:35:14.995] [INFO] [Rank 0] [Engine] Distribuidos 11 docs
+[2026-06-16 16:35:15.000] [INFO] [Rank 0] [Mapper] Map completado: InformeFinalFCPD | palabras=5335 | unicas=1533
+[2026-06-16 16:35:15.001] [INFO] [Rank 0] [Mapper] Map completado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (2) | palabras=378 | unicas=259
+[2026-06-16 16:35:15.010] [INFO] [Rank 0] [Mapper] Map completado: AvancesObjetivosProyectoDeAula | palabras=7444 | unicas=2247
+[2026-06-16 16:35:15.050] [INFO] [Rank 0] [Reducer] Reduce completado: 11 docs, 32992 palabras, 4097 unicas
+[2026-06-16 16:35:15.065] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\search_output.json
+[2026-06-16 16:35:29.672] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 8 procesos
+[2026-06-16 16:35:29.676] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 16:35:29.677] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 16:35:29.677] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 16:35:29.680] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (66489 bytes)
+[2026-06-16 16:35:29.681] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (66489 bytes)
+[2026-06-16 16:35:29.681] [ERROR] [Rank 0] [Document] No se pudo leer corpus: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\sample_docs\INFORME CORRELACIÓN ENTRE METODOS DE PROGRAMACIÓN.txt
+[2026-06-16 16:35:29.681] [WARN] [Rank 0] [Document] Archivo vacio o no legible: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\sample_docs\INFORME CORRELACIÓN ENTRE METODOS DE PROGRAMACIÓN.txt
+[2026-06-16 16:35:29.681] [INFO] [Rank 0] [Document] Cargado: expoobj1 (195 bytes)
+[2026-06-16 16:35:29.683] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (66490 bytes)
+[2026-06-16 16:35:29.683] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (2) (4873 bytes)
+[2026-06-16 16:35:29.685] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (1) (4873 bytes)
+[2026-06-16 16:35:29.685] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final - copia (28006 bytes)
+[2026-06-16 16:35:29.686] [INFO] [Rank 0] [Document] Cargado: Ensayo_CUDA (11673 bytes)
+[2026-06-16 16:35:29.687] [INFO] [Rank 0] [Document] Cargado: AvancesObjetivosProyectoDeAula (99688 bytes)
+[2026-06-16 16:35:29.688] [INFO] [Rank 0] [Document] Cargado: Avance (39589 bytes)
+[2026-06-16 16:35:29.689] [INFO] [Rank 0] [Document] Cargado: Articulo - Palarex (28103 bytes)
+[2026-06-16 16:35:29.689] [INFO] [Rank 0] [Document] Total documentos cargados: 11
+[2026-06-16 16:35:29.691] [INFO] [Rank 0] [Engine] Distribuidos 11 docs
+[2026-06-16 16:35:29.700] [INFO] [Rank 0] [Mapper] Map completado: InformeFinalFCPD | palabras=5335 | unicas=1533
+[2026-06-16 16:35:29.711] [INFO] [Rank 0] [Mapper] Map completado: AvancesObjetivosProyectoDeAula | palabras=7444 | unicas=2247
+[2026-06-16 16:35:29.765] [INFO] [Rank 0] [Reducer] Reduce completado: 11 docs, 32992 palabras, 4097 unicas
+[2026-06-16 16:35:29.787] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\tfidf_output.json
+[2026-06-16 16:36:19.141] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 4 procesos
+[2026-06-16 16:36:19.143] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 16:36:19.143] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 16:36:19.144] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 16:36:19.146] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (66489 bytes)
+[2026-06-16 16:36:19.147] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (66489 bytes)
+[2026-06-16 16:36:19.147] [ERROR] [Rank 0] [Document] No se pudo leer corpus: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\sample_docs\INFORME CORRELACIÓN ENTRE METODOS DE PROGRAMACIÓN.txt
+[2026-06-16 16:36:19.147] [WARN] [Rank 0] [Document] Archivo vacio o no legible: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\sample_docs\INFORME CORRELACIÓN ENTRE METODOS DE PROGRAMACIÓN.txt
+[2026-06-16 16:36:19.147] [INFO] [Rank 0] [Document] Cargado: expoobj1 (195 bytes)
+[2026-06-16 16:36:19.148] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (66490 bytes)
+[2026-06-16 16:36:19.148] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (2) (4873 bytes)
+[2026-06-16 16:36:19.149] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (1) (4873 bytes)
+[2026-06-16 16:36:19.149] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final - copia (28006 bytes)
+[2026-06-16 16:36:19.149] [INFO] [Rank 0] [Document] Cargado: Ensayo_CUDA (11673 bytes)
+[2026-06-16 16:36:19.150] [INFO] [Rank 0] [Document] Cargado: AvancesObjetivosProyectoDeAula (99688 bytes)
+[2026-06-16 16:36:19.151] [INFO] [Rank 0] [Document] Cargado: Avance (39589 bytes)
+[2026-06-16 16:36:19.151] [INFO] [Rank 0] [Document] Cargado: Articulo - Palarex (28103 bytes)
+[2026-06-16 16:36:19.151] [INFO] [Rank 0] [Document] Total documentos cargados: 11
+[2026-06-16 16:36:19.152] [INFO] [Rank 0] [Engine] Distribuidos 11 docs
+[2026-06-16 16:36:19.158] [INFO] [Rank 0] [Mapper] Map completado: InformeFinalFCPD | palabras=5335 | unicas=1533
+[2026-06-16 16:36:19.158] [INFO] [Rank 0] [Mapper] Map completado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (2) | palabras=378 | unicas=259
+[2026-06-16 16:36:19.166] [INFO] [Rank 0] [Mapper] Map completado: AvancesObjetivosProyectoDeAula | palabras=7444 | unicas=2247
+[2026-06-16 16:36:19.207] [INFO] [Rank 0] [Reducer] Reduce completado: 11 docs, 32992 palabras, 4097 unicas
+[2026-06-16 16:36:19.226] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\similarity_output.json
+[2026-06-16 16:36:52.042] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 4 procesos
+[2026-06-16 16:36:52.045] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 16:36:52.045] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 16:36:52.045] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 16:36:52.047] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (66489 bytes)
+[2026-06-16 16:36:52.048] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (66489 bytes)
+[2026-06-16 16:36:52.048] [ERROR] [Rank 0] [Document] No se pudo leer corpus: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\sample_docs\INFORME CORRELACIÓN ENTRE METODOS DE PROGRAMACIÓN.txt
+[2026-06-16 16:36:52.048] [WARN] [Rank 0] [Document] Archivo vacio o no legible: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\sample_docs\INFORME CORRELACIÓN ENTRE METODOS DE PROGRAMACIÓN.txt
+[2026-06-16 16:36:52.048] [INFO] [Rank 0] [Document] Cargado: expoobj1 (195 bytes)
+[2026-06-16 16:36:52.049] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (66490 bytes)
+[2026-06-16 16:36:52.049] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (2) (4873 bytes)
+[2026-06-16 16:36:52.049] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (1) (4873 bytes)
+[2026-06-16 16:36:52.050] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final - copia (28006 bytes)
+[2026-06-16 16:36:52.050] [INFO] [Rank 0] [Document] Cargado: Ensayo_CUDA (11673 bytes)
+[2026-06-16 16:36:52.051] [INFO] [Rank 0] [Document] Cargado: AvancesObjetivosProyectoDeAula (99688 bytes)
+[2026-06-16 16:36:52.051] [INFO] [Rank 0] [Document] Cargado: Avance (39589 bytes)
+[2026-06-16 16:36:52.052] [INFO] [Rank 0] [Document] Cargado: Articulo - Palarex (28103 bytes)
+[2026-06-16 16:36:52.052] [INFO] [Rank 0] [Document] Total documentos cargados: 11
+[2026-06-16 16:36:52.057] [INFO] [Rank 0] [Mapper] Map completado: InformeFinalFCPD | palabras=5335 | unicas=1533
+[2026-06-16 16:36:52.061] [INFO] [Rank 0] [Mapper] Map completado: InformeFinalFCPD | palabras=5335 | unicas=1533
+[2026-06-16 16:36:52.062] [INFO] [Rank 0] [Mapper] Map completado: expoobj1 | palabras=0 | unicas=0
+[2026-06-16 16:36:52.067] [INFO] [Rank 0] [Mapper] Map completado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final | palabras=5335 | unicas=1533
+[2026-06-16 16:36:52.069] [INFO] [Rank 0] [Mapper] Map completado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (2) | palabras=378 | unicas=259
+[2026-06-16 16:36:52.070] [INFO] [Rank 0] [Mapper] Map completado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (1) | palabras=378 | unicas=259
+[2026-06-16 16:36:52.072] [INFO] [Rank 0] [Mapper] Map completado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final - copia | palabras=2293 | unicas=987
+[2026-06-16 16:36:52.076] [INFO] [Rank 0] [Mapper] Map completado: Ensayo_CUDA | palabras=991 | unicas=505
+[2026-06-16 16:36:52.082] [INFO] [Rank 0] [Mapper] Map completado: AvancesObjetivosProyectoDeAula | palabras=7444 | unicas=2247
+[2026-06-16 16:36:52.085] [INFO] [Rank 0] [Mapper] Map completado: Avance | palabras=3166 | unicas=1178
+[2026-06-16 16:36:52.091] [INFO] [Rank 0] [Mapper] Map completado: Articulo - Palarex | palabras=2337 | unicas=1201
+[2026-06-16 16:36:52.100] [INFO] [Rank 0] [Reducer] Reduce completado: 11 docs, 32992 palabras, 4097 unicas
+[2026-06-16 16:36:52.104] [INFO] [Rank 0] [Engine] Distribuidos 11 docs
+[2026-06-16 16:36:52.128] [INFO] [Rank 0] [Mapper] Map completado: InformeFinalFCPD | palabras=5335 | unicas=1533
+[2026-06-16 16:36:52.129] [INFO] [Rank 0] [Mapper] Map completado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (2) | palabras=378 | unicas=259
+[2026-06-16 16:36:52.143] [INFO] [Rank 0] [Mapper] Map completado: AvancesObjetivosProyectoDeAula | palabras=7444 | unicas=2247
+[2026-06-16 16:36:52.182] [INFO] [Rank 0] [Reducer] Reduce completado: 11 docs, 32992 palabras, 4097 unicas
+[2026-06-16 16:36:52.186] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\benchmark_output.json
+[2026-06-16 17:06:32.885] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 4 procesos
+[2026-06-16 17:06:32.888] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde data/stopwords/spanish.txt
+[2026-06-16 17:06:32.888] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde data/stopwords/english.txt
+[2026-06-16 17:06:32.888] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 17:06:32.892] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (66489 bytes)
+[2026-06-16 17:06:32.893] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (66489 bytes)
+[2026-06-16 17:06:32.893] [ERROR] [Rank 0] [Document] No se pudo leer corpus: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\sample_docs\INFORME CORRELACIÓN ENTRE METODOS DE PROGRAMACIÓN.txt
+[2026-06-16 17:06:32.893] [WARN] [Rank 0] [Document] Archivo vacio o no legible: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\sample_docs\INFORME CORRELACIÓN ENTRE METODOS DE PROGRAMACIÓN.txt
+[2026-06-16 17:06:32.894] [INFO] [Rank 0] [Document] Cargado: expoobj1 (195 bytes)
+[2026-06-16 17:06:32.896] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (66490 bytes)
+[2026-06-16 17:06:32.896] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (2) (4873 bytes)
+[2026-06-16 17:06:32.897] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (1) (4873 bytes)
+[2026-06-16 17:06:32.898] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final - copia (28006 bytes)
+[2026-06-16 17:06:32.899] [INFO] [Rank 0] [Document] Cargado: Ensayo_CUDA (11673 bytes)
+[2026-06-16 17:06:32.900] [INFO] [Rank 0] [Document] Cargado: AvancesObjetivosProyectoDeAula (99688 bytes)
+[2026-06-16 17:06:32.902] [INFO] [Rank 0] [Document] Cargado: Avance (39589 bytes)
+[2026-06-16 17:06:32.903] [INFO] [Rank 0] [Document] Cargado: Articulo - Palarex (28103 bytes)
+[2026-06-16 17:06:32.903] [INFO] [Rank 0] [Document] Total documentos cargados: 11
+[2026-06-16 17:06:32.904] [INFO] [Rank 0] [Engine] Distribuidos 11 docs
+[2026-06-16 17:06:32.911] [INFO] [Rank 0] [Mapper] Map completado: InformeFinalFCPD | palabras=5335 | unicas=1533
+[2026-06-16 17:06:32.912] [INFO] [Rank 0] [Mapper] Map completado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (2) | palabras=378 | unicas=259
+[2026-06-16 17:06:32.919] [INFO] [Rank 0] [Mapper] Map completado: AvancesObjetivosProyectoDeAula | palabras=7444 | unicas=2247
+[2026-06-16 17:06:32.955] [INFO] [Rank 0] [Reducer] Reduce completado: 11 docs, 32992 palabras, 4097 unicas
+[2026-06-16 17:06:32.975] [INFO] [Rank 0] [SQLite] Base de datos inicializada en: paralex.db
+[2026-06-16 17:06:33.043] [INFO] [Rank 0] [Engine] Índice guardado en SQLite exitosamente
+[2026-06-16 17:06:33.052] [INFO] [Rank 0] [JsonWriter] Resultado escrito: data\results\process_output.json
+[2026-06-16 17:08:36.456] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 4 procesos
+[2026-06-16 17:08:36.458] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 17:08:36.458] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 17:08:36.458] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 17:08:36.460] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (66489 bytes)
+[2026-06-16 17:08:36.461] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (66489 bytes)
+[2026-06-16 17:08:36.461] [ERROR] [Rank 0] [Document] No se pudo leer corpus: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\sample_docs\INFORME CORRELACIÓN ENTRE METODOS DE PROGRAMACIÓN.txt
+[2026-06-16 17:08:36.461] [WARN] [Rank 0] [Document] Archivo vacio o no legible: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\sample_docs\INFORME CORRELACIÓN ENTRE METODOS DE PROGRAMACIÓN.txt
+[2026-06-16 17:08:36.461] [INFO] [Rank 0] [Document] Cargado: expoobj1 (195 bytes)
+[2026-06-16 17:08:36.462] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (66490 bytes)
+[2026-06-16 17:08:36.462] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (2) (4873 bytes)
+[2026-06-16 17:08:36.462] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (1) (4873 bytes)
+[2026-06-16 17:08:36.462] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final - copia (28006 bytes)
+[2026-06-16 17:08:36.463] [INFO] [Rank 0] [Document] Cargado: Ensayo_CUDA (11673 bytes)
+[2026-06-16 17:08:36.464] [INFO] [Rank 0] [Document] Cargado: AvancesObjetivosProyectoDeAula (99688 bytes)
+[2026-06-16 17:08:36.464] [INFO] [Rank 0] [Document] Cargado: Avance (39589 bytes)
+[2026-06-16 17:08:36.464] [INFO] [Rank 0] [Document] Cargado: Articulo - Palarex (28103 bytes)
+[2026-06-16 17:08:36.464] [INFO] [Rank 0] [Document] Total documentos cargados: 11
+[2026-06-16 17:08:36.465] [INFO] [Rank 0] [Engine] Distribuidos 11 docs
+[2026-06-16 17:08:36.473] [INFO] [Rank 0] [Mapper] Map completado: InformeFinalFCPD | palabras=5335 | unicas=1533
+[2026-06-16 17:08:36.473] [INFO] [Rank 0] [Mapper] Map completado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (2) | palabras=378 | unicas=259
+[2026-06-16 17:08:36.484] [INFO] [Rank 0] [Mapper] Map completado: AvancesObjetivosProyectoDeAula | palabras=7444 | unicas=2247
+[2026-06-16 17:08:36.525] [INFO] [Rank 0] [Reducer] Reduce completado: 11 docs, 32992 palabras, 4097 unicas
+[2026-06-16 17:08:36.541] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\tfidf_output.json
+[2026-06-16 17:09:14.983] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 4 procesos
+[2026-06-16 17:09:14.986] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 17:09:14.986] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 17:09:14.986] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 17:09:14.989] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (66489 bytes)
+[2026-06-16 17:09:14.989] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (66489 bytes)
+[2026-06-16 17:09:14.989] [ERROR] [Rank 0] [Document] No se pudo leer corpus: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\sample_docs\INFORME CORRELACIÓN ENTRE METODOS DE PROGRAMACIÓN.txt
+[2026-06-16 17:09:14.990] [WARN] [Rank 0] [Document] Archivo vacio o no legible: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\sample_docs\INFORME CORRELACIÓN ENTRE METODOS DE PROGRAMACIÓN.txt
+[2026-06-16 17:09:14.990] [INFO] [Rank 0] [Document] Cargado: expoobj1 (195 bytes)
+[2026-06-16 17:09:14.991] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (66490 bytes)
+[2026-06-16 17:09:14.992] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (2) (4873 bytes)
+[2026-06-16 17:09:14.992] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (1) (4873 bytes)
+[2026-06-16 17:09:14.993] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final - copia (28006 bytes)
+[2026-06-16 17:09:14.993] [INFO] [Rank 0] [Document] Cargado: Ensayo_CUDA (11673 bytes)
+[2026-06-16 17:09:14.995] [INFO] [Rank 0] [Document] Cargado: AvancesObjetivosProyectoDeAula (99688 bytes)
+[2026-06-16 17:09:14.996] [INFO] [Rank 0] [Document] Cargado: Avance (39589 bytes)
+[2026-06-16 17:09:14.996] [INFO] [Rank 0] [Document] Cargado: Articulo - Palarex (28103 bytes)
+[2026-06-16 17:09:14.996] [INFO] [Rank 0] [Document] Total documentos cargados: 11
+[2026-06-16 17:09:14.998] [INFO] [Rank 0] [Engine] Distribuidos 11 docs
+[2026-06-16 17:09:15.015] [INFO] [Rank 0] [Mapper] Map completado: InformeFinalFCPD | palabras=5335 | unicas=1533
+[2026-06-16 17:09:15.015] [INFO] [Rank 0] [Mapper] Map completado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (2) | palabras=378 | unicas=259
+[2026-06-16 17:09:15.022] [INFO] [Rank 0] [Mapper] Map completado: AvancesObjetivosProyectoDeAula | palabras=7444 | unicas=2247
+[2026-06-16 17:09:15.070] [INFO] [Rank 0] [Reducer] Reduce completado: 11 docs, 32992 palabras, 4097 unicas
+[2026-06-16 17:09:15.089] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\similarity_output.json
+[2026-06-16 17:09:30.718] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 4 procesos
+[2026-06-16 17:09:30.721] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 17:09:30.721] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 17:09:30.721] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 17:09:30.723] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (66489 bytes)
+[2026-06-16 17:09:30.724] [INFO] [Rank 0] [Document] Cargado: InformeFinalFCPD (66489 bytes)
+[2026-06-16 17:09:30.724] [ERROR] [Rank 0] [Document] No se pudo leer corpus: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\sample_docs\INFORME CORRELACIÓN ENTRE METODOS DE PROGRAMACIÓN.txt
+[2026-06-16 17:09:30.724] [WARN] [Rank 0] [Document] Archivo vacio o no legible: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\sample_docs\INFORME CORRELACIÓN ENTRE METODOS DE PROGRAMACIÓN.txt
+[2026-06-16 17:09:30.724] [INFO] [Rank 0] [Document] Cargado: expoobj1 (195 bytes)
+[2026-06-16 17:09:30.725] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (66490 bytes)
+[2026-06-16 17:09:30.725] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (2) (4873 bytes)
+[2026-06-16 17:09:30.725] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (1) (4873 bytes)
+[2026-06-16 17:09:30.726] [INFO] [Rank 0] [Document] Cargado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final - copia (28006 bytes)
+[2026-06-16 17:09:30.726] [INFO] [Rank 0] [Document] Cargado: Ensayo_CUDA (11673 bytes)
+[2026-06-16 17:09:30.727] [INFO] [Rank 0] [Document] Cargado: AvancesObjetivosProyectoDeAula (99688 bytes)
+[2026-06-16 17:09:30.728] [INFO] [Rank 0] [Document] Cargado: Avance (39589 bytes)
+[2026-06-16 17:09:30.728] [INFO] [Rank 0] [Document] Cargado: Articulo - Palarex (28103 bytes)
+[2026-06-16 17:09:30.728] [INFO] [Rank 0] [Document] Total documentos cargados: 11
+[2026-06-16 17:09:30.729] [INFO] [Rank 0] [Engine] Distribuidos 11 docs
+[2026-06-16 17:09:30.735] [INFO] [Rank 0] [Mapper] Map completado: InformeFinalFCPD | palabras=5335 | unicas=1533
+[2026-06-16 17:09:30.735] [INFO] [Rank 0] [Mapper] Map completado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final (2) | palabras=378 | unicas=259
+[2026-06-16 17:09:30.742] [INFO] [Rank 0] [Mapper] Map completado: AvancesObjetivosProyectoDeAula | palabras=7444 | unicas=2247
+[2026-06-16 17:09:30.777] [INFO] [Rank 0] [Reducer] Reduce completado: 11 docs, 32992 palabras, 4097 unicas
+[2026-06-16 17:09:30.793] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\tfidf_output.json
+[2026-06-16 17:10:26.778] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 4 procesos
+[2026-06-16 17:10:26.779] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 17:10:26.780] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 17:10:26.780] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 17:10:26.781] [INFO] [Rank 0] [Document] Cargado: demo_doc_1 (148 bytes)
+[2026-06-16 17:10:26.781] [INFO] [Rank 0] [Document] Cargado: demo_doc_2 (182 bytes)
+[2026-06-16 17:10:26.781] [INFO] [Rank 0] [Document] Cargado: demo_doc_3 (165 bytes)
+[2026-06-16 17:10:26.781] [INFO] [Rank 0] [Document] Cargado: demo_doc_4 (148 bytes)
+[2026-06-16 17:10:26.781] [INFO] [Rank 0] [Document] Cargado: demo_doc_5 (182 bytes)
+[2026-06-16 17:10:26.781] [INFO] [Rank 0] [Document] Cargado: demo_doc_6 (165 bytes)
+[2026-06-16 17:10:26.781] [INFO] [Rank 0] [Document] Cargado: demo_doc_7 (148 bytes)
+[2026-06-16 17:10:26.782] [INFO] [Rank 0] [Document] Cargado: demo_doc_8 (182 bytes)
+[2026-06-16 17:10:26.782] [INFO] [Rank 0] [Document] Cargado: demo_doc_9 (165 bytes)
+[2026-06-16 17:10:26.782] [INFO] [Rank 0] [Document] Cargado: demo_doc_10 (148 bytes)
+[2026-06-16 17:10:26.782] [INFO] [Rank 0] [Document] Cargado: demo_doc_11 (182 bytes)
+[2026-06-16 17:10:26.782] [INFO] [Rank 0] [Document] Cargado: demo_doc_12 (165 bytes)
+[2026-06-16 17:10:26.782] [INFO] [Rank 0] [Document] Cargado: demo_doc_13 (148 bytes)
+[2026-06-16 17:10:26.782] [INFO] [Rank 0] [Document] Cargado: demo_doc_14 (182 bytes)
+[2026-06-16 17:10:26.783] [INFO] [Rank 0] [Document] Cargado: demo_doc_15 (165 bytes)
+[2026-06-16 17:10:26.783] [INFO] [Rank 0] [Document] Cargado: demo_doc_16 (148 bytes)
+[2026-06-16 17:10:26.783] [INFO] [Rank 0] [Document] Cargado: demo_doc_17 (182 bytes)
+[2026-06-16 17:10:26.783] [INFO] [Rank 0] [Document] Cargado: demo_doc_18 (165 bytes)
+[2026-06-16 17:10:26.783] [INFO] [Rank 0] [Document] Cargado: demo_doc_19 (148 bytes)
+[2026-06-16 17:10:26.783] [INFO] [Rank 0] [Document] Cargado: demo_doc_20 (182 bytes)
+[2026-06-16 17:10:26.783] [INFO] [Rank 0] [Document] Cargado: demo_doc_21 (165 bytes)
+[2026-06-16 17:10:26.783] [INFO] [Rank 0] [Document] Cargado: demo_doc_22 (148 bytes)
+[2026-06-16 17:10:26.783] [INFO] [Rank 0] [Document] Cargado: demo_doc_23 (182 bytes)
+[2026-06-16 17:10:26.784] [INFO] [Rank 0] [Document] Cargado: demo_doc_24 (165 bytes)
+[2026-06-16 17:10:26.784] [INFO] [Rank 0] [Document] Cargado: demo_doc_25 (148 bytes)
+[2026-06-16 17:10:26.784] [INFO] [Rank 0] [Document] Cargado: demo_doc_26 (182 bytes)
+[2026-06-16 17:10:26.784] [INFO] [Rank 0] [Document] Cargado: demo_doc_27 (165 bytes)
+[2026-06-16 17:10:26.784] [INFO] [Rank 0] [Document] Cargado: demo_doc_28 (148 bytes)
+[2026-06-16 17:10:26.784] [INFO] [Rank 0] [Document] Cargado: demo_doc_29 (182 bytes)
+[2026-06-16 17:10:26.784] [INFO] [Rank 0] [Document] Cargado: demo_doc_30 (165 bytes)
+[2026-06-16 17:10:26.784] [INFO] [Rank 0] [Document] Cargado: demo_doc_31 (148 bytes)
+[2026-06-16 17:10:26.784] [INFO] [Rank 0] [Document] Cargado: demo_doc_32 (182 bytes)
+[2026-06-16 17:10:26.784] [INFO] [Rank 0] [Document] Cargado: demo_doc_33 (165 bytes)
+[2026-06-16 17:10:26.785] [INFO] [Rank 0] [Document] Cargado: demo_doc_34 (148 bytes)
+[2026-06-16 17:10:26.785] [INFO] [Rank 0] [Document] Cargado: demo_doc_35 (182 bytes)
+[2026-06-16 17:10:26.785] [INFO] [Rank 0] [Document] Cargado: demo_doc_36 (165 bytes)
+[2026-06-16 17:10:26.785] [INFO] [Rank 0] [Document] Cargado: demo_doc_37 (148 bytes)
+[2026-06-16 17:10:26.785] [INFO] [Rank 0] [Document] Cargado: demo_doc_38 (182 bytes)
+[2026-06-16 17:10:26.785] [INFO] [Rank 0] [Document] Cargado: demo_doc_39 (165 bytes)
+[2026-06-16 17:10:26.785] [INFO] [Rank 0] [Document] Cargado: demo_doc_40 (148 bytes)
+[2026-06-16 17:10:26.785] [INFO] [Rank 0] [Document] Cargado: demo_doc_41 (182 bytes)
+[2026-06-16 17:10:26.785] [INFO] [Rank 0] [Document] Cargado: demo_doc_42 (165 bytes)
+[2026-06-16 17:10:26.786] [INFO] [Rank 0] [Document] Cargado: demo_doc_43 (148 bytes)
+[2026-06-16 17:10:26.786] [INFO] [Rank 0] [Document] Cargado: demo_doc_44 (182 bytes)
+[2026-06-16 17:10:26.786] [INFO] [Rank 0] [Document] Cargado: demo_doc_45 (165 bytes)
+[2026-06-16 17:10:26.786] [INFO] [Rank 0] [Document] Cargado: demo_doc_46 (148 bytes)
+[2026-06-16 17:10:26.786] [INFO] [Rank 0] [Document] Cargado: demo_doc_47 (182 bytes)
+[2026-06-16 17:10:26.786] [INFO] [Rank 0] [Document] Cargado: demo_doc_48 (165 bytes)
+[2026-06-16 17:10:26.786] [INFO] [Rank 0] [Document] Cargado: demo_doc_49 (148 bytes)
+[2026-06-16 17:10:26.787] [INFO] [Rank 0] [Document] Cargado: demo_doc_50 (182 bytes)
+[2026-06-16 17:10:26.787] [INFO] [Rank 0] [Document] Cargado: demo_doc_51 (165 bytes)
+[2026-06-16 17:10:26.787] [INFO] [Rank 0] [Document] Cargado: demo_doc_52 (148 bytes)
+[2026-06-16 17:10:26.787] [INFO] [Rank 0] [Document] Cargado: demo_doc_53 (182 bytes)
+[2026-06-16 17:10:26.787] [INFO] [Rank 0] [Document] Cargado: demo_doc_54 (165 bytes)
+[2026-06-16 17:10:26.787] [INFO] [Rank 0] [Document] Cargado: demo_doc_55 (148 bytes)
+[2026-06-16 17:10:26.787] [INFO] [Rank 0] [Document] Cargado: demo_doc_56 (182 bytes)
+[2026-06-16 17:10:26.788] [INFO] [Rank 0] [Document] Cargado: demo_doc_57 (165 bytes)
+[2026-06-16 17:10:26.788] [INFO] [Rank 0] [Document] Cargado: demo_doc_58 (148 bytes)
+[2026-06-16 17:10:26.788] [INFO] [Rank 0] [Document] Cargado: demo_doc_59 (182 bytes)
+[2026-06-16 17:10:26.788] [INFO] [Rank 0] [Document] Cargado: demo_doc_60 (165 bytes)
+[2026-06-16 17:10:26.788] [INFO] [Rank 0] [Document] Cargado: demo_doc_61 (148 bytes)
+[2026-06-16 17:10:26.788] [INFO] [Rank 0] [Document] Cargado: demo_doc_62 (182 bytes)
+[2026-06-16 17:10:26.788] [INFO] [Rank 0] [Document] Cargado: demo_doc_63 (165 bytes)
+[2026-06-16 17:10:26.788] [INFO] [Rank 0] [Document] Cargado: demo_doc_64 (148 bytes)
+[2026-06-16 17:10:26.789] [INFO] [Rank 0] [Document] Cargado: demo_doc_65 (182 bytes)
+[2026-06-16 17:10:26.789] [INFO] [Rank 0] [Document] Cargado: demo_doc_66 (165 bytes)
+[2026-06-16 17:10:26.789] [INFO] [Rank 0] [Document] Cargado: demo_doc_67 (148 bytes)
+[2026-06-16 17:10:26.789] [INFO] [Rank 0] [Document] Cargado: demo_doc_68 (182 bytes)
+[2026-06-16 17:10:26.789] [INFO] [Rank 0] [Document] Cargado: demo_doc_69 (165 bytes)
+[2026-06-16 17:10:26.789] [INFO] [Rank 0] [Document] Cargado: demo_doc_70 (148 bytes)
+[2026-06-16 17:10:26.789] [INFO] [Rank 0] [Document] Cargado: demo_doc_71 (182 bytes)
+[2026-06-16 17:10:26.789] [INFO] [Rank 0] [Document] Cargado: demo_doc_72 (165 bytes)
+[2026-06-16 17:10:26.789] [INFO] [Rank 0] [Document] Cargado: demo_doc_73 (148 bytes)
+[2026-06-16 17:10:26.789] [INFO] [Rank 0] [Document] Cargado: demo_doc_74 (182 bytes)
+[2026-06-16 17:10:26.790] [INFO] [Rank 0] [Document] Cargado: demo_doc_75 (165 bytes)
+[2026-06-16 17:10:26.790] [INFO] [Rank 0] [Document] Cargado: demo_doc_76 (148 bytes)
+[2026-06-16 17:10:26.790] [INFO] [Rank 0] [Document] Cargado: demo_doc_77 (182 bytes)
+[2026-06-16 17:10:26.790] [INFO] [Rank 0] [Document] Cargado: demo_doc_78 (165 bytes)
+[2026-06-16 17:10:26.790] [INFO] [Rank 0] [Document] Cargado: demo_doc_79 (148 bytes)
+[2026-06-16 17:10:26.790] [INFO] [Rank 0] [Document] Cargado: demo_doc_80 (182 bytes)
+[2026-06-16 17:10:26.790] [INFO] [Rank 0] [Document] Cargado: demo_doc_81 (165 bytes)
+[2026-06-16 17:10:26.790] [INFO] [Rank 0] [Document] Cargado: demo_doc_82 (148 bytes)
+[2026-06-16 17:10:26.790] [INFO] [Rank 0] [Document] Cargado: demo_doc_83 (182 bytes)
+[2026-06-16 17:10:26.790] [INFO] [Rank 0] [Document] Cargado: demo_doc_84 (165 bytes)
+[2026-06-16 17:10:26.791] [INFO] [Rank 0] [Document] Cargado: demo_doc_85 (148 bytes)
+[2026-06-16 17:10:26.791] [INFO] [Rank 0] [Document] Cargado: demo_doc_86 (182 bytes)
+[2026-06-16 17:10:26.791] [INFO] [Rank 0] [Document] Cargado: demo_doc_87 (165 bytes)
+[2026-06-16 17:10:26.791] [INFO] [Rank 0] [Document] Cargado: demo_doc_88 (148 bytes)
+[2026-06-16 17:10:26.791] [INFO] [Rank 0] [Document] Cargado: demo_doc_89 (182 bytes)
+[2026-06-16 17:10:26.791] [INFO] [Rank 0] [Document] Cargado: demo_doc_90 (165 bytes)
+[2026-06-16 17:10:26.791] [INFO] [Rank 0] [Document] Cargado: demo_doc_91 (148 bytes)
+[2026-06-16 17:10:26.791] [INFO] [Rank 0] [Document] Total documentos cargados: 91
+[2026-06-16 17:10:26.792] [INFO] [Rank 0] [Engine] Distribuidos 91 docs
+[2026-06-16 17:10:26.792] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_1 | palabras=12 | unicas=12
+[2026-06-16 17:10:26.792] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_5 | palabras=17 | unicas=17
+[2026-06-16 17:10:26.792] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_9 | palabras=16 | unicas=16
+[2026-06-16 17:10:26.792] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_13 | palabras=12 | unicas=12
+[2026-06-16 17:10:26.792] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_17 | palabras=17 | unicas=17
+[2026-06-16 17:10:26.792] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_21 | palabras=16 | unicas=16
+[2026-06-16 17:10:26.792] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_25 | palabras=12 | unicas=12
+[2026-06-16 17:10:26.792] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_29 | palabras=17 | unicas=17
+[2026-06-16 17:10:26.792] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_33 | palabras=16 | unicas=16
+[2026-06-16 17:10:26.792] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_37 | palabras=12 | unicas=12
+[2026-06-16 17:10:26.792] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_41 | palabras=17 | unicas=17
+[2026-06-16 17:10:26.792] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_45 | palabras=16 | unicas=16
+[2026-06-16 17:10:26.792] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_49 | palabras=12 | unicas=12
+[2026-06-16 17:10:26.792] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_53 | palabras=17 | unicas=17
+[2026-06-16 17:10:26.792] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_57 | palabras=16 | unicas=16
+[2026-06-16 17:10:26.792] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_61 | palabras=12 | unicas=12
+[2026-06-16 17:10:26.792] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_65 | palabras=17 | unicas=17
+[2026-06-16 17:10:26.792] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_69 | palabras=16 | unicas=16
+[2026-06-16 17:10:26.792] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_73 | palabras=12 | unicas=12
+[2026-06-16 17:10:26.792] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_77 | palabras=17 | unicas=17
+[2026-06-16 17:10:26.792] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_81 | palabras=16 | unicas=16
+[2026-06-16 17:10:26.792] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_85 | palabras=12 | unicas=12
+[2026-06-16 17:10:26.792] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_89 | palabras=17 | unicas=17
+[2026-06-16 17:10:26.796] [INFO] [Rank 0] [Reducer] Reduce completado: 91 docs, 1362 palabras, 42 unicas
+[2026-06-16 17:10:26.803] [INFO] [Rank 0] [SQLite] Base de datos inicializada en: paralex.db
+[2026-06-16 17:10:27.091] [INFO] [Rank 0] [Engine] Índice guardado en SQLite exitosamente
+[2026-06-16 17:10:27.094] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\process_output.json
+[2026-06-16 17:10:42.083] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 4 procesos
+[2026-06-16 17:10:42.084] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 17:10:42.085] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 17:10:42.085] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 17:10:42.086] [INFO] [Rank 0] [Document] Cargado: demo_doc_1 (148 bytes)
+[2026-06-16 17:10:42.086] [INFO] [Rank 0] [Document] Cargado: demo_doc_2 (182 bytes)
+[2026-06-16 17:10:42.086] [INFO] [Rank 0] [Document] Cargado: demo_doc_3 (165 bytes)
+[2026-06-16 17:10:42.087] [INFO] [Rank 0] [Document] Cargado: demo_doc_4 (148 bytes)
+[2026-06-16 17:10:42.087] [INFO] [Rank 0] [Document] Cargado: demo_doc_5 (182 bytes)
+[2026-06-16 17:10:42.087] [INFO] [Rank 0] [Document] Cargado: demo_doc_6 (165 bytes)
+[2026-06-16 17:10:42.087] [INFO] [Rank 0] [Document] Cargado: demo_doc_7 (148 bytes)
+[2026-06-16 17:10:42.087] [INFO] [Rank 0] [Document] Cargado: demo_doc_8 (182 bytes)
+[2026-06-16 17:10:42.087] [INFO] [Rank 0] [Document] Cargado: demo_doc_9 (165 bytes)
+[2026-06-16 17:10:42.087] [INFO] [Rank 0] [Document] Cargado: demo_doc_10 (148 bytes)
+[2026-06-16 17:10:42.087] [INFO] [Rank 0] [Document] Cargado: demo_doc_11 (182 bytes)
+[2026-06-16 17:10:42.087] [INFO] [Rank 0] [Document] Cargado: demo_doc_12 (165 bytes)
+[2026-06-16 17:10:42.088] [INFO] [Rank 0] [Document] Cargado: demo_doc_13 (148 bytes)
+[2026-06-16 17:10:42.088] [INFO] [Rank 0] [Document] Cargado: demo_doc_14 (182 bytes)
+[2026-06-16 17:10:42.088] [INFO] [Rank 0] [Document] Cargado: demo_doc_15 (165 bytes)
+[2026-06-16 17:10:42.088] [INFO] [Rank 0] [Document] Cargado: demo_doc_16 (148 bytes)
+[2026-06-16 17:10:42.088] [INFO] [Rank 0] [Document] Cargado: demo_doc_17 (182 bytes)
+[2026-06-16 17:10:42.088] [INFO] [Rank 0] [Document] Cargado: demo_doc_18 (165 bytes)
+[2026-06-16 17:10:42.088] [INFO] [Rank 0] [Document] Cargado: demo_doc_19 (148 bytes)
+[2026-06-16 17:10:42.088] [INFO] [Rank 0] [Document] Cargado: demo_doc_20 (182 bytes)
+[2026-06-16 17:10:42.088] [INFO] [Rank 0] [Document] Cargado: demo_doc_21 (165 bytes)
+[2026-06-16 17:10:42.089] [INFO] [Rank 0] [Document] Cargado: demo_doc_22 (148 bytes)
+[2026-06-16 17:10:42.089] [INFO] [Rank 0] [Document] Cargado: demo_doc_23 (182 bytes)
+[2026-06-16 17:10:42.089] [INFO] [Rank 0] [Document] Cargado: demo_doc_24 (165 bytes)
+[2026-06-16 17:10:42.089] [INFO] [Rank 0] [Document] Cargado: demo_doc_25 (148 bytes)
+[2026-06-16 17:10:42.089] [INFO] [Rank 0] [Document] Cargado: demo_doc_26 (182 bytes)
+[2026-06-16 17:10:42.089] [INFO] [Rank 0] [Document] Cargado: demo_doc_27 (165 bytes)
+[2026-06-16 17:10:42.089] [INFO] [Rank 0] [Document] Cargado: demo_doc_28 (148 bytes)
+[2026-06-16 17:10:42.089] [INFO] [Rank 0] [Document] Cargado: demo_doc_29 (182 bytes)
+[2026-06-16 17:10:42.089] [INFO] [Rank 0] [Document] Cargado: demo_doc_30 (165 bytes)
+[2026-06-16 17:10:42.090] [INFO] [Rank 0] [Document] Cargado: demo_doc_31 (148 bytes)
+[2026-06-16 17:10:42.090] [INFO] [Rank 0] [Document] Cargado: demo_doc_32 (182 bytes)
+[2026-06-16 17:10:42.090] [INFO] [Rank 0] [Document] Cargado: demo_doc_33 (165 bytes)
+[2026-06-16 17:10:42.090] [INFO] [Rank 0] [Document] Cargado: demo_doc_34 (148 bytes)
+[2026-06-16 17:10:42.090] [INFO] [Rank 0] [Document] Cargado: demo_doc_35 (182 bytes)
+[2026-06-16 17:10:42.090] [INFO] [Rank 0] [Document] Cargado: demo_doc_36 (165 bytes)
+[2026-06-16 17:10:42.090] [INFO] [Rank 0] [Document] Cargado: demo_doc_37 (148 bytes)
+[2026-06-16 17:10:42.090] [INFO] [Rank 0] [Document] Cargado: demo_doc_38 (182 bytes)
+[2026-06-16 17:10:42.090] [INFO] [Rank 0] [Document] Cargado: demo_doc_39 (165 bytes)
+[2026-06-16 17:10:42.091] [INFO] [Rank 0] [Document] Cargado: demo_doc_40 (148 bytes)
+[2026-06-16 17:10:42.091] [INFO] [Rank 0] [Document] Cargado: demo_doc_41 (182 bytes)
+[2026-06-16 17:10:42.091] [INFO] [Rank 0] [Document] Cargado: demo_doc_42 (165 bytes)
+[2026-06-16 17:10:42.091] [INFO] [Rank 0] [Document] Cargado: demo_doc_43 (148 bytes)
+[2026-06-16 17:10:42.091] [INFO] [Rank 0] [Document] Cargado: demo_doc_44 (182 bytes)
+[2026-06-16 17:10:42.091] [INFO] [Rank 0] [Document] Cargado: demo_doc_45 (165 bytes)
+[2026-06-16 17:10:42.091] [INFO] [Rank 0] [Document] Cargado: demo_doc_46 (148 bytes)
+[2026-06-16 17:10:42.091] [INFO] [Rank 0] [Document] Cargado: demo_doc_47 (182 bytes)
+[2026-06-16 17:10:42.092] [INFO] [Rank 0] [Document] Cargado: demo_doc_48 (165 bytes)
+[2026-06-16 17:10:42.092] [INFO] [Rank 0] [Document] Cargado: demo_doc_49 (148 bytes)
+[2026-06-16 17:10:42.092] [INFO] [Rank 0] [Document] Cargado: demo_doc_50 (182 bytes)
+[2026-06-16 17:10:42.092] [INFO] [Rank 0] [Document] Cargado: demo_doc_51 (165 bytes)
+[2026-06-16 17:10:42.092] [INFO] [Rank 0] [Document] Cargado: demo_doc_52 (148 bytes)
+[2026-06-16 17:10:42.092] [INFO] [Rank 0] [Document] Cargado: demo_doc_53 (182 bytes)
+[2026-06-16 17:10:42.092] [INFO] [Rank 0] [Document] Cargado: demo_doc_54 (165 bytes)
+[2026-06-16 17:10:42.092] [INFO] [Rank 0] [Document] Cargado: demo_doc_55 (148 bytes)
+[2026-06-16 17:10:42.093] [INFO] [Rank 0] [Document] Cargado: demo_doc_56 (182 bytes)
+[2026-06-16 17:10:42.093] [INFO] [Rank 0] [Document] Cargado: demo_doc_57 (165 bytes)
+[2026-06-16 17:10:42.093] [INFO] [Rank 0] [Document] Cargado: demo_doc_58 (148 bytes)
+[2026-06-16 17:10:42.093] [INFO] [Rank 0] [Document] Cargado: demo_doc_59 (182 bytes)
+[2026-06-16 17:10:42.093] [INFO] [Rank 0] [Document] Cargado: demo_doc_60 (165 bytes)
+[2026-06-16 17:10:42.093] [INFO] [Rank 0] [Document] Cargado: demo_doc_61 (148 bytes)
+[2026-06-16 17:10:42.093] [INFO] [Rank 0] [Document] Cargado: demo_doc_62 (182 bytes)
+[2026-06-16 17:10:42.093] [INFO] [Rank 0] [Document] Cargado: demo_doc_63 (165 bytes)
+[2026-06-16 17:10:42.094] [INFO] [Rank 0] [Document] Cargado: demo_doc_64 (148 bytes)
+[2026-06-16 17:10:42.094] [INFO] [Rank 0] [Document] Cargado: demo_doc_65 (182 bytes)
+[2026-06-16 17:10:42.094] [INFO] [Rank 0] [Document] Cargado: demo_doc_66 (165 bytes)
+[2026-06-16 17:10:42.094] [INFO] [Rank 0] [Document] Cargado: demo_doc_67 (148 bytes)
+[2026-06-16 17:10:42.094] [INFO] [Rank 0] [Document] Cargado: demo_doc_68 (182 bytes)
+[2026-06-16 17:10:42.094] [INFO] [Rank 0] [Document] Cargado: demo_doc_69 (165 bytes)
+[2026-06-16 17:10:42.094] [INFO] [Rank 0] [Document] Cargado: demo_doc_70 (148 bytes)
+[2026-06-16 17:10:42.094] [INFO] [Rank 0] [Document] Cargado: demo_doc_71 (182 bytes)
+[2026-06-16 17:10:42.095] [INFO] [Rank 0] [Document] Cargado: demo_doc_72 (165 bytes)
+[2026-06-16 17:10:42.095] [INFO] [Rank 0] [Document] Cargado: demo_doc_73 (148 bytes)
+[2026-06-16 17:10:42.095] [INFO] [Rank 0] [Document] Cargado: demo_doc_74 (182 bytes)
+[2026-06-16 17:10:42.095] [INFO] [Rank 0] [Document] Cargado: demo_doc_75 (165 bytes)
+[2026-06-16 17:10:42.095] [INFO] [Rank 0] [Document] Cargado: demo_doc_76 (148 bytes)
+[2026-06-16 17:10:42.095] [INFO] [Rank 0] [Document] Cargado: demo_doc_77 (182 bytes)
+[2026-06-16 17:10:42.095] [INFO] [Rank 0] [Document] Cargado: demo_doc_78 (165 bytes)
+[2026-06-16 17:10:42.095] [INFO] [Rank 0] [Document] Cargado: demo_doc_79 (148 bytes)
+[2026-06-16 17:10:42.096] [INFO] [Rank 0] [Document] Cargado: demo_doc_80 (182 bytes)
+[2026-06-16 17:10:42.096] [INFO] [Rank 0] [Document] Cargado: demo_doc_81 (165 bytes)
+[2026-06-16 17:10:42.096] [INFO] [Rank 0] [Document] Cargado: demo_doc_82 (148 bytes)
+[2026-06-16 17:10:42.096] [INFO] [Rank 0] [Document] Cargado: demo_doc_83 (182 bytes)
+[2026-06-16 17:10:42.096] [INFO] [Rank 0] [Document] Cargado: demo_doc_84 (165 bytes)
+[2026-06-16 17:10:42.096] [INFO] [Rank 0] [Document] Cargado: demo_doc_85 (148 bytes)
+[2026-06-16 17:10:42.096] [INFO] [Rank 0] [Document] Cargado: demo_doc_86 (182 bytes)
+[2026-06-16 17:10:42.096] [INFO] [Rank 0] [Document] Cargado: demo_doc_87 (165 bytes)
+[2026-06-16 17:10:42.097] [INFO] [Rank 0] [Document] Cargado: demo_doc_88 (148 bytes)
+[2026-06-16 17:10:42.097] [INFO] [Rank 0] [Document] Cargado: demo_doc_89 (182 bytes)
+[2026-06-16 17:10:42.097] [INFO] [Rank 0] [Document] Cargado: demo_doc_90 (165 bytes)
+[2026-06-16 17:10:42.097] [INFO] [Rank 0] [Document] Cargado: demo_doc_91 (148 bytes)
+[2026-06-16 17:10:42.097] [INFO] [Rank 0] [Document] Total documentos cargados: 91
+[2026-06-16 17:10:42.097] [INFO] [Rank 0] [Engine] Distribuidos 91 docs
+[2026-06-16 17:10:42.097] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_1 | palabras=12 | unicas=12
+[2026-06-16 17:10:42.098] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_5 | palabras=17 | unicas=17
+[2026-06-16 17:10:42.098] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_9 | palabras=16 | unicas=16
+[2026-06-16 17:10:42.098] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_13 | palabras=12 | unicas=12
+[2026-06-16 17:10:42.098] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_17 | palabras=17 | unicas=17
+[2026-06-16 17:10:42.098] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_21 | palabras=16 | unicas=16
+[2026-06-16 17:10:42.098] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_25 | palabras=12 | unicas=12
+[2026-06-16 17:10:42.098] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_29 | palabras=17 | unicas=17
+[2026-06-16 17:10:42.098] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_33 | palabras=16 | unicas=16
+[2026-06-16 17:10:42.098] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_37 | palabras=12 | unicas=12
+[2026-06-16 17:10:42.098] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_41 | palabras=17 | unicas=17
+[2026-06-16 17:10:42.098] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_45 | palabras=16 | unicas=16
+[2026-06-16 17:10:42.098] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_49 | palabras=12 | unicas=12
+[2026-06-16 17:10:42.098] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_53 | palabras=17 | unicas=17
+[2026-06-16 17:10:42.098] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_57 | palabras=16 | unicas=16
+[2026-06-16 17:10:42.098] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_61 | palabras=12 | unicas=12
+[2026-06-16 17:10:42.098] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_65 | palabras=17 | unicas=17
+[2026-06-16 17:10:42.098] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_69 | palabras=16 | unicas=16
+[2026-06-16 17:10:42.098] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_73 | palabras=12 | unicas=12
+[2026-06-16 17:10:42.098] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_77 | palabras=17 | unicas=17
+[2026-06-16 17:10:42.098] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_81 | palabras=16 | unicas=16
+[2026-06-16 17:10:42.098] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_85 | palabras=12 | unicas=12
+[2026-06-16 17:10:42.098] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_89 | palabras=17 | unicas=17
+[2026-06-16 17:10:42.102] [INFO] [Rank 0] [Reducer] Reduce completado: 91 docs, 1362 palabras, 42 unicas
+[2026-06-16 17:10:42.104] [INFO] [Rank 0] [SQLite] Base de datos inicializada en: paralex.db
+[2026-06-16 17:10:42.368] [INFO] [Rank 0] [Engine] Índice guardado en SQLite exitosamente
+[2026-06-16 17:10:42.371] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\process_output.json
+[2026-06-16 17:10:58.492] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 4 procesos
+[2026-06-16 17:10:58.494] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 17:10:58.494] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 17:10:58.494] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 17:10:58.496] [INFO] [Rank 0] [Document] Cargado: demo_doc_1 (148 bytes)
+[2026-06-16 17:10:58.496] [INFO] [Rank 0] [Document] Cargado: demo_doc_2 (182 bytes)
+[2026-06-16 17:10:58.496] [INFO] [Rank 0] [Document] Cargado: demo_doc_3 (165 bytes)
+[2026-06-16 17:10:58.496] [INFO] [Rank 0] [Document] Cargado: demo_doc_4 (148 bytes)
+[2026-06-16 17:10:58.496] [INFO] [Rank 0] [Document] Cargado: demo_doc_5 (182 bytes)
+[2026-06-16 17:10:58.496] [INFO] [Rank 0] [Document] Cargado: demo_doc_6 (165 bytes)
+[2026-06-16 17:10:58.496] [INFO] [Rank 0] [Document] Cargado: demo_doc_7 (148 bytes)
+[2026-06-16 17:10:58.496] [INFO] [Rank 0] [Document] Cargado: demo_doc_8 (182 bytes)
+[2026-06-16 17:10:58.496] [INFO] [Rank 0] [Document] Cargado: demo_doc_9 (165 bytes)
+[2026-06-16 17:10:58.497] [INFO] [Rank 0] [Document] Cargado: demo_doc_10 (148 bytes)
+[2026-06-16 17:10:58.497] [INFO] [Rank 0] [Document] Cargado: demo_doc_11 (182 bytes)
+[2026-06-16 17:10:58.497] [INFO] [Rank 0] [Document] Cargado: demo_doc_12 (165 bytes)
+[2026-06-16 17:10:58.497] [INFO] [Rank 0] [Document] Cargado: demo_doc_13 (148 bytes)
+[2026-06-16 17:10:58.497] [INFO] [Rank 0] [Document] Cargado: demo_doc_14 (182 bytes)
+[2026-06-16 17:10:58.497] [INFO] [Rank 0] [Document] Cargado: demo_doc_15 (165 bytes)
+[2026-06-16 17:10:58.497] [INFO] [Rank 0] [Document] Cargado: demo_doc_16 (148 bytes)
+[2026-06-16 17:10:58.497] [INFO] [Rank 0] [Document] Cargado: demo_doc_17 (182 bytes)
+[2026-06-16 17:10:58.498] [INFO] [Rank 0] [Document] Cargado: demo_doc_18 (165 bytes)
+[2026-06-16 17:10:58.498] [INFO] [Rank 0] [Document] Cargado: demo_doc_19 (148 bytes)
+[2026-06-16 17:10:58.498] [INFO] [Rank 0] [Document] Cargado: demo_doc_20 (182 bytes)
+[2026-06-16 17:10:58.498] [INFO] [Rank 0] [Document] Cargado: demo_doc_21 (165 bytes)
+[2026-06-16 17:10:58.498] [INFO] [Rank 0] [Document] Cargado: demo_doc_22 (148 bytes)
+[2026-06-16 17:10:58.498] [INFO] [Rank 0] [Document] Cargado: demo_doc_23 (182 bytes)
+[2026-06-16 17:10:58.498] [INFO] [Rank 0] [Document] Cargado: demo_doc_24 (165 bytes)
+[2026-06-16 17:10:58.498] [INFO] [Rank 0] [Document] Cargado: demo_doc_25 (148 bytes)
+[2026-06-16 17:10:58.498] [INFO] [Rank 0] [Document] Cargado: demo_doc_26 (182 bytes)
+[2026-06-16 17:10:58.499] [INFO] [Rank 0] [Document] Cargado: demo_doc_27 (165 bytes)
+[2026-06-16 17:10:58.499] [INFO] [Rank 0] [Document] Cargado: demo_doc_28 (148 bytes)
+[2026-06-16 17:10:58.499] [INFO] [Rank 0] [Document] Cargado: demo_doc_29 (182 bytes)
+[2026-06-16 17:10:58.499] [INFO] [Rank 0] [Document] Cargado: demo_doc_30 (165 bytes)
+[2026-06-16 17:10:58.499] [INFO] [Rank 0] [Document] Cargado: demo_doc_31 (148 bytes)
+[2026-06-16 17:10:58.499] [INFO] [Rank 0] [Document] Cargado: demo_doc_32 (182 bytes)
+[2026-06-16 17:10:58.499] [INFO] [Rank 0] [Document] Cargado: demo_doc_33 (165 bytes)
+[2026-06-16 17:10:58.499] [INFO] [Rank 0] [Document] Cargado: demo_doc_34 (148 bytes)
+[2026-06-16 17:10:58.499] [INFO] [Rank 0] [Document] Cargado: demo_doc_35 (182 bytes)
+[2026-06-16 17:10:58.499] [INFO] [Rank 0] [Document] Cargado: demo_doc_36 (165 bytes)
+[2026-06-16 17:10:58.500] [INFO] [Rank 0] [Document] Cargado: demo_doc_37 (148 bytes)
+[2026-06-16 17:10:58.500] [INFO] [Rank 0] [Document] Cargado: demo_doc_38 (182 bytes)
+[2026-06-16 17:10:58.500] [INFO] [Rank 0] [Document] Cargado: demo_doc_39 (165 bytes)
+[2026-06-16 17:10:58.500] [INFO] [Rank 0] [Document] Cargado: demo_doc_40 (148 bytes)
+[2026-06-16 17:10:58.500] [INFO] [Rank 0] [Document] Cargado: demo_doc_41 (182 bytes)
+[2026-06-16 17:10:58.500] [INFO] [Rank 0] [Document] Cargado: demo_doc_42 (165 bytes)
+[2026-06-16 17:10:58.500] [INFO] [Rank 0] [Document] Cargado: demo_doc_43 (148 bytes)
+[2026-06-16 17:10:58.501] [INFO] [Rank 0] [Document] Cargado: demo_doc_44 (182 bytes)
+[2026-06-16 17:10:58.501] [INFO] [Rank 0] [Document] Cargado: demo_doc_45 (165 bytes)
+[2026-06-16 17:10:58.501] [INFO] [Rank 0] [Document] Cargado: demo_doc_46 (148 bytes)
+[2026-06-16 17:10:58.501] [INFO] [Rank 0] [Document] Cargado: demo_doc_47 (182 bytes)
+[2026-06-16 17:10:58.501] [INFO] [Rank 0] [Document] Cargado: demo_doc_48 (165 bytes)
+[2026-06-16 17:10:58.501] [INFO] [Rank 0] [Document] Cargado: demo_doc_49 (148 bytes)
+[2026-06-16 17:10:58.501] [INFO] [Rank 0] [Document] Cargado: demo_doc_50 (182 bytes)
+[2026-06-16 17:10:58.501] [INFO] [Rank 0] [Document] Cargado: demo_doc_51 (165 bytes)
+[2026-06-16 17:10:58.501] [INFO] [Rank 0] [Document] Cargado: demo_doc_52 (148 bytes)
+[2026-06-16 17:10:58.502] [INFO] [Rank 0] [Document] Cargado: demo_doc_53 (182 bytes)
+[2026-06-16 17:10:58.502] [INFO] [Rank 0] [Document] Cargado: demo_doc_54 (165 bytes)
+[2026-06-16 17:10:58.502] [INFO] [Rank 0] [Document] Cargado: demo_doc_55 (148 bytes)
+[2026-06-16 17:10:58.502] [INFO] [Rank 0] [Document] Cargado: demo_doc_56 (182 bytes)
+[2026-06-16 17:10:58.502] [INFO] [Rank 0] [Document] Cargado: demo_doc_57 (165 bytes)
+[2026-06-16 17:10:58.502] [INFO] [Rank 0] [Document] Cargado: demo_doc_58 (148 bytes)
+[2026-06-16 17:10:58.502] [INFO] [Rank 0] [Document] Cargado: demo_doc_59 (182 bytes)
+[2026-06-16 17:10:58.502] [INFO] [Rank 0] [Document] Cargado: demo_doc_60 (165 bytes)
+[2026-06-16 17:10:58.502] [INFO] [Rank 0] [Document] Cargado: demo_doc_61 (148 bytes)
+[2026-06-16 17:10:58.502] [INFO] [Rank 0] [Document] Cargado: demo_doc_62 (182 bytes)
+[2026-06-16 17:10:58.503] [INFO] [Rank 0] [Document] Cargado: demo_doc_63 (165 bytes)
+[2026-06-16 17:10:58.503] [INFO] [Rank 0] [Document] Cargado: demo_doc_64 (148 bytes)
+[2026-06-16 17:10:58.503] [INFO] [Rank 0] [Document] Cargado: demo_doc_65 (182 bytes)
+[2026-06-16 17:10:58.503] [INFO] [Rank 0] [Document] Cargado: demo_doc_66 (165 bytes)
+[2026-06-16 17:10:58.503] [INFO] [Rank 0] [Document] Cargado: demo_doc_67 (148 bytes)
+[2026-06-16 17:10:58.503] [INFO] [Rank 0] [Document] Cargado: demo_doc_68 (182 bytes)
+[2026-06-16 17:10:58.503] [INFO] [Rank 0] [Document] Cargado: demo_doc_69 (165 bytes)
+[2026-06-16 17:10:58.504] [INFO] [Rank 0] [Document] Cargado: demo_doc_70 (148 bytes)
+[2026-06-16 17:10:58.504] [INFO] [Rank 0] [Document] Cargado: demo_doc_71 (182 bytes)
+[2026-06-16 17:10:58.504] [INFO] [Rank 0] [Document] Cargado: demo_doc_72 (165 bytes)
+[2026-06-16 17:10:58.504] [INFO] [Rank 0] [Document] Cargado: demo_doc_73 (148 bytes)
+[2026-06-16 17:10:58.504] [INFO] [Rank 0] [Document] Cargado: demo_doc_74 (182 bytes)
+[2026-06-16 17:10:58.504] [INFO] [Rank 0] [Document] Cargado: demo_doc_75 (165 bytes)
+[2026-06-16 17:10:58.504] [INFO] [Rank 0] [Document] Cargado: demo_doc_76 (148 bytes)
+[2026-06-16 17:10:58.505] [INFO] [Rank 0] [Document] Cargado: demo_doc_77 (182 bytes)
+[2026-06-16 17:10:58.505] [INFO] [Rank 0] [Document] Cargado: demo_doc_78 (165 bytes)
+[2026-06-16 17:10:58.505] [INFO] [Rank 0] [Document] Cargado: demo_doc_79 (148 bytes)
+[2026-06-16 17:10:58.505] [INFO] [Rank 0] [Document] Cargado: demo_doc_80 (182 bytes)
+[2026-06-16 17:10:58.505] [INFO] [Rank 0] [Document] Cargado: demo_doc_81 (165 bytes)
+[2026-06-16 17:10:58.505] [INFO] [Rank 0] [Document] Cargado: demo_doc_82 (148 bytes)
+[2026-06-16 17:10:58.505] [INFO] [Rank 0] [Document] Cargado: demo_doc_83 (182 bytes)
+[2026-06-16 17:10:58.505] [INFO] [Rank 0] [Document] Cargado: demo_doc_84 (165 bytes)
+[2026-06-16 17:10:58.505] [INFO] [Rank 0] [Document] Cargado: demo_doc_85 (148 bytes)
+[2026-06-16 17:10:58.505] [INFO] [Rank 0] [Document] Cargado: demo_doc_86 (182 bytes)
+[2026-06-16 17:10:58.506] [INFO] [Rank 0] [Document] Cargado: demo_doc_87 (165 bytes)
+[2026-06-16 17:10:58.506] [INFO] [Rank 0] [Document] Cargado: demo_doc_88 (148 bytes)
+[2026-06-16 17:10:58.506] [INFO] [Rank 0] [Document] Cargado: demo_doc_89 (182 bytes)
+[2026-06-16 17:10:58.506] [INFO] [Rank 0] [Document] Cargado: demo_doc_90 (165 bytes)
+[2026-06-16 17:10:58.506] [INFO] [Rank 0] [Document] Cargado: demo_doc_91 (148 bytes)
+[2026-06-16 17:10:58.506] [INFO] [Rank 0] [Document] Total documentos cargados: 91
+[2026-06-16 17:10:58.507] [INFO] [Rank 0] [Engine] Distribuidos 91 docs
+[2026-06-16 17:10:58.507] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_1 | palabras=12 | unicas=12
+[2026-06-16 17:10:58.507] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_5 | palabras=17 | unicas=17
+[2026-06-16 17:10:58.507] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_9 | palabras=16 | unicas=16
+[2026-06-16 17:10:58.507] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_13 | palabras=12 | unicas=12
+[2026-06-16 17:10:58.507] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_17 | palabras=17 | unicas=17
+[2026-06-16 17:10:58.507] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_21 | palabras=16 | unicas=16
+[2026-06-16 17:10:58.507] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_25 | palabras=12 | unicas=12
+[2026-06-16 17:10:58.507] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_29 | palabras=17 | unicas=17
+[2026-06-16 17:10:58.507] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_33 | palabras=16 | unicas=16
+[2026-06-16 17:10:58.507] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_37 | palabras=12 | unicas=12
+[2026-06-16 17:10:58.507] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_41 | palabras=17 | unicas=17
+[2026-06-16 17:10:58.507] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_45 | palabras=16 | unicas=16
+[2026-06-16 17:10:58.507] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_49 | palabras=12 | unicas=12
+[2026-06-16 17:10:58.507] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_53 | palabras=17 | unicas=17
+[2026-06-16 17:10:58.507] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_57 | palabras=16 | unicas=16
+[2026-06-16 17:10:58.507] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_61 | palabras=12 | unicas=12
+[2026-06-16 17:10:58.507] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_65 | palabras=17 | unicas=17
+[2026-06-16 17:10:58.507] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_69 | palabras=16 | unicas=16
+[2026-06-16 17:10:58.507] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_73 | palabras=12 | unicas=12
+[2026-06-16 17:10:58.507] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_77 | palabras=17 | unicas=17
+[2026-06-16 17:10:58.507] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_81 | palabras=16 | unicas=16
+[2026-06-16 17:10:58.507] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_85 | palabras=12 | unicas=12
+[2026-06-16 17:10:58.507] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_89 | palabras=17 | unicas=17
+[2026-06-16 17:10:58.511] [INFO] [Rank 0] [Reducer] Reduce completado: 91 docs, 1362 palabras, 42 unicas
+[2026-06-16 17:10:58.513] [INFO] [Rank 0] [SQLite] Base de datos inicializada en: paralex.db
+[2026-06-16 17:10:58.779] [INFO] [Rank 0] [Engine] Índice guardado en SQLite exitosamente
+[2026-06-16 17:10:58.782] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\process_output.json
+[2026-06-16 17:11:44.265] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 4 procesos
+[2026-06-16 17:11:44.266] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 17:11:44.267] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 17:11:44.267] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 17:11:44.268] [INFO] [Rank 0] [Document] Cargado: demo_doc_1 (148 bytes)
+[2026-06-16 17:11:44.268] [INFO] [Rank 0] [Document] Cargado: demo_doc_2 (182 bytes)
+[2026-06-16 17:11:44.268] [INFO] [Rank 0] [Document] Cargado: demo_doc_3 (165 bytes)
+[2026-06-16 17:11:44.268] [INFO] [Rank 0] [Document] Cargado: demo_doc_4 (148 bytes)
+[2026-06-16 17:11:44.268] [INFO] [Rank 0] [Document] Cargado: demo_doc_5 (182 bytes)
+[2026-06-16 17:11:44.268] [INFO] [Rank 0] [Document] Cargado: demo_doc_6 (165 bytes)
+[2026-06-16 17:11:44.268] [INFO] [Rank 0] [Document] Cargado: demo_doc_7 (148 bytes)
+[2026-06-16 17:11:44.269] [INFO] [Rank 0] [Document] Cargado: demo_doc_8 (182 bytes)
+[2026-06-16 17:11:44.269] [INFO] [Rank 0] [Document] Cargado: demo_doc_9 (165 bytes)
+[2026-06-16 17:11:44.269] [INFO] [Rank 0] [Document] Cargado: demo_doc_10 (148 bytes)
+[2026-06-16 17:11:44.269] [INFO] [Rank 0] [Document] Cargado: demo_doc_11 (182 bytes)
+[2026-06-16 17:11:44.269] [INFO] [Rank 0] [Document] Cargado: demo_doc_12 (165 bytes)
+[2026-06-16 17:11:44.269] [INFO] [Rank 0] [Document] Cargado: demo_doc_13 (148 bytes)
+[2026-06-16 17:11:44.270] [INFO] [Rank 0] [Document] Cargado: demo_doc_14 (182 bytes)
+[2026-06-16 17:11:44.270] [INFO] [Rank 0] [Document] Cargado: demo_doc_15 (165 bytes)
+[2026-06-16 17:11:44.270] [INFO] [Rank 0] [Document] Cargado: demo_doc_16 (148 bytes)
+[2026-06-16 17:11:44.271] [INFO] [Rank 0] [Document] Cargado: demo_doc_17 (182 bytes)
+[2026-06-16 17:11:44.271] [INFO] [Rank 0] [Document] Cargado: demo_doc_18 (165 bytes)
+[2026-06-16 17:11:44.271] [INFO] [Rank 0] [Document] Cargado: demo_doc_19 (148 bytes)
+[2026-06-16 17:11:44.271] [INFO] [Rank 0] [Document] Cargado: demo_doc_20 (182 bytes)
+[2026-06-16 17:11:44.271] [INFO] [Rank 0] [Document] Cargado: demo_doc_21 (165 bytes)
+[2026-06-16 17:11:44.272] [INFO] [Rank 0] [Document] Cargado: demo_doc_22 (148 bytes)
+[2026-06-16 17:11:44.272] [INFO] [Rank 0] [Document] Cargado: demo_doc_23 (182 bytes)
+[2026-06-16 17:11:44.272] [INFO] [Rank 0] [Document] Cargado: demo_doc_24 (165 bytes)
+[2026-06-16 17:11:44.272] [INFO] [Rank 0] [Document] Cargado: demo_doc_25 (148 bytes)
+[2026-06-16 17:11:44.272] [INFO] [Rank 0] [Document] Cargado: demo_doc_26 (182 bytes)
+[2026-06-16 17:11:44.272] [INFO] [Rank 0] [Document] Cargado: demo_doc_27 (165 bytes)
+[2026-06-16 17:11:44.272] [INFO] [Rank 0] [Document] Cargado: demo_doc_28 (148 bytes)
+[2026-06-16 17:11:44.272] [INFO] [Rank 0] [Document] Cargado: demo_doc_29 (182 bytes)
+[2026-06-16 17:11:44.273] [INFO] [Rank 0] [Document] Cargado: demo_doc_30 (165 bytes)
+[2026-06-16 17:11:44.273] [INFO] [Rank 0] [Document] Cargado: demo_doc_31 (148 bytes)
+[2026-06-16 17:11:44.273] [INFO] [Rank 0] [Document] Cargado: demo_doc_32 (182 bytes)
+[2026-06-16 17:11:44.273] [INFO] [Rank 0] [Document] Cargado: demo_doc_33 (165 bytes)
+[2026-06-16 17:11:44.273] [INFO] [Rank 0] [Document] Cargado: demo_doc_34 (148 bytes)
+[2026-06-16 17:11:44.273] [INFO] [Rank 0] [Document] Cargado: demo_doc_35 (182 bytes)
+[2026-06-16 17:11:44.273] [INFO] [Rank 0] [Document] Cargado: demo_doc_36 (165 bytes)
+[2026-06-16 17:11:44.273] [INFO] [Rank 0] [Document] Cargado: demo_doc_37 (148 bytes)
+[2026-06-16 17:11:44.273] [INFO] [Rank 0] [Document] Cargado: demo_doc_38 (182 bytes)
+[2026-06-16 17:11:44.273] [INFO] [Rank 0] [Document] Cargado: demo_doc_39 (165 bytes)
+[2026-06-16 17:11:44.274] [INFO] [Rank 0] [Document] Cargado: demo_doc_40 (148 bytes)
+[2026-06-16 17:11:44.274] [INFO] [Rank 0] [Document] Cargado: demo_doc_41 (182 bytes)
+[2026-06-16 17:11:44.274] [INFO] [Rank 0] [Document] Cargado: demo_doc_42 (165 bytes)
+[2026-06-16 17:11:44.274] [INFO] [Rank 0] [Document] Cargado: demo_doc_43 (148 bytes)
+[2026-06-16 17:11:44.274] [INFO] [Rank 0] [Document] Cargado: demo_doc_44 (182 bytes)
+[2026-06-16 17:11:44.274] [INFO] [Rank 0] [Document] Cargado: demo_doc_45 (165 bytes)
+[2026-06-16 17:11:44.274] [INFO] [Rank 0] [Document] Cargado: demo_doc_46 (148 bytes)
+[2026-06-16 17:11:44.274] [INFO] [Rank 0] [Document] Cargado: demo_doc_47 (182 bytes)
+[2026-06-16 17:11:44.275] [INFO] [Rank 0] [Document] Cargado: demo_doc_48 (165 bytes)
+[2026-06-16 17:11:44.275] [INFO] [Rank 0] [Document] Cargado: demo_doc_49 (148 bytes)
+[2026-06-16 17:11:44.275] [INFO] [Rank 0] [Document] Cargado: demo_doc_50 (182 bytes)
+[2026-06-16 17:11:44.275] [INFO] [Rank 0] [Document] Cargado: demo_doc_51 (165 bytes)
+[2026-06-16 17:11:44.275] [INFO] [Rank 0] [Document] Cargado: demo_doc_52 (148 bytes)
+[2026-06-16 17:11:44.275] [INFO] [Rank 0] [Document] Cargado: demo_doc_53 (182 bytes)
+[2026-06-16 17:11:44.275] [INFO] [Rank 0] [Document] Cargado: demo_doc_54 (165 bytes)
+[2026-06-16 17:11:44.275] [INFO] [Rank 0] [Document] Cargado: demo_doc_55 (148 bytes)
+[2026-06-16 17:11:44.275] [INFO] [Rank 0] [Document] Cargado: demo_doc_56 (182 bytes)
+[2026-06-16 17:11:44.276] [INFO] [Rank 0] [Document] Cargado: demo_doc_57 (165 bytes)
+[2026-06-16 17:11:44.276] [INFO] [Rank 0] [Document] Cargado: demo_doc_58 (148 bytes)
+[2026-06-16 17:11:44.276] [INFO] [Rank 0] [Document] Cargado: demo_doc_59 (182 bytes)
+[2026-06-16 17:11:44.276] [INFO] [Rank 0] [Document] Cargado: demo_doc_60 (165 bytes)
+[2026-06-16 17:11:44.276] [INFO] [Rank 0] [Document] Cargado: demo_doc_61 (148 bytes)
+[2026-06-16 17:11:44.276] [INFO] [Rank 0] [Document] Cargado: demo_doc_62 (182 bytes)
+[2026-06-16 17:11:44.277] [INFO] [Rank 0] [Document] Cargado: demo_doc_63 (165 bytes)
+[2026-06-16 17:11:44.277] [INFO] [Rank 0] [Document] Cargado: demo_doc_64 (148 bytes)
+[2026-06-16 17:11:44.277] [INFO] [Rank 0] [Document] Cargado: demo_doc_65 (182 bytes)
+[2026-06-16 17:11:44.277] [INFO] [Rank 0] [Document] Cargado: demo_doc_66 (165 bytes)
+[2026-06-16 17:11:44.277] [INFO] [Rank 0] [Document] Cargado: demo_doc_67 (148 bytes)
+[2026-06-16 17:11:44.277] [INFO] [Rank 0] [Document] Cargado: demo_doc_68 (182 bytes)
+[2026-06-16 17:11:44.277] [INFO] [Rank 0] [Document] Cargado: demo_doc_69 (165 bytes)
+[2026-06-16 17:11:44.277] [INFO] [Rank 0] [Document] Cargado: demo_doc_70 (148 bytes)
+[2026-06-16 17:11:44.278] [INFO] [Rank 0] [Document] Cargado: demo_doc_71 (182 bytes)
+[2026-06-16 17:11:44.278] [INFO] [Rank 0] [Document] Cargado: demo_doc_72 (165 bytes)
+[2026-06-16 17:11:44.278] [INFO] [Rank 0] [Document] Cargado: demo_doc_73 (148 bytes)
+[2026-06-16 17:11:44.278] [INFO] [Rank 0] [Document] Cargado: demo_doc_74 (182 bytes)
+[2026-06-16 17:11:44.278] [INFO] [Rank 0] [Document] Cargado: demo_doc_75 (165 bytes)
+[2026-06-16 17:11:44.278] [INFO] [Rank 0] [Document] Cargado: demo_doc_76 (148 bytes)
+[2026-06-16 17:11:44.278] [INFO] [Rank 0] [Document] Cargado: demo_doc_77 (182 bytes)
+[2026-06-16 17:11:44.278] [INFO] [Rank 0] [Document] Cargado: demo_doc_78 (165 bytes)
+[2026-06-16 17:11:44.279] [INFO] [Rank 0] [Document] Cargado: demo_doc_79 (148 bytes)
+[2026-06-16 17:11:44.279] [INFO] [Rank 0] [Document] Cargado: demo_doc_80 (182 bytes)
+[2026-06-16 17:11:44.279] [INFO] [Rank 0] [Document] Cargado: demo_doc_81 (165 bytes)
+[2026-06-16 17:11:44.279] [INFO] [Rank 0] [Document] Cargado: demo_doc_82 (148 bytes)
+[2026-06-16 17:11:44.279] [INFO] [Rank 0] [Document] Cargado: demo_doc_83 (182 bytes)
+[2026-06-16 17:11:44.279] [INFO] [Rank 0] [Document] Cargado: demo_doc_84 (165 bytes)
+[2026-06-16 17:11:44.279] [INFO] [Rank 0] [Document] Cargado: demo_doc_85 (148 bytes)
+[2026-06-16 17:11:44.279] [INFO] [Rank 0] [Document] Cargado: demo_doc_86 (182 bytes)
+[2026-06-16 17:11:44.279] [INFO] [Rank 0] [Document] Cargado: demo_doc_87 (165 bytes)
+[2026-06-16 17:11:44.280] [INFO] [Rank 0] [Document] Cargado: demo_doc_88 (148 bytes)
+[2026-06-16 17:11:44.280] [INFO] [Rank 0] [Document] Cargado: demo_doc_89 (182 bytes)
+[2026-06-16 17:11:44.280] [INFO] [Rank 0] [Document] Cargado: demo_doc_90 (165 bytes)
+[2026-06-16 17:11:44.280] [INFO] [Rank 0] [Document] Cargado: demo_doc_91 (148 bytes)
+[2026-06-16 17:11:44.280] [INFO] [Rank 0] [Document] Total documentos cargados: 91
+[2026-06-16 17:11:44.280] [INFO] [Rank 0] [Engine] Distribuidos 91 docs
+[2026-06-16 17:11:44.281] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_1 | palabras=12 | unicas=12
+[2026-06-16 17:11:44.281] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_5 | palabras=17 | unicas=17
+[2026-06-16 17:11:44.281] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_9 | palabras=16 | unicas=16
+[2026-06-16 17:11:44.281] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_13 | palabras=12 | unicas=12
+[2026-06-16 17:11:44.281] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_17 | palabras=17 | unicas=17
+[2026-06-16 17:11:44.281] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_21 | palabras=16 | unicas=16
+[2026-06-16 17:11:44.281] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_25 | palabras=12 | unicas=12
+[2026-06-16 17:11:44.281] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_29 | palabras=17 | unicas=17
+[2026-06-16 17:11:44.281] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_33 | palabras=16 | unicas=16
+[2026-06-16 17:11:44.281] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_37 | palabras=12 | unicas=12
+[2026-06-16 17:11:44.281] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_41 | palabras=17 | unicas=17
+[2026-06-16 17:11:44.281] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_45 | palabras=16 | unicas=16
+[2026-06-16 17:11:44.281] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_49 | palabras=12 | unicas=12
+[2026-06-16 17:11:44.281] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_53 | palabras=17 | unicas=17
+[2026-06-16 17:11:44.281] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_57 | palabras=16 | unicas=16
+[2026-06-16 17:11:44.281] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_61 | palabras=12 | unicas=12
+[2026-06-16 17:11:44.281] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_65 | palabras=17 | unicas=17
+[2026-06-16 17:11:44.281] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_69 | palabras=16 | unicas=16
+[2026-06-16 17:11:44.281] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_73 | palabras=12 | unicas=12
+[2026-06-16 17:11:44.281] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_77 | palabras=17 | unicas=17
+[2026-06-16 17:11:44.281] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_81 | palabras=16 | unicas=16
+[2026-06-16 17:11:44.281] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_85 | palabras=12 | unicas=12
+[2026-06-16 17:11:44.281] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_89 | palabras=17 | unicas=17
+[2026-06-16 17:11:44.285] [INFO] [Rank 0] [Reducer] Reduce completado: 91 docs, 1362 palabras, 42 unicas
+[2026-06-16 17:11:44.291] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\tfidf_output.json
+[2026-06-16 17:11:55.835] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 4 procesos
+[2026-06-16 17:11:55.838] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 17:11:55.838] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 17:11:55.838] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 17:11:55.839] [INFO] [Rank 0] [Document] Cargado: demo_doc_1 (148 bytes)
+[2026-06-16 17:11:55.839] [INFO] [Rank 0] [Document] Cargado: demo_doc_2 (182 bytes)
+[2026-06-16 17:11:55.839] [INFO] [Rank 0] [Document] Cargado: demo_doc_3 (165 bytes)
+[2026-06-16 17:11:55.839] [INFO] [Rank 0] [Document] Cargado: demo_doc_4 (148 bytes)
+[2026-06-16 17:11:55.840] [INFO] [Rank 0] [Document] Cargado: demo_doc_5 (182 bytes)
+[2026-06-16 17:11:55.840] [INFO] [Rank 0] [Document] Cargado: demo_doc_6 (165 bytes)
+[2026-06-16 17:11:55.840] [INFO] [Rank 0] [Document] Cargado: demo_doc_7 (148 bytes)
+[2026-06-16 17:11:55.840] [INFO] [Rank 0] [Document] Cargado: demo_doc_8 (182 bytes)
+[2026-06-16 17:11:55.840] [INFO] [Rank 0] [Document] Cargado: demo_doc_9 (165 bytes)
+[2026-06-16 17:11:55.840] [INFO] [Rank 0] [Document] Cargado: demo_doc_10 (148 bytes)
+[2026-06-16 17:11:55.840] [INFO] [Rank 0] [Document] Cargado: demo_doc_11 (182 bytes)
+[2026-06-16 17:11:55.840] [INFO] [Rank 0] [Document] Cargado: demo_doc_12 (165 bytes)
+[2026-06-16 17:11:55.841] [INFO] [Rank 0] [Document] Cargado: demo_doc_13 (148 bytes)
+[2026-06-16 17:11:55.841] [INFO] [Rank 0] [Document] Cargado: demo_doc_14 (182 bytes)
+[2026-06-16 17:11:55.841] [INFO] [Rank 0] [Document] Cargado: demo_doc_15 (165 bytes)
+[2026-06-16 17:11:55.841] [INFO] [Rank 0] [Document] Cargado: demo_doc_16 (148 bytes)
+[2026-06-16 17:11:55.841] [INFO] [Rank 0] [Document] Cargado: demo_doc_17 (182 bytes)
+[2026-06-16 17:11:55.841] [INFO] [Rank 0] [Document] Cargado: demo_doc_18 (165 bytes)
+[2026-06-16 17:11:55.841] [INFO] [Rank 0] [Document] Cargado: demo_doc_19 (148 bytes)
+[2026-06-16 17:11:55.841] [INFO] [Rank 0] [Document] Cargado: demo_doc_20 (182 bytes)
+[2026-06-16 17:11:55.841] [INFO] [Rank 0] [Document] Cargado: demo_doc_21 (165 bytes)
+[2026-06-16 17:11:55.842] [INFO] [Rank 0] [Document] Cargado: demo_doc_22 (148 bytes)
+[2026-06-16 17:11:55.842] [INFO] [Rank 0] [Document] Cargado: demo_doc_23 (182 bytes)
+[2026-06-16 17:11:55.842] [INFO] [Rank 0] [Document] Cargado: demo_doc_24 (165 bytes)
+[2026-06-16 17:11:55.842] [INFO] [Rank 0] [Document] Cargado: demo_doc_25 (148 bytes)
+[2026-06-16 17:11:55.842] [INFO] [Rank 0] [Document] Cargado: demo_doc_26 (182 bytes)
+[2026-06-16 17:11:55.842] [INFO] [Rank 0] [Document] Cargado: demo_doc_27 (165 bytes)
+[2026-06-16 17:11:55.843] [INFO] [Rank 0] [Document] Cargado: demo_doc_28 (148 bytes)
+[2026-06-16 17:11:55.843] [INFO] [Rank 0] [Document] Cargado: demo_doc_29 (182 bytes)
+[2026-06-16 17:11:55.843] [INFO] [Rank 0] [Document] Cargado: demo_doc_30 (165 bytes)
+[2026-06-16 17:11:55.843] [INFO] [Rank 0] [Document] Cargado: demo_doc_31 (148 bytes)
+[2026-06-16 17:11:55.843] [INFO] [Rank 0] [Document] Cargado: demo_doc_32 (182 bytes)
+[2026-06-16 17:11:55.843] [INFO] [Rank 0] [Document] Cargado: demo_doc_33 (165 bytes)
+[2026-06-16 17:11:55.843] [INFO] [Rank 0] [Document] Cargado: demo_doc_34 (148 bytes)
+[2026-06-16 17:11:55.844] [INFO] [Rank 0] [Document] Cargado: demo_doc_35 (182 bytes)
+[2026-06-16 17:11:55.844] [INFO] [Rank 0] [Document] Cargado: demo_doc_36 (165 bytes)
+[2026-06-16 17:11:55.844] [INFO] [Rank 0] [Document] Cargado: demo_doc_37 (148 bytes)
+[2026-06-16 17:11:55.844] [INFO] [Rank 0] [Document] Cargado: demo_doc_38 (182 bytes)
+[2026-06-16 17:11:55.844] [INFO] [Rank 0] [Document] Cargado: demo_doc_39 (165 bytes)
+[2026-06-16 17:11:55.844] [INFO] [Rank 0] [Document] Cargado: demo_doc_40 (148 bytes)
+[2026-06-16 17:11:55.844] [INFO] [Rank 0] [Document] Cargado: demo_doc_41 (182 bytes)
+[2026-06-16 17:11:55.844] [INFO] [Rank 0] [Document] Cargado: demo_doc_42 (165 bytes)
+[2026-06-16 17:11:55.845] [INFO] [Rank 0] [Document] Cargado: demo_doc_43 (148 bytes)
+[2026-06-16 17:11:55.845] [INFO] [Rank 0] [Document] Cargado: demo_doc_44 (182 bytes)
+[2026-06-16 17:11:55.845] [INFO] [Rank 0] [Document] Cargado: demo_doc_45 (165 bytes)
+[2026-06-16 17:11:55.845] [INFO] [Rank 0] [Document] Cargado: demo_doc_46 (148 bytes)
+[2026-06-16 17:11:55.845] [INFO] [Rank 0] [Document] Cargado: demo_doc_47 (182 bytes)
+[2026-06-16 17:11:55.845] [INFO] [Rank 0] [Document] Cargado: demo_doc_48 (165 bytes)
+[2026-06-16 17:11:55.845] [INFO] [Rank 0] [Document] Cargado: demo_doc_49 (148 bytes)
+[2026-06-16 17:11:55.845] [INFO] [Rank 0] [Document] Cargado: demo_doc_50 (182 bytes)
+[2026-06-16 17:11:55.846] [INFO] [Rank 0] [Document] Cargado: demo_doc_51 (165 bytes)
+[2026-06-16 17:11:55.846] [INFO] [Rank 0] [Document] Cargado: demo_doc_52 (148 bytes)
+[2026-06-16 17:11:55.846] [INFO] [Rank 0] [Document] Cargado: demo_doc_53 (182 bytes)
+[2026-06-16 17:11:55.846] [INFO] [Rank 0] [Document] Cargado: demo_doc_54 (165 bytes)
+[2026-06-16 17:11:55.846] [INFO] [Rank 0] [Document] Cargado: demo_doc_55 (148 bytes)
+[2026-06-16 17:11:55.846] [INFO] [Rank 0] [Document] Cargado: demo_doc_56 (182 bytes)
+[2026-06-16 17:11:55.846] [INFO] [Rank 0] [Document] Cargado: demo_doc_57 (165 bytes)
+[2026-06-16 17:11:55.847] [INFO] [Rank 0] [Document] Cargado: demo_doc_58 (148 bytes)
+[2026-06-16 17:11:55.847] [INFO] [Rank 0] [Document] Cargado: demo_doc_59 (182 bytes)
+[2026-06-16 17:11:55.847] [INFO] [Rank 0] [Document] Cargado: demo_doc_60 (165 bytes)
+[2026-06-16 17:11:55.847] [INFO] [Rank 0] [Document] Cargado: demo_doc_61 (148 bytes)
+[2026-06-16 17:11:55.847] [INFO] [Rank 0] [Document] Cargado: demo_doc_62 (182 bytes)
+[2026-06-16 17:11:55.847] [INFO] [Rank 0] [Document] Cargado: demo_doc_63 (165 bytes)
+[2026-06-16 17:11:55.847] [INFO] [Rank 0] [Document] Cargado: demo_doc_64 (148 bytes)
+[2026-06-16 17:11:55.847] [INFO] [Rank 0] [Document] Cargado: demo_doc_65 (182 bytes)
+[2026-06-16 17:11:55.848] [INFO] [Rank 0] [Document] Cargado: demo_doc_66 (165 bytes)
+[2026-06-16 17:11:55.848] [INFO] [Rank 0] [Document] Cargado: demo_doc_67 (148 bytes)
+[2026-06-16 17:11:55.848] [INFO] [Rank 0] [Document] Cargado: demo_doc_68 (182 bytes)
+[2026-06-16 17:11:55.848] [INFO] [Rank 0] [Document] Cargado: demo_doc_69 (165 bytes)
+[2026-06-16 17:11:55.848] [INFO] [Rank 0] [Document] Cargado: demo_doc_70 (148 bytes)
+[2026-06-16 17:11:55.848] [INFO] [Rank 0] [Document] Cargado: demo_doc_71 (182 bytes)
+[2026-06-16 17:11:55.848] [INFO] [Rank 0] [Document] Cargado: demo_doc_72 (165 bytes)
+[2026-06-16 17:11:55.848] [INFO] [Rank 0] [Document] Cargado: demo_doc_73 (148 bytes)
+[2026-06-16 17:11:55.849] [INFO] [Rank 0] [Document] Cargado: demo_doc_74 (182 bytes)
+[2026-06-16 17:11:55.849] [INFO] [Rank 0] [Document] Cargado: demo_doc_75 (165 bytes)
+[2026-06-16 17:11:55.849] [INFO] [Rank 0] [Document] Cargado: demo_doc_76 (148 bytes)
+[2026-06-16 17:11:55.849] [INFO] [Rank 0] [Document] Cargado: demo_doc_77 (182 bytes)
+[2026-06-16 17:11:55.849] [INFO] [Rank 0] [Document] Cargado: demo_doc_78 (165 bytes)
+[2026-06-16 17:11:55.849] [INFO] [Rank 0] [Document] Cargado: demo_doc_79 (148 bytes)
+[2026-06-16 17:11:55.849] [INFO] [Rank 0] [Document] Cargado: demo_doc_80 (182 bytes)
+[2026-06-16 17:11:55.849] [INFO] [Rank 0] [Document] Cargado: demo_doc_81 (165 bytes)
+[2026-06-16 17:11:55.850] [INFO] [Rank 0] [Document] Cargado: demo_doc_82 (148 bytes)
+[2026-06-16 17:11:55.850] [INFO] [Rank 0] [Document] Cargado: demo_doc_83 (182 bytes)
+[2026-06-16 17:11:55.850] [INFO] [Rank 0] [Document] Cargado: demo_doc_84 (165 bytes)
+[2026-06-16 17:11:55.850] [INFO] [Rank 0] [Document] Cargado: demo_doc_85 (148 bytes)
+[2026-06-16 17:11:55.850] [INFO] [Rank 0] [Document] Cargado: demo_doc_86 (182 bytes)
+[2026-06-16 17:11:55.850] [INFO] [Rank 0] [Document] Cargado: demo_doc_87 (165 bytes)
+[2026-06-16 17:11:55.850] [INFO] [Rank 0] [Document] Cargado: demo_doc_88 (148 bytes)
+[2026-06-16 17:11:55.850] [INFO] [Rank 0] [Document] Cargado: demo_doc_89 (182 bytes)
+[2026-06-16 17:11:55.851] [INFO] [Rank 0] [Document] Cargado: demo_doc_90 (165 bytes)
+[2026-06-16 17:11:55.851] [INFO] [Rank 0] [Document] Cargado: demo_doc_91 (148 bytes)
+[2026-06-16 17:11:55.851] [INFO] [Rank 0] [Document] Total documentos cargados: 91
+[2026-06-16 17:11:55.851] [INFO] [Rank 0] [Engine] Distribuidos 91 docs
+[2026-06-16 17:11:55.851] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_1 | palabras=12 | unicas=12
+[2026-06-16 17:11:55.851] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_5 | palabras=17 | unicas=17
+[2026-06-16 17:11:55.851] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_9 | palabras=16 | unicas=16
+[2026-06-16 17:11:55.851] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_13 | palabras=12 | unicas=12
+[2026-06-16 17:11:55.851] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_17 | palabras=17 | unicas=17
+[2026-06-16 17:11:55.851] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_21 | palabras=16 | unicas=16
+[2026-06-16 17:11:55.852] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_25 | palabras=12 | unicas=12
+[2026-06-16 17:11:55.852] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_29 | palabras=17 | unicas=17
+[2026-06-16 17:11:55.852] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_33 | palabras=16 | unicas=16
+[2026-06-16 17:11:55.852] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_37 | palabras=12 | unicas=12
+[2026-06-16 17:11:55.852] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_41 | palabras=17 | unicas=17
+[2026-06-16 17:11:55.852] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_45 | palabras=16 | unicas=16
+[2026-06-16 17:11:55.852] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_49 | palabras=12 | unicas=12
+[2026-06-16 17:11:55.852] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_53 | palabras=17 | unicas=17
+[2026-06-16 17:11:55.852] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_57 | palabras=16 | unicas=16
+[2026-06-16 17:11:55.852] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_61 | palabras=12 | unicas=12
+[2026-06-16 17:11:55.852] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_65 | palabras=17 | unicas=17
+[2026-06-16 17:11:55.852] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_69 | palabras=16 | unicas=16
+[2026-06-16 17:11:55.852] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_73 | palabras=12 | unicas=12
+[2026-06-16 17:11:55.852] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_77 | palabras=17 | unicas=17
+[2026-06-16 17:11:55.852] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_81 | palabras=16 | unicas=16
+[2026-06-16 17:11:55.852] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_85 | palabras=12 | unicas=12
+[2026-06-16 17:11:55.852] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_89 | palabras=17 | unicas=17
+[2026-06-16 17:11:55.857] [INFO] [Rank 0] [Reducer] Reduce completado: 91 docs, 1362 palabras, 42 unicas
+[2026-06-16 17:11:55.870] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\similarity_output.json
+[2026-06-16 17:20:10.513] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 4 procesos
+[2026-06-16 17:20:10.517] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 17:20:10.518] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 17:20:10.518] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 17:20:10.520] [INFO] [Rank 0] [Document] Cargado: demo_doc_1 (148 bytes)
+[2026-06-16 17:20:10.521] [INFO] [Rank 0] [Document] Cargado: demo_doc_2 (182 bytes)
+[2026-06-16 17:20:10.521] [INFO] [Rank 0] [Document] Cargado: demo_doc_3 (165 bytes)
+[2026-06-16 17:20:10.521] [INFO] [Rank 0] [Document] Cargado: demo_doc_4 (148 bytes)
+[2026-06-16 17:20:10.521] [INFO] [Rank 0] [Document] Cargado: demo_doc_5 (182 bytes)
+[2026-06-16 17:20:10.521] [INFO] [Rank 0] [Document] Cargado: demo_doc_6 (165 bytes)
+[2026-06-16 17:20:10.522] [INFO] [Rank 0] [Document] Cargado: demo_doc_7 (148 bytes)
+[2026-06-16 17:20:10.522] [INFO] [Rank 0] [Document] Cargado: demo_doc_8 (182 bytes)
+[2026-06-16 17:20:10.522] [INFO] [Rank 0] [Document] Cargado: demo_doc_9 (165 bytes)
+[2026-06-16 17:20:10.523] [INFO] [Rank 0] [Document] Cargado: demo_doc_10 (148 bytes)
+[2026-06-16 17:20:10.523] [INFO] [Rank 0] [Document] Cargado: demo_doc_11 (182 bytes)
+[2026-06-16 17:20:10.523] [INFO] [Rank 0] [Document] Cargado: demo_doc_12 (165 bytes)
+[2026-06-16 17:20:10.523] [INFO] [Rank 0] [Document] Cargado: demo_doc_13 (148 bytes)
+[2026-06-16 17:20:10.524] [INFO] [Rank 0] [Document] Cargado: demo_doc_14 (182 bytes)
+[2026-06-16 17:20:10.524] [INFO] [Rank 0] [Document] Cargado: demo_doc_15 (165 bytes)
+[2026-06-16 17:20:10.524] [INFO] [Rank 0] [Document] Cargado: demo_doc_16 (148 bytes)
+[2026-06-16 17:20:10.524] [INFO] [Rank 0] [Document] Cargado: demo_doc_17 (182 bytes)
+[2026-06-16 17:20:10.524] [INFO] [Rank 0] [Document] Cargado: demo_doc_18 (165 bytes)
+[2026-06-16 17:20:10.524] [INFO] [Rank 0] [Document] Cargado: demo_doc_19 (148 bytes)
+[2026-06-16 17:20:10.525] [INFO] [Rank 0] [Document] Cargado: demo_doc_20 (182 bytes)
+[2026-06-16 17:20:10.525] [INFO] [Rank 0] [Document] Cargado: demo_doc_21 (165 bytes)
+[2026-06-16 17:20:10.525] [INFO] [Rank 0] [Document] Cargado: demo_doc_22 (148 bytes)
+[2026-06-16 17:20:10.525] [INFO] [Rank 0] [Document] Cargado: demo_doc_23 (182 bytes)
+[2026-06-16 17:20:10.525] [INFO] [Rank 0] [Document] Cargado: demo_doc_24 (165 bytes)
+[2026-06-16 17:20:10.525] [INFO] [Rank 0] [Document] Cargado: demo_doc_25 (148 bytes)
+[2026-06-16 17:20:10.525] [INFO] [Rank 0] [Document] Cargado: demo_doc_26 (182 bytes)
+[2026-06-16 17:20:10.526] [INFO] [Rank 0] [Document] Cargado: demo_doc_27 (165 bytes)
+[2026-06-16 17:20:10.526] [INFO] [Rank 0] [Document] Cargado: demo_doc_28 (148 bytes)
+[2026-06-16 17:20:10.526] [INFO] [Rank 0] [Document] Cargado: demo_doc_29 (182 bytes)
+[2026-06-16 17:20:10.526] [INFO] [Rank 0] [Document] Cargado: demo_doc_30 (165 bytes)
+[2026-06-16 17:20:10.526] [INFO] [Rank 0] [Document] Cargado: demo_doc_31 (148 bytes)
+[2026-06-16 17:20:10.527] [INFO] [Rank 0] [Document] Cargado: demo_doc_32 (182 bytes)
+[2026-06-16 17:20:10.527] [INFO] [Rank 0] [Document] Cargado: demo_doc_33 (165 bytes)
+[2026-06-16 17:20:10.528] [INFO] [Rank 0] [Document] Cargado: demo_doc_34 (148 bytes)
+[2026-06-16 17:20:10.528] [INFO] [Rank 0] [Document] Cargado: demo_doc_35 (182 bytes)
+[2026-06-16 17:20:10.528] [INFO] [Rank 0] [Document] Cargado: demo_doc_36 (165 bytes)
+[2026-06-16 17:20:10.528] [INFO] [Rank 0] [Document] Cargado: demo_doc_37 (148 bytes)
+[2026-06-16 17:20:10.528] [INFO] [Rank 0] [Document] Cargado: demo_doc_38 (182 bytes)
+[2026-06-16 17:20:10.529] [INFO] [Rank 0] [Document] Cargado: demo_doc_39 (165 bytes)
+[2026-06-16 17:20:10.529] [INFO] [Rank 0] [Document] Cargado: demo_doc_40 (148 bytes)
+[2026-06-16 17:20:10.529] [INFO] [Rank 0] [Document] Cargado: demo_doc_41 (182 bytes)
+[2026-06-16 17:20:10.529] [INFO] [Rank 0] [Document] Cargado: demo_doc_42 (165 bytes)
+[2026-06-16 17:20:10.529] [INFO] [Rank 0] [Document] Cargado: demo_doc_43 (148 bytes)
+[2026-06-16 17:20:10.529] [INFO] [Rank 0] [Document] Cargado: demo_doc_44 (182 bytes)
+[2026-06-16 17:20:10.529] [INFO] [Rank 0] [Document] Cargado: demo_doc_45 (165 bytes)
+[2026-06-16 17:20:10.529] [INFO] [Rank 0] [Document] Cargado: demo_doc_46 (148 bytes)
+[2026-06-16 17:20:10.530] [INFO] [Rank 0] [Document] Cargado: demo_doc_47 (182 bytes)
+[2026-06-16 17:20:10.530] [INFO] [Rank 0] [Document] Cargado: demo_doc_48 (165 bytes)
+[2026-06-16 17:20:10.530] [INFO] [Rank 0] [Document] Cargado: demo_doc_49 (148 bytes)
+[2026-06-16 17:20:10.530] [INFO] [Rank 0] [Document] Cargado: demo_doc_50 (182 bytes)
+[2026-06-16 17:20:10.530] [INFO] [Rank 0] [Document] Cargado: demo_doc_51 (165 bytes)
+[2026-06-16 17:20:10.530] [INFO] [Rank 0] [Document] Cargado: demo_doc_52 (148 bytes)
+[2026-06-16 17:20:10.530] [INFO] [Rank 0] [Document] Cargado: demo_doc_53 (182 bytes)
+[2026-06-16 17:20:10.530] [INFO] [Rank 0] [Document] Cargado: demo_doc_54 (165 bytes)
+[2026-06-16 17:20:10.531] [INFO] [Rank 0] [Document] Cargado: demo_doc_55 (148 bytes)
+[2026-06-16 17:20:10.531] [INFO] [Rank 0] [Document] Cargado: demo_doc_56 (182 bytes)
+[2026-06-16 17:20:10.531] [INFO] [Rank 0] [Document] Cargado: demo_doc_57 (165 bytes)
+[2026-06-16 17:20:10.531] [INFO] [Rank 0] [Document] Cargado: demo_doc_58 (148 bytes)
+[2026-06-16 17:20:10.531] [INFO] [Rank 0] [Document] Cargado: demo_doc_59 (182 bytes)
+[2026-06-16 17:20:10.531] [INFO] [Rank 0] [Document] Cargado: demo_doc_60 (165 bytes)
+[2026-06-16 17:20:10.531] [INFO] [Rank 0] [Document] Cargado: demo_doc_61 (148 bytes)
+[2026-06-16 17:20:10.531] [INFO] [Rank 0] [Document] Cargado: demo_doc_62 (182 bytes)
+[2026-06-16 17:20:10.532] [INFO] [Rank 0] [Document] Cargado: demo_doc_63 (165 bytes)
+[2026-06-16 17:20:10.532] [INFO] [Rank 0] [Document] Cargado: demo_doc_64 (148 bytes)
+[2026-06-16 17:20:10.532] [INFO] [Rank 0] [Document] Cargado: demo_doc_65 (182 bytes)
+[2026-06-16 17:20:10.532] [INFO] [Rank 0] [Document] Cargado: demo_doc_66 (165 bytes)
+[2026-06-16 17:20:10.532] [INFO] [Rank 0] [Document] Cargado: demo_doc_67 (148 bytes)
+[2026-06-16 17:20:10.532] [INFO] [Rank 0] [Document] Cargado: demo_doc_68 (182 bytes)
+[2026-06-16 17:20:10.532] [INFO] [Rank 0] [Document] Cargado: demo_doc_69 (165 bytes)
+[2026-06-16 17:20:10.532] [INFO] [Rank 0] [Document] Cargado: demo_doc_70 (148 bytes)
+[2026-06-16 17:20:10.533] [INFO] [Rank 0] [Document] Cargado: demo_doc_71 (182 bytes)
+[2026-06-16 17:20:10.533] [INFO] [Rank 0] [Document] Cargado: demo_doc_72 (165 bytes)
+[2026-06-16 17:20:10.533] [INFO] [Rank 0] [Document] Cargado: demo_doc_73 (148 bytes)
+[2026-06-16 17:20:10.533] [INFO] [Rank 0] [Document] Cargado: demo_doc_74 (182 bytes)
+[2026-06-16 17:20:10.533] [INFO] [Rank 0] [Document] Cargado: demo_doc_75 (165 bytes)
+[2026-06-16 17:20:10.533] [INFO] [Rank 0] [Document] Cargado: demo_doc_76 (148 bytes)
+[2026-06-16 17:20:10.534] [INFO] [Rank 0] [Document] Cargado: demo_doc_77 (182 bytes)
+[2026-06-16 17:20:10.534] [INFO] [Rank 0] [Document] Cargado: demo_doc_78 (165 bytes)
+[2026-06-16 17:20:10.534] [INFO] [Rank 0] [Document] Cargado: demo_doc_79 (148 bytes)
+[2026-06-16 17:20:10.534] [INFO] [Rank 0] [Document] Cargado: demo_doc_80 (182 bytes)
+[2026-06-16 17:20:10.534] [INFO] [Rank 0] [Document] Cargado: demo_doc_81 (165 bytes)
+[2026-06-16 17:20:10.535] [INFO] [Rank 0] [Document] Cargado: demo_doc_82 (148 bytes)
+[2026-06-16 17:20:10.535] [INFO] [Rank 0] [Document] Cargado: demo_doc_83 (182 bytes)
+[2026-06-16 17:20:10.535] [INFO] [Rank 0] [Document] Cargado: demo_doc_84 (165 bytes)
+[2026-06-16 17:20:10.535] [INFO] [Rank 0] [Document] Cargado: demo_doc_85 (148 bytes)
+[2026-06-16 17:20:10.536] [INFO] [Rank 0] [Document] Cargado: demo_doc_86 (182 bytes)
+[2026-06-16 17:20:10.536] [INFO] [Rank 0] [Document] Cargado: demo_doc_87 (165 bytes)
+[2026-06-16 17:20:10.536] [INFO] [Rank 0] [Document] Cargado: demo_doc_88 (148 bytes)
+[2026-06-16 17:20:10.536] [INFO] [Rank 0] [Document] Cargado: demo_doc_89 (182 bytes)
+[2026-06-16 17:20:10.536] [INFO] [Rank 0] [Document] Cargado: demo_doc_90 (165 bytes)
+[2026-06-16 17:20:10.536] [INFO] [Rank 0] [Document] Cargado: demo_doc_91 (148 bytes)
+[2026-06-16 17:20:10.536] [INFO] [Rank 0] [Document] Total documentos cargados: 91
+[2026-06-16 17:20:10.537] [INFO] [Rank 0] [Engine] Distribuidos 91 docs
+[2026-06-16 17:20:10.537] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_1 | palabras=12 | unicas=12
+[2026-06-16 17:20:10.537] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_5 | palabras=17 | unicas=17
+[2026-06-16 17:20:10.537] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_9 | palabras=16 | unicas=16
+[2026-06-16 17:20:10.537] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_13 | palabras=12 | unicas=12
+[2026-06-16 17:20:10.537] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_17 | palabras=17 | unicas=17
+[2026-06-16 17:20:10.537] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_21 | palabras=16 | unicas=16
+[2026-06-16 17:20:10.537] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_25 | palabras=12 | unicas=12
+[2026-06-16 17:20:10.537] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_29 | palabras=17 | unicas=17
+[2026-06-16 17:20:10.537] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_33 | palabras=16 | unicas=16
+[2026-06-16 17:20:10.537] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_37 | palabras=12 | unicas=12
+[2026-06-16 17:20:10.537] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_41 | palabras=17 | unicas=17
+[2026-06-16 17:20:10.537] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_45 | palabras=16 | unicas=16
+[2026-06-16 17:20:10.537] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_49 | palabras=12 | unicas=12
+[2026-06-16 17:20:10.537] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_53 | palabras=17 | unicas=17
+[2026-06-16 17:20:10.538] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_57 | palabras=16 | unicas=16
+[2026-06-16 17:20:10.538] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_61 | palabras=12 | unicas=12
+[2026-06-16 17:20:10.538] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_65 | palabras=17 | unicas=17
+[2026-06-16 17:20:10.538] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_69 | palabras=16 | unicas=16
+[2026-06-16 17:20:10.538] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_73 | palabras=12 | unicas=12
+[2026-06-16 17:20:10.538] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_77 | palabras=17 | unicas=17
+[2026-06-16 17:20:10.538] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_81 | palabras=16 | unicas=16
+[2026-06-16 17:20:10.538] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_85 | palabras=12 | unicas=12
+[2026-06-16 17:20:10.538] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_89 | palabras=17 | unicas=17
+[2026-06-16 17:20:10.542] [INFO] [Rank 0] [Reducer] Reduce completado: 91 docs, 1362 palabras, 42 unicas
+[2026-06-16 17:20:10.549] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\tfidf_output.json
+[2026-06-16 17:20:13.927] [INFO] [Rank 0] [Engine] Inicializado rank 0 de 4 procesos
+[2026-06-16 17:20:13.929] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 167 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/spanish.txt
+[2026-06-16 17:20:13.929] [INFO] [Rank 0] [TextProcessor] Stopwords cargadas: 141 desde C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data/stopwords/english.txt
+[2026-06-16 17:20:13.929] [INFO] [Rank 0] [Engine] Stopwords cargadas: 304
+[2026-06-16 17:20:13.930] [INFO] [Rank 0] [Document] Cargado: demo_doc_1 (148 bytes)
+[2026-06-16 17:20:13.930] [INFO] [Rank 0] [Document] Cargado: demo_doc_2 (182 bytes)
+[2026-06-16 17:20:13.930] [INFO] [Rank 0] [Document] Cargado: demo_doc_3 (165 bytes)
+[2026-06-16 17:20:13.930] [INFO] [Rank 0] [Document] Cargado: demo_doc_4 (148 bytes)
+[2026-06-16 17:20:13.930] [INFO] [Rank 0] [Document] Cargado: demo_doc_5 (182 bytes)
+[2026-06-16 17:20:13.931] [INFO] [Rank 0] [Document] Cargado: demo_doc_6 (165 bytes)
+[2026-06-16 17:20:13.931] [INFO] [Rank 0] [Document] Cargado: demo_doc_7 (148 bytes)
+[2026-06-16 17:20:13.931] [INFO] [Rank 0] [Document] Cargado: demo_doc_8 (182 bytes)
+[2026-06-16 17:20:13.931] [INFO] [Rank 0] [Document] Cargado: demo_doc_9 (165 bytes)
+[2026-06-16 17:20:13.931] [INFO] [Rank 0] [Document] Cargado: demo_doc_10 (148 bytes)
+[2026-06-16 17:20:13.931] [INFO] [Rank 0] [Document] Cargado: demo_doc_11 (182 bytes)
+[2026-06-16 17:20:13.931] [INFO] [Rank 0] [Document] Cargado: demo_doc_12 (165 bytes)
+[2026-06-16 17:20:13.931] [INFO] [Rank 0] [Document] Cargado: demo_doc_13 (148 bytes)
+[2026-06-16 17:20:13.931] [INFO] [Rank 0] [Document] Cargado: demo_doc_14 (182 bytes)
+[2026-06-16 17:20:13.931] [INFO] [Rank 0] [Document] Cargado: demo_doc_15 (165 bytes)
+[2026-06-16 17:20:13.932] [INFO] [Rank 0] [Document] Cargado: demo_doc_16 (148 bytes)
+[2026-06-16 17:20:13.932] [INFO] [Rank 0] [Document] Cargado: demo_doc_17 (182 bytes)
+[2026-06-16 17:20:13.932] [INFO] [Rank 0] [Document] Cargado: demo_doc_18 (165 bytes)
+[2026-06-16 17:20:13.932] [INFO] [Rank 0] [Document] Cargado: demo_doc_19 (148 bytes)
+[2026-06-16 17:20:13.932] [INFO] [Rank 0] [Document] Cargado: demo_doc_20 (182 bytes)
+[2026-06-16 17:20:13.932] [INFO] [Rank 0] [Document] Cargado: demo_doc_21 (165 bytes)
+[2026-06-16 17:20:13.932] [INFO] [Rank 0] [Document] Cargado: demo_doc_22 (148 bytes)
+[2026-06-16 17:20:13.932] [INFO] [Rank 0] [Document] Cargado: demo_doc_23 (182 bytes)
+[2026-06-16 17:20:13.932] [INFO] [Rank 0] [Document] Cargado: demo_doc_24 (165 bytes)
+[2026-06-16 17:20:13.933] [INFO] [Rank 0] [Document] Cargado: demo_doc_25 (148 bytes)
+[2026-06-16 17:20:13.933] [INFO] [Rank 0] [Document] Cargado: demo_doc_26 (182 bytes)
+[2026-06-16 17:20:13.933] [INFO] [Rank 0] [Document] Cargado: demo_doc_27 (165 bytes)
+[2026-06-16 17:20:13.933] [INFO] [Rank 0] [Document] Cargado: demo_doc_28 (148 bytes)
+[2026-06-16 17:20:13.933] [INFO] [Rank 0] [Document] Cargado: demo_doc_29 (182 bytes)
+[2026-06-16 17:20:13.933] [INFO] [Rank 0] [Document] Cargado: demo_doc_30 (165 bytes)
+[2026-06-16 17:20:13.933] [INFO] [Rank 0] [Document] Cargado: demo_doc_31 (148 bytes)
+[2026-06-16 17:20:13.933] [INFO] [Rank 0] [Document] Cargado: demo_doc_32 (182 bytes)
+[2026-06-16 17:20:13.933] [INFO] [Rank 0] [Document] Cargado: demo_doc_33 (165 bytes)
+[2026-06-16 17:20:13.933] [INFO] [Rank 0] [Document] Cargado: demo_doc_34 (148 bytes)
+[2026-06-16 17:20:13.934] [INFO] [Rank 0] [Document] Cargado: demo_doc_35 (182 bytes)
+[2026-06-16 17:20:13.934] [INFO] [Rank 0] [Document] Cargado: demo_doc_36 (165 bytes)
+[2026-06-16 17:20:13.934] [INFO] [Rank 0] [Document] Cargado: demo_doc_37 (148 bytes)
+[2026-06-16 17:20:13.934] [INFO] [Rank 0] [Document] Cargado: demo_doc_38 (182 bytes)
+[2026-06-16 17:20:13.934] [INFO] [Rank 0] [Document] Cargado: demo_doc_39 (165 bytes)
+[2026-06-16 17:20:13.934] [INFO] [Rank 0] [Document] Cargado: demo_doc_40 (148 bytes)
+[2026-06-16 17:20:13.934] [INFO] [Rank 0] [Document] Cargado: demo_doc_41 (182 bytes)
+[2026-06-16 17:20:13.935] [INFO] [Rank 0] [Document] Cargado: demo_doc_42 (165 bytes)
+[2026-06-16 17:20:13.935] [INFO] [Rank 0] [Document] Cargado: demo_doc_43 (148 bytes)
+[2026-06-16 17:20:13.935] [INFO] [Rank 0] [Document] Cargado: demo_doc_44 (182 bytes)
+[2026-06-16 17:20:13.935] [INFO] [Rank 0] [Document] Cargado: demo_doc_45 (165 bytes)
+[2026-06-16 17:20:13.935] [INFO] [Rank 0] [Document] Cargado: demo_doc_46 (148 bytes)
+[2026-06-16 17:20:13.935] [INFO] [Rank 0] [Document] Cargado: demo_doc_47 (182 bytes)
+[2026-06-16 17:20:13.935] [INFO] [Rank 0] [Document] Cargado: demo_doc_48 (165 bytes)
+[2026-06-16 17:20:13.935] [INFO] [Rank 0] [Document] Cargado: demo_doc_49 (148 bytes)
+[2026-06-16 17:20:13.936] [INFO] [Rank 0] [Document] Cargado: demo_doc_50 (182 bytes)
+[2026-06-16 17:20:13.936] [INFO] [Rank 0] [Document] Cargado: demo_doc_51 (165 bytes)
+[2026-06-16 17:20:13.936] [INFO] [Rank 0] [Document] Cargado: demo_doc_52 (148 bytes)
+[2026-06-16 17:20:13.936] [INFO] [Rank 0] [Document] Cargado: demo_doc_53 (182 bytes)
+[2026-06-16 17:20:13.936] [INFO] [Rank 0] [Document] Cargado: demo_doc_54 (165 bytes)
+[2026-06-16 17:20:13.936] [INFO] [Rank 0] [Document] Cargado: demo_doc_55 (148 bytes)
+[2026-06-16 17:20:13.936] [INFO] [Rank 0] [Document] Cargado: demo_doc_56 (182 bytes)
+[2026-06-16 17:20:13.936] [INFO] [Rank 0] [Document] Cargado: demo_doc_57 (165 bytes)
+[2026-06-16 17:20:13.936] [INFO] [Rank 0] [Document] Cargado: demo_doc_58 (148 bytes)
+[2026-06-16 17:20:13.937] [INFO] [Rank 0] [Document] Cargado: demo_doc_59 (182 bytes)
+[2026-06-16 17:20:13.937] [INFO] [Rank 0] [Document] Cargado: demo_doc_60 (165 bytes)
+[2026-06-16 17:20:13.937] [INFO] [Rank 0] [Document] Cargado: demo_doc_61 (148 bytes)
+[2026-06-16 17:20:13.937] [INFO] [Rank 0] [Document] Cargado: demo_doc_62 (182 bytes)
+[2026-06-16 17:20:13.937] [INFO] [Rank 0] [Document] Cargado: demo_doc_63 (165 bytes)
+[2026-06-16 17:20:13.937] [INFO] [Rank 0] [Document] Cargado: demo_doc_64 (148 bytes)
+[2026-06-16 17:20:13.937] [INFO] [Rank 0] [Document] Cargado: demo_doc_65 (182 bytes)
+[2026-06-16 17:20:13.937] [INFO] [Rank 0] [Document] Cargado: demo_doc_66 (165 bytes)
+[2026-06-16 17:20:13.937] [INFO] [Rank 0] [Document] Cargado: demo_doc_67 (148 bytes)
+[2026-06-16 17:20:13.937] [INFO] [Rank 0] [Document] Cargado: demo_doc_68 (182 bytes)
+[2026-06-16 17:20:13.938] [INFO] [Rank 0] [Document] Cargado: demo_doc_69 (165 bytes)
+[2026-06-16 17:20:13.938] [INFO] [Rank 0] [Document] Cargado: demo_doc_70 (148 bytes)
+[2026-06-16 17:20:13.938] [INFO] [Rank 0] [Document] Cargado: demo_doc_71 (182 bytes)
+[2026-06-16 17:20:13.938] [INFO] [Rank 0] [Document] Cargado: demo_doc_72 (165 bytes)
+[2026-06-16 17:20:13.938] [INFO] [Rank 0] [Document] Cargado: demo_doc_73 (148 bytes)
+[2026-06-16 17:20:13.938] [INFO] [Rank 0] [Document] Cargado: demo_doc_74 (182 bytes)
+[2026-06-16 17:20:13.938] [INFO] [Rank 0] [Document] Cargado: demo_doc_75 (165 bytes)
+[2026-06-16 17:20:13.938] [INFO] [Rank 0] [Document] Cargado: demo_doc_76 (148 bytes)
+[2026-06-16 17:20:13.938] [INFO] [Rank 0] [Document] Cargado: demo_doc_77 (182 bytes)
+[2026-06-16 17:20:13.938] [INFO] [Rank 0] [Document] Cargado: demo_doc_78 (165 bytes)
+[2026-06-16 17:20:13.939] [INFO] [Rank 0] [Document] Cargado: demo_doc_79 (148 bytes)
+[2026-06-16 17:20:13.939] [INFO] [Rank 0] [Document] Cargado: demo_doc_80 (182 bytes)
+[2026-06-16 17:20:13.939] [INFO] [Rank 0] [Document] Cargado: demo_doc_81 (165 bytes)
+[2026-06-16 17:20:13.939] [INFO] [Rank 0] [Document] Cargado: demo_doc_82 (148 bytes)
+[2026-06-16 17:20:13.939] [INFO] [Rank 0] [Document] Cargado: demo_doc_83 (182 bytes)
+[2026-06-16 17:20:13.939] [INFO] [Rank 0] [Document] Cargado: demo_doc_84 (165 bytes)
+[2026-06-16 17:20:13.939] [INFO] [Rank 0] [Document] Cargado: demo_doc_85 (148 bytes)
+[2026-06-16 17:20:13.939] [INFO] [Rank 0] [Document] Cargado: demo_doc_86 (182 bytes)
+[2026-06-16 17:20:13.939] [INFO] [Rank 0] [Document] Cargado: demo_doc_87 (165 bytes)
+[2026-06-16 17:20:13.939] [INFO] [Rank 0] [Document] Cargado: demo_doc_88 (148 bytes)
+[2026-06-16 17:20:13.940] [INFO] [Rank 0] [Document] Cargado: demo_doc_89 (182 bytes)
+[2026-06-16 17:20:13.940] [INFO] [Rank 0] [Document] Cargado: demo_doc_90 (165 bytes)
+[2026-06-16 17:20:13.940] [INFO] [Rank 0] [Document] Cargado: demo_doc_91 (148 bytes)
+[2026-06-16 17:20:13.940] [INFO] [Rank 0] [Document] Total documentos cargados: 91
+[2026-06-16 17:20:13.940] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_1 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.940] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_2 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.940] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_3 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.940] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_4 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.940] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_5 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.940] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_6 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.940] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_7 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.940] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_8 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.940] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_9 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.940] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_10 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.940] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_11 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.940] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_12 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.940] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_13 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.940] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_14 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.941] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_15 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.941] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_16 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.941] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_17 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.941] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_18 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.941] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_19 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.941] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_20 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.941] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_21 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.941] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_22 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.941] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_23 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.941] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_24 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.941] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_25 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.941] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_26 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.941] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_27 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.941] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_28 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.941] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_29 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.941] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_30 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.941] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_31 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.941] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_32 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.941] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_33 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.941] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_34 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.941] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_35 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.941] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_36 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.941] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_37 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.941] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_38 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.942] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_39 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.942] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_40 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.942] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_41 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.942] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_42 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.942] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_43 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.942] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_44 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.942] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_45 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.942] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_46 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.942] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_47 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.942] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_48 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.942] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_49 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.942] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_50 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.942] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_51 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.942] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_52 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.942] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_53 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.942] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_54 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.942] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_55 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.942] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_56 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.942] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_57 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.942] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_58 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.942] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_59 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.942] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_60 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.942] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_61 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.942] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_62 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.943] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_63 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.943] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_64 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.943] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_65 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.943] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_66 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.943] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_67 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.943] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_68 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.943] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_69 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.943] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_70 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.943] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_71 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.943] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_72 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.943] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_73 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.943] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_74 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.943] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_75 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.943] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_76 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.943] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_77 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.943] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_78 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.943] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_79 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.943] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_80 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.943] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_81 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.943] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_82 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.943] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_83 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.943] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_84 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.944] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_85 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.944] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_86 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.944] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_87 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.944] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_88 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.944] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_89 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.944] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_90 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.944] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_91 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.944] [INFO] [Rank 0] [Reducer] Reduce completado: 91 docs, 1362 palabras, 42 unicas
+[2026-06-16 17:20:13.945] [INFO] [Rank 0] [Engine] Distribuidos 91 docs
+[2026-06-16 17:20:13.945] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_1 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.945] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_5 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.945] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_9 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.945] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_13 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.945] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_17 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.945] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_21 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.945] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_25 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.945] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_29 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.945] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_33 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.945] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_37 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.945] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_41 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.945] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_45 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.945] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_49 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.945] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_53 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.945] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_57 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.945] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_61 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.945] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_65 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.945] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_69 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.945] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_73 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.946] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_77 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.946] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_81 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.946] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_85 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.946] [INFO] [Rank 0] [Mapper] Map completado: demo_doc_89 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.951] [INFO] [Rank 0] [Reducer] Reduce completado: 91 docs, 1362 palabras, 42 unicas
+[2026-06-16 17:20:13.953] [INFO] [Rank 0] [JsonWriter] Resultado escrito: C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\data\results\benchmark_output.json

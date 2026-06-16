@@ -1,0 +1,176 @@
+
+
+Título de proyecto
+
+
+
+
+
+
+
+Autor: Nombre y Apellidos del autor Número de documento
+
+
+
+
+
+
+
+Informe final del curso Machine Learning
+
+
+
+
+
+
+
+Universidad de Pamplona Facultad de Ingenierías y Arquitectura
+Ingeniería de Sistemas 2025_1 
+Villa del Rosario  Norte de Santander
+
+
+Índice
+Agrega los títulos, subtitulo y números de página del contenido de la monografía
+
+
+Resumen 
+
+El resumen debe contener:
+
+Importancia e impacto del trabajo ( máximo 4 líneas)
+Objetivo general   no mas de 30 palabras 
+Metodología enumerando las fases
+Datos: de donde se obtienen
+Cuál es el producto que se obtendrá
+Todo esto entre 200 y 300 palabras 
+
+Palabras clave:   de 3 a 4 tomadas de 
+
+https://decsfinder.bvsalud.org/dmf 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducción
+Exprese el tema, propósito, lo que se busca comunicar y los alcances que tiene la monografía.Al menos dos páginas, Esto es el mismo contenido del resumen, pero más amplio y extenso incluyendo citas y referencias (al menos 3). Como esta organizado su proyecto en capítulos. todo esto en no menos de dos paginas 
+
+
+Planteamiento del Problema
+Exprese en forma clara el problema en término de importancia (dos referencias antecedentes), situación actual. Situación problemática y pregunta de investigación (cada uno de estas cosas en párrafo máximo 14 líneas).
+Pregunta de investigación 
+
+
+
+Objetivos
+Defina el objetivo General, Específicos y las acotaciones de la monografía
+
+Siguiendo el protocolo 
+Componentes de objetivo general
+
+Verbo infinitivo Objeto de estudio, Como lo hace, Para que 
+
+Los verbos en los objetivos específicos deben ir de la primera columna hacia adelante.
+
+Los objetivos normalmente van
+De estudio conocimiento, identificación y exploración del tema 
+De selección de herramientas y técnicas
+De construcción y diseño construcción.
+De evaluación o validación.
+
+
+
+
+Estado del arte
+Marco Referencial
+
+Relacione los 2 antecedentes internacionales, 2 nacionales, 2 regionales ( siguiendo las normas APA )
+ Marco Conceptual
+La descripción de los conceptos claves,
+
+
+Metodología
+Exprese la metodología usada para lograr el alcance de los objetivos propuestos en la monografía.   Describa como relaciona las fases de la metodología con los objetivos generales)
+
+Desde el punto de vista de investigación teóricos y filosóficos
+Los paradigmas de investigación son marcos teóricos y filosóficos que orientan cómo se concibe, diseña y ejecuta una investigación. Cada paradigma implica una visión distinta sobre la realidad (ontología), cómo se conoce esa realidad (epistemología), y los métodos adecuados para estudiarla (metodología).
+ Paradigma Positivista  ( Método científico)  ( Los ingenieros) 
+Ontología: Realismo (la realidad existe independientemente del observador).
+Epistemología: Objetivismo (el conocimiento es objetivo y puede medirse). Basado en la objetividad, la medición y el análisis de datos numéricos. Busca leyes universales y relaciones causales.Inspirado en las ciencias naturales.
+Metodología: Cuantitativa, uso del método científico, experimentos, encuestas.
+Diseños de investigación cuantitativa
+Exploratorio
+Busca familiarizarse con un fenómeno poco conocido.
+Suele ser el paso previo a investigaciones más profundas.
+Ej: encuestas piloto, revisiones iniciales.
+Descriptivo
+Busca detallar características de una población o fenómeno.
+No busca relaciones causales.
+Ej: censos, estudios de prevalencia.
+Correlacional
+Analiza la relación entre dos o más variables, sin establecer causa-efecto.
+Ej: relación entre autoestima y rendimiento académico.
+Explicativo o causal
+Determina causas de un fenómeno.
+Usa diseños experimentales o cuasi-experimentales.
+Ej: efecto de una intervención educativa sobre el aprendizaje.
+Métodos:
+Experimentos controlados.
+Encuestas estandarizadas.
+Análisis estadístico.
+Bases de datos científicas 
+Revisión sistémica 
+
+Desde el punto de vista de desarrollo.
+Acá si que metodología desde el punto de desarrollo del sistema 
+                                        Etc.
+
+
+
+Desarrollo
+Expresa de manera puntual el desarrollo del tema teniendo presente cada uno de los alcances que tiene como propósito la monografía.
+Exposición del alcance objetivo específico 1 Exposición del alcance objetivo específico 2 Exposición del alcance objetivo específico n.
+
+
+Conclusiones y recomendaciones
+Exponga las opiniones personales o críticas de cada uno de los alcances propuesto en la monografía y que fueron expresados en el apartado de Desarrollo.
+
+Al menos dos conclusiones por cada objetivo específico
+Recomendación 1 por cada objetivo especifico
+
+Bibliografía y referencias según normas APA
+Agregue las referencias bibliográficas que dieron sustento a los planteamientos expresados en el desarrollo de la monografía.
+
+
+Al menos 15 referencias normas IEEE
+
+
+

@@ -1,0 +1,1 @@
+La computación paralela acelera el tiempo de procesamiento dividiendo tareas. Speedup y eficiencia son métricas clave en el rendimiento paralelo. 

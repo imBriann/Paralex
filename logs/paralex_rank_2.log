@@ -1,0 +1,222 @@
+[2026-06-16 11:18:16.648] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 8 procesos
+[2026-06-16 11:18:16.696] [INFO] [Rank 2] [Mapper] Map completado: AvancesObjetivosProyectoDeAula | palabras=7444 | unicas=2247
+[2026-06-16 11:18:38.706] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 4 procesos
+[2026-06-16 11:18:38.726] [INFO] [Rank 2] [Mapper] Map completado: AvancesObjetivosProyectoDeAula | palabras=7444 | unicas=2247
+[2026-06-16 11:19:56.000] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 4 procesos
+[2026-06-16 11:19:56.027] [INFO] [Rank 2] [Mapper] Map completado: AvancesObjetivosProyectoDeAula | palabras=7444 | unicas=2247
+[2026-06-16 11:20:16.087] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 4 procesos
+[2026-06-16 11:20:16.116] [INFO] [Rank 2] [Mapper] Map completado: AvancesObjetivosProyectoDeAula | palabras=7444 | unicas=2247
+[2026-06-16 11:20:34.545] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 4 procesos
+[2026-06-16 11:20:34.599] [INFO] [Rank 2] [Mapper] Map completado: AvancesObjetivosProyectoDeAula | palabras=7444 | unicas=2247
+[2026-06-16 12:43:34.071] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 4 procesos
+[2026-06-16 12:43:34.092] [INFO] [Rank 2] [Mapper] Map completado: AvancesObjetivosProyectoDeAula | palabras=7444 | unicas=2247
+[2026-06-16 12:44:02.653] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 8 procesos
+[2026-06-16 12:44:02.674] [INFO] [Rank 2] [Mapper] Map completado: AvancesObjetivosProyectoDeAula | palabras=7444 | unicas=2247
+[2026-06-16 12:44:21.516] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 4 procesos
+[2026-06-16 12:44:21.540] [INFO] [Rank 2] [Mapper] Map completado: AvancesObjetivosProyectoDeAula | palabras=7444 | unicas=2247
+[2026-06-16 12:44:53.046] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 8 procesos
+[2026-06-16 12:44:53.059] [INFO] [Rank 2] [Mapper] Map completado: AvancesObjetivosProyectoDeAula | palabras=7444 | unicas=2247
+[2026-06-16 12:45:19.695] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 4 procesos
+[2026-06-16 12:45:19.730] [INFO] [Rank 2] [Mapper] Map completado: AvancesObjetivosProyectoDeAula | palabras=7444 | unicas=2247
+[2026-06-16 16:34:57.822] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 8 procesos
+[2026-06-16 16:34:57.855] [INFO] [Rank 2] [Mapper] Map completado: expoobj1 | palabras=0 | unicas=0
+[2026-06-16 16:34:57.862] [INFO] [Rank 2] [Mapper] Map completado: Articulo - Palarex | palabras=2337 | unicas=1201
+[2026-06-16 16:35:14.983] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 4 procesos
+[2026-06-16 16:35:14.995] [INFO] [Rank 2] [Mapper] Map completado: expoobj1 | palabras=0 | unicas=0
+[2026-06-16 16:35:14.997] [INFO] [Rank 2] [Mapper] Map completado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final - copia | palabras=2293 | unicas=987
+[2026-06-16 16:35:15.000] [INFO] [Rank 2] [Mapper] Map completado: Articulo - Palarex | palabras=2337 | unicas=1201
+[2026-06-16 16:35:29.672] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 8 procesos
+[2026-06-16 16:35:29.691] [INFO] [Rank 2] [Mapper] Map completado: expoobj1 | palabras=0 | unicas=0
+[2026-06-16 16:35:29.696] [INFO] [Rank 2] [Mapper] Map completado: Articulo - Palarex | palabras=2337 | unicas=1201
+[2026-06-16 16:36:19.141] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 4 procesos
+[2026-06-16 16:36:19.152] [INFO] [Rank 2] [Mapper] Map completado: expoobj1 | palabras=0 | unicas=0
+[2026-06-16 16:36:19.155] [INFO] [Rank 2] [Mapper] Map completado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final - copia | palabras=2293 | unicas=987
+[2026-06-16 16:36:19.158] [INFO] [Rank 2] [Mapper] Map completado: Articulo - Palarex | palabras=2337 | unicas=1201
+[2026-06-16 16:36:52.042] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 4 procesos
+[2026-06-16 16:36:52.104] [INFO] [Rank 2] [Mapper] Map completado: expoobj1 | palabras=0 | unicas=0
+[2026-06-16 16:36:52.122] [INFO] [Rank 2] [Mapper] Map completado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final - copia | palabras=2293 | unicas=987
+[2026-06-16 16:36:52.129] [INFO] [Rank 2] [Mapper] Map completado: Articulo - Palarex | palabras=2337 | unicas=1201
+[2026-06-16 17:06:32.885] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 4 procesos
+[2026-06-16 17:06:32.904] [INFO] [Rank 2] [Mapper] Map completado: expoobj1 | palabras=0 | unicas=0
+[2026-06-16 17:06:32.907] [INFO] [Rank 2] [Mapper] Map completado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final - copia | palabras=2293 | unicas=987
+[2026-06-16 17:06:32.910] [INFO] [Rank 2] [Mapper] Map completado: Articulo - Palarex | palabras=2337 | unicas=1201
+[2026-06-16 17:08:36.456] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 4 procesos
+[2026-06-16 17:08:36.465] [INFO] [Rank 2] [Mapper] Map completado: expoobj1 | palabras=0 | unicas=0
+[2026-06-16 17:08:36.468] [INFO] [Rank 2] [Mapper] Map completado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final - copia | palabras=2293 | unicas=987
+[2026-06-16 17:08:36.473] [INFO] [Rank 2] [Mapper] Map completado: Articulo - Palarex | palabras=2337 | unicas=1201
+[2026-06-16 17:09:14.983] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 4 procesos
+[2026-06-16 17:09:14.998] [INFO] [Rank 2] [Mapper] Map completado: expoobj1 | palabras=0 | unicas=0
+[2026-06-16 17:09:15.012] [INFO] [Rank 2] [Mapper] Map completado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final - copia | palabras=2293 | unicas=987
+[2026-06-16 17:09:15.015] [INFO] [Rank 2] [Mapper] Map completado: Articulo - Palarex | palabras=2337 | unicas=1201
+[2026-06-16 17:09:30.718] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 4 procesos
+[2026-06-16 17:09:30.729] [INFO] [Rank 2] [Mapper] Map completado: expoobj1 | palabras=0 | unicas=0
+[2026-06-16 17:09:30.731] [INFO] [Rank 2] [Mapper] Map completado: Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final - copia | palabras=2293 | unicas=987
+[2026-06-16 17:09:30.734] [INFO] [Rank 2] [Mapper] Map completado: Articulo - Palarex | palabras=2337 | unicas=1201
+[2026-06-16 17:10:26.778] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 4 procesos
+[2026-06-16 17:10:26.792] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_3 | palabras=16 | unicas=16
+[2026-06-16 17:10:26.792] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_7 | palabras=12 | unicas=12
+[2026-06-16 17:10:26.792] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_11 | palabras=17 | unicas=17
+[2026-06-16 17:10:26.792] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_15 | palabras=16 | unicas=16
+[2026-06-16 17:10:26.792] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_19 | palabras=12 | unicas=12
+[2026-06-16 17:10:26.792] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_23 | palabras=17 | unicas=17
+[2026-06-16 17:10:26.792] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_27 | palabras=16 | unicas=16
+[2026-06-16 17:10:26.792] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_31 | palabras=12 | unicas=12
+[2026-06-16 17:10:26.792] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_35 | palabras=17 | unicas=17
+[2026-06-16 17:10:26.792] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_39 | palabras=16 | unicas=16
+[2026-06-16 17:10:26.792] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_43 | palabras=12 | unicas=12
+[2026-06-16 17:10:26.792] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_47 | palabras=17 | unicas=17
+[2026-06-16 17:10:26.792] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_51 | palabras=16 | unicas=16
+[2026-06-16 17:10:26.792] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_55 | palabras=12 | unicas=12
+[2026-06-16 17:10:26.792] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_59 | palabras=17 | unicas=17
+[2026-06-16 17:10:26.793] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_63 | palabras=16 | unicas=16
+[2026-06-16 17:10:26.793] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_67 | palabras=12 | unicas=12
+[2026-06-16 17:10:26.793] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_71 | palabras=17 | unicas=17
+[2026-06-16 17:10:26.793] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_75 | palabras=16 | unicas=16
+[2026-06-16 17:10:26.793] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_79 | palabras=12 | unicas=12
+[2026-06-16 17:10:26.793] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_83 | palabras=17 | unicas=17
+[2026-06-16 17:10:26.793] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_87 | palabras=16 | unicas=16
+[2026-06-16 17:10:26.793] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_91 | palabras=12 | unicas=12
+[2026-06-16 17:10:42.083] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 4 procesos
+[2026-06-16 17:10:42.098] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_3 | palabras=16 | unicas=16
+[2026-06-16 17:10:42.098] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_7 | palabras=12 | unicas=12
+[2026-06-16 17:10:42.098] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_11 | palabras=17 | unicas=17
+[2026-06-16 17:10:42.098] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_15 | palabras=16 | unicas=16
+[2026-06-16 17:10:42.098] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_19 | palabras=12 | unicas=12
+[2026-06-16 17:10:42.098] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_23 | palabras=17 | unicas=17
+[2026-06-16 17:10:42.098] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_27 | palabras=16 | unicas=16
+[2026-06-16 17:10:42.098] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_31 | palabras=12 | unicas=12
+[2026-06-16 17:10:42.098] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_35 | palabras=17 | unicas=17
+[2026-06-16 17:10:42.098] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_39 | palabras=16 | unicas=16
+[2026-06-16 17:10:42.098] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_43 | palabras=12 | unicas=12
+[2026-06-16 17:10:42.098] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_47 | palabras=17 | unicas=17
+[2026-06-16 17:10:42.098] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_51 | palabras=16 | unicas=16
+[2026-06-16 17:10:42.098] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_55 | palabras=12 | unicas=12
+[2026-06-16 17:10:42.098] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_59 | palabras=17 | unicas=17
+[2026-06-16 17:10:42.099] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_63 | palabras=16 | unicas=16
+[2026-06-16 17:10:42.099] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_67 | palabras=12 | unicas=12
+[2026-06-16 17:10:42.099] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_71 | palabras=17 | unicas=17
+[2026-06-16 17:10:42.099] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_75 | palabras=16 | unicas=16
+[2026-06-16 17:10:42.099] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_79 | palabras=12 | unicas=12
+[2026-06-16 17:10:42.099] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_83 | palabras=17 | unicas=17
+[2026-06-16 17:10:42.099] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_87 | palabras=16 | unicas=16
+[2026-06-16 17:10:42.099] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_91 | palabras=12 | unicas=12
+[2026-06-16 17:10:58.492] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 4 procesos
+[2026-06-16 17:10:58.507] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_3 | palabras=16 | unicas=16
+[2026-06-16 17:10:58.507] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_7 | palabras=12 | unicas=12
+[2026-06-16 17:10:58.507] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_11 | palabras=17 | unicas=17
+[2026-06-16 17:10:58.507] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_15 | palabras=16 | unicas=16
+[2026-06-16 17:10:58.507] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_19 | palabras=12 | unicas=12
+[2026-06-16 17:10:58.507] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_23 | palabras=17 | unicas=17
+[2026-06-16 17:10:58.507] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_27 | palabras=16 | unicas=16
+[2026-06-16 17:10:58.507] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_31 | palabras=12 | unicas=12
+[2026-06-16 17:10:58.507] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_35 | palabras=17 | unicas=17
+[2026-06-16 17:10:58.507] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_39 | palabras=16 | unicas=16
+[2026-06-16 17:10:58.507] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_43 | palabras=12 | unicas=12
+[2026-06-16 17:10:58.507] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_47 | palabras=17 | unicas=17
+[2026-06-16 17:10:58.507] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_51 | palabras=16 | unicas=16
+[2026-06-16 17:10:58.507] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_55 | palabras=12 | unicas=12
+[2026-06-16 17:10:58.507] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_59 | palabras=17 | unicas=17
+[2026-06-16 17:10:58.507] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_63 | palabras=16 | unicas=16
+[2026-06-16 17:10:58.507] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_67 | palabras=12 | unicas=12
+[2026-06-16 17:10:58.507] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_71 | palabras=17 | unicas=17
+[2026-06-16 17:10:58.507] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_75 | palabras=16 | unicas=16
+[2026-06-16 17:10:58.508] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_79 | palabras=12 | unicas=12
+[2026-06-16 17:10:58.508] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_83 | palabras=17 | unicas=17
+[2026-06-16 17:10:58.508] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_87 | palabras=16 | unicas=16
+[2026-06-16 17:10:58.508] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_91 | palabras=12 | unicas=12
+[2026-06-16 17:11:44.265] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 4 procesos
+[2026-06-16 17:11:44.281] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_3 | palabras=16 | unicas=16
+[2026-06-16 17:11:44.281] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_7 | palabras=12 | unicas=12
+[2026-06-16 17:11:44.281] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_11 | palabras=17 | unicas=17
+[2026-06-16 17:11:44.281] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_15 | palabras=16 | unicas=16
+[2026-06-16 17:11:44.281] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_19 | palabras=12 | unicas=12
+[2026-06-16 17:11:44.281] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_23 | palabras=17 | unicas=17
+[2026-06-16 17:11:44.281] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_27 | palabras=16 | unicas=16
+[2026-06-16 17:11:44.281] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_31 | palabras=12 | unicas=12
+[2026-06-16 17:11:44.281] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_35 | palabras=17 | unicas=17
+[2026-06-16 17:11:44.281] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_39 | palabras=16 | unicas=16
+[2026-06-16 17:11:44.281] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_43 | palabras=12 | unicas=12
+[2026-06-16 17:11:44.281] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_47 | palabras=17 | unicas=17
+[2026-06-16 17:11:44.281] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_51 | palabras=16 | unicas=16
+[2026-06-16 17:11:44.281] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_55 | palabras=12 | unicas=12
+[2026-06-16 17:11:44.281] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_59 | palabras=17 | unicas=17
+[2026-06-16 17:11:44.281] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_63 | palabras=16 | unicas=16
+[2026-06-16 17:11:44.281] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_67 | palabras=12 | unicas=12
+[2026-06-16 17:11:44.281] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_71 | palabras=17 | unicas=17
+[2026-06-16 17:11:44.281] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_75 | palabras=16 | unicas=16
+[2026-06-16 17:11:44.281] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_79 | palabras=12 | unicas=12
+[2026-06-16 17:11:44.281] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_83 | palabras=17 | unicas=17
+[2026-06-16 17:11:44.281] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_87 | palabras=16 | unicas=16
+[2026-06-16 17:11:44.281] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_91 | palabras=12 | unicas=12
+[2026-06-16 17:11:55.835] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 4 procesos
+[2026-06-16 17:11:55.851] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_3 | palabras=16 | unicas=16
+[2026-06-16 17:11:55.851] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_7 | palabras=12 | unicas=12
+[2026-06-16 17:11:55.851] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_11 | palabras=17 | unicas=17
+[2026-06-16 17:11:55.852] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_15 | palabras=16 | unicas=16
+[2026-06-16 17:11:55.852] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_19 | palabras=12 | unicas=12
+[2026-06-16 17:11:55.852] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_23 | palabras=17 | unicas=17
+[2026-06-16 17:11:55.852] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_27 | palabras=16 | unicas=16
+[2026-06-16 17:11:55.852] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_31 | palabras=12 | unicas=12
+[2026-06-16 17:11:55.852] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_35 | palabras=17 | unicas=17
+[2026-06-16 17:11:55.852] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_39 | palabras=16 | unicas=16
+[2026-06-16 17:11:55.852] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_43 | palabras=12 | unicas=12
+[2026-06-16 17:11:55.852] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_47 | palabras=17 | unicas=17
+[2026-06-16 17:11:55.852] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_51 | palabras=16 | unicas=16
+[2026-06-16 17:11:55.852] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_55 | palabras=12 | unicas=12
+[2026-06-16 17:11:55.852] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_59 | palabras=17 | unicas=17
+[2026-06-16 17:11:55.852] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_63 | palabras=16 | unicas=16
+[2026-06-16 17:11:55.852] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_67 | palabras=12 | unicas=12
+[2026-06-16 17:11:55.853] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_71 | palabras=17 | unicas=17
+[2026-06-16 17:11:55.853] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_75 | palabras=16 | unicas=16
+[2026-06-16 17:11:55.853] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_79 | palabras=12 | unicas=12
+[2026-06-16 17:11:55.853] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_83 | palabras=17 | unicas=17
+[2026-06-16 17:11:55.853] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_87 | palabras=16 | unicas=16
+[2026-06-16 17:11:55.853] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_91 | palabras=12 | unicas=12
+[2026-06-16 17:20:10.513] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 4 procesos
+[2026-06-16 17:20:10.537] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_3 | palabras=16 | unicas=16
+[2026-06-16 17:20:10.537] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_7 | palabras=12 | unicas=12
+[2026-06-16 17:20:10.537] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_11 | palabras=17 | unicas=17
+[2026-06-16 17:20:10.537] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_15 | palabras=16 | unicas=16
+[2026-06-16 17:20:10.537] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_19 | palabras=12 | unicas=12
+[2026-06-16 17:20:10.537] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_23 | palabras=17 | unicas=17
+[2026-06-16 17:20:10.537] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_27 | palabras=16 | unicas=16
+[2026-06-16 17:20:10.537] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_31 | palabras=12 | unicas=12
+[2026-06-16 17:20:10.537] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_35 | palabras=17 | unicas=17
+[2026-06-16 17:20:10.537] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_39 | palabras=16 | unicas=16
+[2026-06-16 17:20:10.537] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_43 | palabras=12 | unicas=12
+[2026-06-16 17:20:10.537] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_47 | palabras=17 | unicas=17
+[2026-06-16 17:20:10.537] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_51 | palabras=16 | unicas=16
+[2026-06-16 17:20:10.538] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_55 | palabras=12 | unicas=12
+[2026-06-16 17:20:10.538] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_59 | palabras=17 | unicas=17
+[2026-06-16 17:20:10.538] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_63 | palabras=16 | unicas=16
+[2026-06-16 17:20:10.538] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_67 | palabras=12 | unicas=12
+[2026-06-16 17:20:10.538] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_71 | palabras=17 | unicas=17
+[2026-06-16 17:20:10.538] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_75 | palabras=16 | unicas=16
+[2026-06-16 17:20:10.538] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_79 | palabras=12 | unicas=12
+[2026-06-16 17:20:10.538] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_83 | palabras=17 | unicas=17
+[2026-06-16 17:20:10.538] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_87 | palabras=16 | unicas=16
+[2026-06-16 17:20:10.538] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_91 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.927] [INFO] [Rank 2] [Engine] Inicializado rank 2 de 4 procesos
+[2026-06-16 17:20:13.945] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_3 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.945] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_7 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.945] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_11 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.945] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_15 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.945] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_19 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.945] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_23 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.945] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_27 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.945] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_31 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.945] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_35 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.945] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_39 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.945] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_43 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.945] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_47 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.945] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_51 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.945] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_55 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.945] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_59 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.945] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_63 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.946] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_67 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.946] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_71 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.946] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_75 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.946] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_79 | palabras=12 | unicas=12
+[2026-06-16 17:20:13.946] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_83 | palabras=17 | unicas=17
+[2026-06-16 17:20:13.946] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_87 | palabras=16 | unicas=16
+[2026-06-16 17:20:13.946] [INFO] [Rank 2] [Mapper] Map completado: demo_doc_91 | palabras=12 | unicas=12

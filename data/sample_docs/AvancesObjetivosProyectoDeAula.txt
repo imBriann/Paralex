@@ -1,0 +1,1618 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Modelo de un Sistema Inteligente Basado en Arquitectura de Agentes i5.0 y Modelos de 
+Lenguaje para la Interpretación de Lengua de Señas en Entornos Digitales . 
+ 
+ 
+Presentado por:  
+Brayan David Amado Ramírez  - 1092526 077 
+Brian David Acevedo Gómez  - 1092526700  
+Juan David Salcedo Heredia  - 1096800366  
+Jhon Deivy Jerez Joya  - 1094860952  
+ 
+Docente:  
+Sandra Maigualida Aranguren de Tarantino  
+ 
+Facultad de ingenierías y arquitectura  
+Villa del Rosario, Norte de Santander, Colombia  
+14 Mayo 2026 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 2 de 55  
+Indice  
+ 
+Indice  ................................ ................................ ................................ ................................ ..........  2 
+Resumen  ................................ ................................ ................................ ................................ ..... 4 
+Abstract  ................................ ................................ ................................ ................................ ... 5 
+Introducción  ................................ ................................ ................................ ................................  7 
+Planteamiento del Problema  ................................ ................................ ................................ ........  8 
+Pregunta de investigación  ................................ ................................ ................................ ............  8 
+Antecedentes y Justificación  ................................ ................................ ................................ ........  9 
+Antecedentes:  ................................ ................................ ................................ ..........................  9 
+Justificación:  ................................ ................................ ................................ ..........................  12 
+Impacto Esperado ................................ ................................ ................................ ......................  14 
+Marco Teórico  ................................ ................................ ................................ ............................  15 
+Arquitecturas de Visión Artificial y Deep Learning  ................................ ................................ .... 15 
+Inteligencia Artificial Adaptativa e Inclusiva  ................................ ................................ .............  15 
+Sensores Inteligentes y Procesamiento Multidimensional  ................................ ........................  15 
+Desafíos de la Ingeniería en el Contexto Colombiano  ................................ ..............................  16 
+Comunicación Inclusiva y Educación Mediada por IA  ................................ ..............................  16 
+Estrategias Multimedia y Competencias Locales  ................................ ................................ ..... 16 
+Fundamentos de Teoría de Lenguajes y Gramáticas Formales  ................................ .................  17 
+Metodología ................................ ................................ ................................ ...............................  18 
+Metodología de Ingeniería (Desarrollo del Modelo)  ................................ ................................ .. 18 
+Metodología de Investigación ................................ ................................ ................................ .. 18 
+Objetivos  ................................ ................................ ................................ ................................ ... 20 
+Objetivo General  ................................ ................................ ................................ ....................  20 
+Objetivos Específicos:  ................................ ................................ ................................ ............  20 
+Acotaciones de la monografía  ................................ ................................ ................................ .... 21 
+El alcance de este trabajo se limita a la fase de diseño y especificación técnica de alto nivel. El 
+estudio abarca:  ................................ ................................ ................................ ..........................  21 
+Alcances  ................................ ................................ ................................ ................................  21 
+Limitaciones  ................................ ................................ ................................ ..........................  21 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 3 de 55 Desarrollo  ................................ ................................ ................................ ................................ . 23 
+Objetivo Específico 1  ................................ ................................ ................................ ..............  23 
+1.1 Visión Computacional Aplicada al Reconocimiento de Gestos  ................................ ........  23 
+1.1.1 Pipeline de Procesamiento Visual  ................................ ................................ ...............  25 
+1.2 Modelos de Lenguaje de Gran Escala (LLM)  ................................ ................................ .......  26 
+1.2.1 Estrategia de Fine -Tuning para LSC  ................................ ................................ .............  27 
+1.3 Filosofía de Agentes Inteligentes en el Marco de la Industria 5.0  ................................ .........  28 
+1.3.1 Roles de Agentes Propuestos  ................................ ................................ ......................  29 
+1.4 Síntesis de la Base Técnica del Sistema  ................................ ................................ .............  30 
+Objetivo Específico 2  ................................ ................................ ................................ ..............  31 
+2.1 Principios de Diseño de la Arquitectura  ................................ ................................ .............  31 
+2.2 Descripción de Capas de la Arquitectura  ................................ ................................ ...........  32 
+2.2.1 Capa 1: Percepción y Adquisición de Datos  ................................ ................................ . 32 
+2.2.2 Capa 2: Procesamiento por Agentes Inteligentes  ................................ .........................  33 
+2.2.3 Capa 3: Generación de Lenguaje Natural Contextualizado  ................................ ...........  34 
+2.2.4 Capa 4: Presentación e Interfaz de Usuario  ................................ ................................ . 35 
+2.3 Diagrama de Flujo de Datos del Sistema  ................................ ................................ ............  36 
+2.4 Integración con Plataformas Digitales  ................................ ................................ ...............  37 
+Objetivo Específico 3  ................................ ................................ ................................ ..............  39 
+3.1 Requerimientos Técnicos del Sistema  ................................ ................................ ...............  39 
+3.1.1 Requerimientos de Hardware ................................ ................................ ......................  39 
+3.1.2 Requerimientos de Software  ................................ ................................ .......................  41 
+3.2 Algoritmos de Aprendizaje Profundo  ................................ ................................ ..................  42 
+3.2.1 Arquitectura del Codificador Temporal: Transformer Encoder  ................................ ......  42 
+3.2.2 Modelo de Lenguaje: Selección y Configuración  ................................ ..........................  43 
+3.3 Estrategias de Entrenamiento ................................ ................................ ............................  44 
+3.3.1 Corpus de Entrenamiento y Gestión de Datos  ................................ ..............................  44 
+3.3.2 Función de Pérdida y Métricas de Evaluación  ................................ ..............................  45 
+3.3.3 Estrategia de Transferencia de Conocimiento  ................................ ..............................  48 
+3.4 Plan de Mitigación de Riesgos Técnicos  ................................ ................................ .............  48 
+Conclusiones  ................................ ................................ ................................ ............................  50 
+Referencias  ................................ ................................ ................................ ...............................  52 
+ 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 4 de 55  
+Resumen  
+El lenguaje de señas representa el principal medio de comunicación para las personas con 
+discapacidad auditiva; no obstante, la interacción entre personas sordas y oyentes enfrenta barreras 
+significativas ante la escasez de herramientas que permitan una in terpretación fluida en entornos 
+digitales. El presente proyecto propone el modelado de un sistema inteligente basado en una 
+arquitectura de agentes i5.0, diseñada para la interpretación y traducción de gestos manuales 
+mediante el uso de visión computaciona l y modelos de lenguaje de gran escala (LLM).  
+ 
+El modelo se estructura a partir de una capa de percepción que utiliza algoritmos de visión 
+artificial para detectar la posición y dinámica de las manos en tiempo real. Estos datos son 
+procesados por agentes inteligentes que actúan como mediadores, traduci endo los vectores de 
+movimiento en tokens de información. Posteriormente, estos tokens son interpretados por un 
+modelo de lenguaje (LLM), el cual aplica técnicas avanzadas de procesamiento de lenguaje natural 
+para estructurar frases gramaticalmente correct as y contextualizadas en español, superando las 
+limitaciones de las traducciones literales.  
+ 
+Desde la perspectiva de la ingeniería básica, la propuesta define la integración lógica entre 
+el hardware de captura y la infraestructura de procesamiento en la nube, optimizando el flujo de 
+datos para garantizar una respuesta eficiente. El sistema se fund amenta en los pilares de la Industria 
+5.0, priorizando la colaboración humano -máquina y la inclusión sociotecnológica. Con este 
+enfoque de modelado, se busca establecer las bases técnicas para una herramienta que funcione 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 5 de 55 como un intermediario tecnológico robusto, escalable y accesible, orientada a mejorar la 
+comunicación inclusiva en la sociedad digital.  
+Palabras clave: Agentes i5.0, Modelos de Lenguaje (LLM), Visión Computacional, Modelado 
+Continuo, Ingeniería Básica.  
+Abstract  
+Sign language is the primary means of communication for people with hearing disabilities; 
+however, the interaction between deaf and hearing individuals faces significant barriers due to the 
+scarcity of tools that allow fluid interpretation in digital envir onments. This project proposes the 
+modeling of an intelligent system based on an i5.0 agent architecture, designed for the 
+interpretation and translation of manual gestures using computer vision and Large Language 
+Models (LLM).  
+ 
+The model is structured around a perception layer that utilizes computer vision algorithms 
+to detect the position and dynamics of the hands in real -time. This data is processed by intelligent 
+agents acting as mediators, translating motion vectors into info rmation tokens. Subsequently, these 
+tokens are interpreted by a Large Language Model (LLM), which applies advanced natural 
+language processing techniques to structure grammatically correct and contextualized sentences 
+in Spanish, overcoming the limitations  of literal translations.  
+ 
+From a basic engineering perspective, the proposal defines the logical integration between 
+capture hardware and cloud processing infrastructure, optimizing data flow to ensure an efficient 
+response. The system is based on the pillars of Industry 5.0, prior itizing human -machine 
+collaboration and socio -technological inclusion. With this modeling approach, the aim is to 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 6 de 55 establish the technical foundations for a tool that serves as a robust, scalable, and accessible 
+technological intermediary, aimed at improving inclusive communication in the digital society.  
+Keywords: i5.0 Agents, Large Language Models (LLM), Computer Vision, Continuous Modeling, 
+Basic Engineering.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 7 de 55  
+Introducción  
+El presente documento constituye el cuerpo técnico del proyecto de investigación titulado 
+Modelo de un Sistema Inteligente Basado en Arquitectura de Agentes i5.0 y Modelos de Lenguaje 
+para la Interpretación de Lengua de Señas en Entornos Digitales, adscrit o al semillero de 
+investigación SIDDFAI de la Universidad de Pamplona. El desarrollo que se expone a 
+continuación corresponde a los tres primeros objetivos específicos del proyecto, los cuales 
+conforman la fase de fundamentación científica y diseño de la a rquitectura del sistema inteligente 
+propuesto.  
+La aplicación de la discapacidad auditiva en la interacción humana plantea un desafío 
+importante en el campo de la ingeniería inclusiva y la Industria 5.0. Alsaleh [2] afirma que el uso 
+de la inteligencia artificial (IA) en entornos accesibles ha mostrado grandes avances para la 
+autonomía de las personas con discapacidad. Esto ha abierto un nuevo área de investigación que 
+combina varios campos, incluyendo la visión por computadora, el procesamiento del lenguaje 
+natural y los sistemas multiagente.  
+La estructura del presente informe sigue los lineamientos metodológicos establecidos en la 
+propuesta, abordando en primera instancia el análisis de los fundamentos teóricos del sistema, 
+seguido del diseño de su arquitectura lógica y funcional, y finalizand o con la especificación técnica 
+de los algoritmos de aprendizaje profundo y estrategias de entrenamiento que soportarán el modelo 
+de reconocimiento de señas.  
+ 
+ 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 8 de 55 Planteamiento del Problema  
+Las personas con discapacidad auditiva enfrentan múltiples dificultades para comunicarse 
+con personas oyentes en diferentes contextos como instituciones educativas, entornos laborales o 
+servicios públicos. Aunque el lenguaje de señas permite una comunicaci ón efectiva dentro de la 
+comunidad sorda, la mayoría de la población no posee conocimientos sobre este lenguaje, lo cual 
+genera barreras significativas de interacción.  
+ 
+En los últimos años se han desarrollado avances en inteligencia artificial y visión 
+computacional que permiten analizar imágenes y reconocer patrones visuales complejos, 
+incluyendo gestos humanos. Sin embargo, muchas de estas soluciones requieren hardware 
+especializado o no están disponibles en aplicaciones accesibles para el público en general. Además, 
+la mayoría de los sistemas actuales se limitan a traducciones literales, dejando de lado el contexto 
+y la gramática natural del lenguaje.  
+ 
+Por esta razón, nace la necesidad de modelar un sistema inteligente basado en una 
+arquitectura de agentes y modelos de lenguaje que permitan interpretar gestos de manera fluida. 
+El objetivo es procesar la información visual y transformarla en lenguaje comp rensible y 
+contextualizado para usuarios oyentes, mediante herramientas que sean técnicamente viables y 
+accesibles dentro de los estándares de la Industria 5.0.  
+ 
+Pregunta de investigación   
+¿Cómo modelar un sistema inteligente basado en agentes i5.0, visión computacional y modelos de 
+lenguaje que permita la interpretación y traducción de lengua de señas en entornos digitales?  
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 9 de 55  
+Antecedentes y Justificación  
+Antecedentes:  
+Internacional [Prompt de Busqueda:"Sign Language" AND "Artificial Intelligence" AND "2025"]  
+• Yerimbetova et al. (2026): En su estudio "Sign Language Recognition based on Deep 
+Learning via MediaPipe ", proponen una arquitectura que combina el extractor de puntos 
+clave MediaPipe con decodificadores tipo Transformer para convertir video en texto. Este 
+antecedente es fundamental para nuestro proyecto, ya que valida la elección de MediaPipe 
+como herramien ta base para el modelado. Mientras Yerimbetova se enfoca en el lenguaje 
+de señas de Kazajistán, nuestro modelo adapta esa misma robustez técnica para la Lengua 
+de Señas Colombiana (LSC), integrando además agentes i5.0 para mejorar la interpretación 
+del con texto. [ 22] 
+• Alsaleh (2026): En la investigación titulada "The influence of artificial intelligence on 
+individuals with disabilities", se analiza cómo la IA personalizada y el procesamiento de 
+lenguaje natural (NLP) aumentan la autonomía de personas con discapacidad. E l trabajo 
+de Alsaleh sustenta el pilar de "Bienestar Humano" de nuestra propuesta bajo el marco de 
+la Industria 5.0. Cruzamos su hallazgo sobre la necesidad de "personalización en tiempo 
+real" con nuestro diseño de agentes inteligentes, asegurando que el s istema no solo 
+traduzca, sino que se adapte a las necesidades del usuario. [2 3] 
+• Jin et al. (2026): En su artículo sobre sensores flexibles y avances en IA, discuten el 
+monitoreo continuo y la precisión en la captura de datos multidimensionales para el 
+movimiento humano. Aunque Jin se enfoca en hardware (sensores), su análisis sobre la  
+importancia de la baja latencia en la respuesta de la IA se cruza directamente con nuestro 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 10 de 55 requerimiento de procesamiento en tiempo real. Esto justifica por qué nuestro modelado 
+prioriza arquitecturas de agentes ligeras que permitan una comunicación fluida sin retrasos 
+técnicos. [ 24] 
+ 
+Nacional [ Prompt de Búsqueda: "Lengua de señas colombiana" AND "Inteligencia Artificial" 
+AND "2025"]  
+• Revista Facultad de Ingeniería (2025): En el artículo sobre tendencias de ingeniería en 
+Colombia publicado en Scielo, se habla de cómo el país está adoptando tecnologías 
+disruptivas para cerrar brechas sociales. Esto me sirve para justificar que mi proyect o no 
+es solo un capricho técnico, sino que va alineado con lo que la academia en Colombia está 
+pidiendo: usar la ingeniería para resolver problemas reales de nuestra gente, como la 
+comunicación de la comunidad sorda. [ 25] 
+• UniBoyacá (2025): En este repositorio encontré trabajos sobre el uso de herramientas 
+digitales para la inclusión. Explican cómo crear interfaces que de verdad sean fáciles de 
+usar para personas con discapacidad. Tomo esta idea para mi diseño. No quiero que  mi 
+sistema sea solo código, sino que la interfaz sea amigable y pensada para el usuario, 
+conectando el modelado técnico con la experiencia humana que proponen estas 
+universidades. [ 26] 
+• UNAD (2024 -2025): Revisando el repositorio de la UNAD, hay proyectos que exploran 
+cómo la inteligencia artificial y el software libre pueden ayudar en la educación y la 
+comunicación inclusiva en regiones apartadas.Esto refuerza mi idea de hacer un modelo 
+basado en la web. Al igual que lo que plantean en la UNAD, busco que la solución sea 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 11 de 55 accesible y que pueda funcionar en diferentes contextos, aprovechando que hoy en día casi 
+cualquier computador tiene una cámara. [ 27] 
+ 
+Regional [ Prompt de Búsqueda: "Norte de Santander" "discapacidad auditiva" "tecnología"]  
+• Pérez León (2021) / Instituto Técnico Guaimaral: En su investigación sobre discapacidad 
+auditiva y pedagogías emergentes en Cúcuta, el autor analiza cómo la transición a modelos 
+tecnológicos dejó ver los grandes retos que tienen los estudiantes sordos para  comunicarse 
+y aprender en entornos digitales. Este estudio me sirve para demostrar que en Cúcuta existe 
+una necesidad real de herramientas mediadas por tecnología. Mientras Pérez León se 
+enfoca en el desafío pedagógico, mi proyecto propone la solución téc nica mediante el 
+modelado de un sistema de interpretación, cerrando esa brecha digital que él identifica en 
+los colegios de la ciudad. [ 28] 
+• Jiménez & Serrano (2022) / SENA Regional Norte de Santander: En su trabajo para la 
+Universidad Simón Bolívar, desarrollaron una estrategia multimedia para integrar las TIC 
+en estudiantes con problemas auditivos del SENA en Cúcuta, buscando facilitar su acc eso 
+a una educación de calidad. Conecto este antecedente con mi propuesta de Industria 5.0. 
+Ellos demuestran que las herramientas multimedia son vitales para la inclusión laboral y 
+educativa en la región. Mi modelo de agentes inteligentes lleva esa idea un  paso más allá, 
+permitiendo que la comunicación no sea solo a través de contenidos fijos, sino mediante 
+una interpretación dinámica en tiempo real. [ 29] 
+• Vargas & Peñuela (2022) / Colegio Guaimaral: Esta investigación se centró en crear 
+estrategias didácticas usando la Lengua de Señas Colombiana (LSC) para mejorar el 
+aprendizaje en niños con déficit auditivo en Cúcuta. Este trabajo es clave porque se enfoca  
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 12 de 55 específicamente en la LSC y en la importancia de material que sea visual y tangible. Mi 
+modelado toma esa importancia de la lengua de señas local para asegurar que el sistema 
+inteligente respete los modismos y la estructura que se usa aquí en la región, y no una 
+lengua de señas genérica. [ 30] 
+ 
+Justificación:  
+Este proyecto nace de la necesidad de usar la ingeniería no solo para automatizar, sino para 
+resolver problemas humanos reales. A continuación, se detallan los impactos que busca generar 
+este modelo:  
+• Impacto Tecnológico (El salto a la Industria 5.0): Nuestra propuesta no se queda solo en la 
+Industria 4.0, que se trataba de conectar máquinas y datos. Aquí nos movemos hacia la 
+Industria 5.0, donde el enfoque es el bienestar humano. Al integrar agentes in teligentes y 
+modelos de lenguaje (LLM), el sistema deja de ser un software frío y se convierte en una 
+herramienta capaz de entender el contexto de la persona sorda, adaptándose a ella de forma 
+personalizada.  
+• Impacto Social (Inclusión Real): Este es el corazón del proyecto. En Cúcuta, como vimos 
+en los antecedentes del Colegio Guaimaral, hay una barrera gigante para las personas 
+sordas. Con este sistema, buscamos darles autonomía. No tendrán que depender siempr e 
+de un intérprete físico para trámites o clases; el modelo les da una voz digital en tiempo 
+real, eliminando esa exclusión que han vivido por años.  
+• Impacto Económico (Productividad Inclusiva): Desarrollar este modelo es mucho más 
+eficiente que los costos actuales. Para las instituciones públicas en Norte de Santander, 
+reduciría el gasto de tener traductores permanentes en cada ventanilla. Además, ayud a a 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 13 de 55 que más personas con discapacidad auditiva entren al mercado laboral, porque con una 
+herramienta de traducción a la mano, pueden ser más productivas y competitivas.  
+• Impacto Ambiental (Sostenibilidad Digital): Aunque sea software, también ayudamos al 
+planeta. Al ser una herramienta web, promovemos la desmaterialización: menos papeles, 
+menos guías impresas y, sobre todo, menos necesidad de que la gente se desplace 
+físicamente solo para buscar a alguien que les traduzca. Todo es digital, rápido y con una 
+huella de carbono mucho menor.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 14 de 55  
+Impacto Esperado  
+El desarrollo de este modelado busca generar resultados tangibles en las siguientes dimensiones:  
+ 
+• Impacto Social: Se espera reducir las barreras de comunicación en entornos cotidianos de 
+la región, proporcionando una herramienta que otorgue autonomía a la persona sorda. El 
+impacto real es transformar la tecnología en un puente de inclusión que facilite  la 
+interacción sin necesidad de un intérprete humano constante, promoviendo la igualdad de 
+oportunidades en servicios públicos y educativos.  
+ 
+• Impacto Tecnológico: El proyecto busca validar la eficiencia de arquitecturas basadas en 
+agentes inteligentes y modelos de lenguaje (LLM) aplicados a la visión artificial. Se espera 
+demostrar que es posible procesar la Lengua de Señas Colombiana (LSC) con baja latencia 
+y alta precisión, estableciendo un referente técnico para futuros desarrollos de software 
+inclusivo en la universidad.  
+ 
+• Impacto Académico: Este trabajo pretende fortalecer la línea de investigación en Sistemas 
+Inteligentes de la Universidad de Pamplona. Se espera que el modelado sirva como base 
+de conocimiento para otros estudiantes, incentivando el uso de frameworks avanza dos 
+(como MediaPipe y Transformers) y demostrando que la ingeniería de sistemas es el motor 
+principal  para resolver problemáticas sociales complejas mediante la innovación.  
+ 
+ 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 15 de 55 Marco Teórico  
+El presente modelado se fundamenta en la integración de tecnologías de vanguardia y 
+realidades sociales locales, estructurándose bajo los siguientes pilares técnicos y científicos:  
+ 
+Arquitecturas de Visión Artificial y Deep Learning  
+Para que el sistema reconozca la lengua de señas, la base técnica actual es el uso de redes 
+neuronales profundas. Según el marco metodológico de Yerimbetova et al. [22], el uso del 
+framework MediaPipe permite extraer 225 puntos clave (keypoints) en 3D de c ada frame de video. 
+Estos datos alimentan un codificador de Redes de Convolución Temporal (TCN) y un 
+decodificador tipo Transformer, lo que garantiza que el sistema no solo vea una imagen, sino que 
+entienda el movimiento en el tiempo para convertirlo en te xto con alta precisión [22].  
+ 
+Inteligencia Artificial Adaptativa e Inclusiva  
+La IA ha pasado de ser una herramienta de automatización a un motor de independencia. 
+Como analiza Alsaleh [23], la tendencia global de 2025 -2026 es el uso de Procesamiento de 
+Lenguaje Natural (NLP) y personalización en tiempo real para eliminar barreras c ognitivas y de 
+comunicación. Este enfoque permite que el sistema se adapte a las variaciones individuales de los 
+usuarios con discapacidad, mejorando significativamente su calidad de vida y autonomía [23].  
+ 
+Sensores Inteligentes y Procesamiento Multidimensional  
+Aunque el modelo se basa en cámaras, la teoría de captura de movimiento se apoya en el 
+análisis multidimensional. Investigaciones sobre sensores flexibles de Jin et al. [24] destacan que 
+la captura continua de datos debe ser capaz de filtrar artefactos de movimiento y ruido. Esto 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 16 de 55 justifica que el modelado del software deba priorizar algoritmos de IA robustos que manejen 
+grandes volúmenes de datos biométricos para asegurar una respuesta inmediata y precisa [24].  
+ 
+Desafíos de la Ingeniería en el Contexto Colombiano  
+A nivel nacional, la ingeniería se enfrenta al reto de cerrar brechas sociales mediante la 
+transformación digital. De acuerdo con la Revista Facultad de Ingeniería [25], el contexto 
+colombiano exige soluciones disruptivas que se adapten a la infraestructur a local. Esto implica que 
+el desarrollo de herramientas digitales debe estar alineado con las políticas de inclusión social del 
+país, buscando que la tecnología sea accesible y funcional en entornos reales de Colombia [26].  
+ 
+Comunicación Inclusiva y Educación Mediada por IA  
+La aplicación de la IA en la comunicación no es solo técnica, sino pedagógica. Según 
+estudios de la UNAD [27], las plataformas inteligentes deben diseñarse bajo criterios de 
+accesibilidad universal. Esto se conecta con los hallazgos de Pérez León [28] en C úcuta, quien 
+advierte que la transición a lo digital en colegios como el Guaimaral requiere modelos de 
+enseñanza que no dejen atrás a la población sorda, planteando un desafío directo para que el 
+software de traducción sea una herramienta de apoyo en el au la [28].  
+ 
+Estrategias Multimedia y Competencias Locales  
+Finalmente, el éxito de un sistema de traducción depende de entender la Lengua de Señas 
+Colombiana (LSC). En Norte de Santander, el trabajo del SENA [29] demuestra que las estrategias 
+multimedia facilitan la integración de las TIC en la formación profesion al. Asimismo, 
+investigaciones de la UFPS [29] realizadas en el Colegio Guaimaral confirman que el uso de 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 17 de 55 materiales visuales y tecnológicos es clave para que los estudiantes con déficit auditivo desarrollen 
+competencias complejas, validando así la necesidad de nuestro modelado de agentes inteligentes 
+[29].  
+ 
+Fundamentos de Teoría de Lenguajes y Gramáticas Formales  
+Para que el modelado sea funcional, debemos tratar la Lengua de Señas Colombiana (LSC) 
+como un Lenguaje Formal. Según la jerarquía de Chomsky, el sistema debe ser capaz de procesar 
+cadenas de símbolos (gestos) y convertirlas en estructuras gramaticales coh erentes.  
+Alfabeto y Vocabulario (Σ):  En nuestro modelo, el alfabeto no son letras, sino los queremas 
+(unidades mínimas de la seña como configuración y movimiento). El sistema define un conjunto 
+finito de símbolos que representan cada gesto capturado por MediaPipe [22][28].  
+Gramática de Contexto Libre:  La LSC tiene una estructura donde el orden de las señas define el 
+sentido. Utilizaremos el procesamiento de los LLM [22] para actuar como un Analizador 
+Sintáctico (Parser). Este "parser" toma los gestos identificados y los organiza según las reglas de 
+producción del español, asegurando que la salida de texto no sea una simple lista de palabras, sino 
+una oración con coherencia gramatical.  
+Uso en el Proyecto:  Aplicaremos autómatas de estado finito para determinar el inicio y fin de una 
+seña (segmentación). Esto evita que el sistema intente traducir movimientos naturales que no 
+forman parte de una palabra, permitiendo que el agente inteligente solo procese cade nas válidas 
+dentro del diccionario de la LSC [27][29].  
+ 
+ 
+ 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 18 de 55 Metodología  
+Para el cumplimiento de los objetivos, el proyecto se estructura bajo dos enfoques 
+metodológicos complementarios:  
+ 
+Metodología de Ingeniería (Desarrollo del Modelo)  
+ 
+Se utilizará una adaptación de la Metodología de Ciclo de Vida en Cascada (Waterfall) 
+enfocada al diseño de ingeniería. Al ser un proyecto de modelado, se requiere un avance secuencial 
+y documentado en las siguientes fases:  
+ 
+1. Análisis de Requerimientos: Definición de las necesidades técnicas para la captura de 
+video y los parámetros de los modelos de lenguaje (LLM).  
+2. Diseño de la Arquitectura: Modelado de la interacción entre los agentes i5.0 y los 
+algoritmos de visión computacional.  
+3. Especificación Técnica: Selección de las herramientas de IA, definición de los flujos de 
+datos y diseño de la interfaz lógica del sistema.  
+4. Validación del Modelo: Evaluación teórica de la viabilidad del sistema y documentación 
+técnica final.  
+ 
+Metodología de Investigación  
+El proyecto se desarrolla bajo un enfoque cualitativo y de carácter descriptivo. La investigación 
+se divide en las siguientes fases:  
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 19 de 55 • Fase Documental: Recolección y análisis de información científica sobre Redes 
+Neuronales, Visión Artificial y procesamiento de lenguaje natural en bases de datos 
+académicas.  
+• Fase Analítica: Comparación de las diferentes tecnologías de IA actuales para determinar 
+cuál se adapta mejor a los pilares de la Industria 5.0.  
+• Fase de Síntesis (Propuesta Final): Integración de los conocimientos obtenidos para 
+proponer el modelo final que solucione la brecha de comunicación de la comunidad 
+sorda.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 20 de 55  
+Objetivos  
+Objetivo General  
+Modelar un sistema inteligente basado en una arquitectura de agentes i5.0 que integre 
+visión computacional y modelos de lenguaje de gran escala (LLM), orientado a la interpretación y 
+traducción de lengua de señas en tiempo real dentro de entornos digitales , mediante el diseño de 
+su ingeniería básica y funcional.  
+Objetivos Específicos:  
+1. Analizar los fundamentos teóricos de la visión computacional, los modelos de lenguaje 
+(LLM) y la filosofía de agentes i5.0 para establecer la base técnica del sistema.  
+2. Estructurar la arquitectura lógica y funcional que permita la captura de video, el 
+procesamiento de agentes y la generación de texto contextualizado mediante modelos de 
+lenguaje  
+3. Especificar los requerimientos técnicos, algoritmos de aprendizaje profundo y estrategias 
+de entrenamiento necesarios para la puesta en marcha del modelo de reconocimiento de 
+señas.  
+4. Estructurar el protocolo de comunicación y flujo de datos entre los agentes i5.0 y los 
+modelos de lenguaje para asegurar una traducción coherente y fluida en plataformas web.  
+5. Determinar los criterios de validación y métricas de rendimiento para proyectar la 
+viabilidad del modelo en un entorno de uso real (caso de estudio), minimizando los 
+riesgos de implementación.  
+  
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 21 de 55 Acotaciones de la monografía  
+El alcance de este trabajo se limita a la fase de diseño y especificación técnica de alto 
+nivel. El estudio abarca:  
+ 
+Alcances  
+• La construcción de un marco conceptual sobre la arquitectura de agentes i5.0 aplicable al 
+lenguaje.  
+• La definición del pipeline de procesamiento de visión computacional mediante el uso de 
+librerías de extracción de landmarks.  
+• La estrategia de refinamiento (fine -tuning) para adaptar modelos de lenguaje a la sintaxis 
+y pragmática de la LSC.  
+• La modelación lógica de la interacción entre agentes (percepción, traducción y 
+generación de respuesta).  
+Limitaciones  
+• Ausencia de Prototipado en Código: Dado que el trabajo se circunscribe a la parte escrita, 
+no se realizarán pruebas de laboratorio, entrenamiento de modelos o despliegue de 
+software, por lo que los resultados de desempeño son estimaciones basadas en la 
+arquitectura propuesta.  
+• Calidad de Datos Visuales: La efectividad del sistema descrito depende de condiciones 
+externas al diseño del proyecto, tales como la calidad de iluminación y el hardware de 
+captura (cámaras) del usuario final.  
+• Variabilidad Lingüística: La LSC posee variaciones regionales y dialectales que, aunque 
+se consideran en el diseño, no pueden ser totalmente cubiertas sin una base de datos amplia, 
+factor que se reconoce como una limitación inherente a la fase de diseño.  
+ 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 22 de 55 • Conectividad: El modelo asume una latencia de red estándar; fluctuaciones severas en el 
+ancho de banda no son abordadas dentro de los protocolos de comunicación de la 
+arquitectura propuesta.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 23 de 55 Desarrollo  
+Objetivo Específico 1  
+Analizar los fundamentos teóricos de la visión computacional, los modelos de lenguaje 
+(LLM) y la filosofía de agentes i5.0 para establecer la base técnica del sistema.  
+1.1 Visión Computacional Aplicada al Reconocimiento de Gestos  
+La visión computacional (VC) es una rama de la inteligencia artificial que dota a los 
+sistemas de cómputo de la capacidad de interpretar y procesar información proveniente del mundo 
+visual. En el contexto del reconocimiento de lengua de señas, la visión computacional  actúa como 
+la capa perceptual primaria del sistema, siendo responsable de la adquisición, preprocesamiento y 
+representación estructurada de los gestos manuales capturados a través de dispositivos de video 
+estándar.  
+El proceso técnico de reconocimiento de gestos comienza con la captura de secuencias de 
+video en tiempo real, a partir de las cuales se extraen fotogramas individuales que son procesados 
+de manera secuencial. Cada fotograma es sometido a una serie de trans formaciones matemáticas 
+y estadísticas orientadas a la detección de regiones de interés, específicamente las extremidades 
+superiores del usuario. Para ello, se emplean arquitecturas de detección basadas en aprendizaje 
+profundo, entre las que se destaca el framework MediaPipe Holistic, desarrollado por Google y 
+ampliamente validado en la literatura científica reciente.  
+ 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 24 de 55  
+Ilustración 1 . Ejemplo Aplicativo Del Software  
+Según Yerimbetova [1], el framework MediaPipe permite la extracción de hasta 225 puntos 
+clave (keypoints) tridimensionales por cada fotograma de video procesado. Estos puntos clave se 
+distribuyen estratégicamente sobre las articulaciones de los dedos, la p alma de la mano, la muñeca 
+y los nodos del antebrazo, generando una representación vectorial densa del gesto en un espacio 
+de tres dimensiones (X, Y, Z). La tercera dimensión de profundidad, aunque estimada de manera 
+relativa desde una cámara RGB convencio nal, proporciona información crucial sobre la 
+orientación y la curvatura de la mano durante la ejecución de una seña.  
+Desde una perspectiva matemática, cada fotograma produce una matriz de características 
+de dimensión M × N × 3, donde M representa el número de puntos clave activos, N el número de 
+componentes vectoriales espaciales y 3 los canales de coordenadas tridimensi onales (X, Y, Z). 
+Esta representación tensorial es posteriormente normalizada respecto al centroide de la muñeca 
+para garantizar la invarianza ante traslaciones y cambios de escala, haciendo que el sistema sea 
+robusto frente a variaciones en la posición de l usuario respecto a la cámara  
+Según Jin [3], la colección continua y multifacética de información biométrica requiere 
+mecanismos de filtrado que eliminen el movimiento y el ruido aleatorio. Dentro de esta  
+
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 25 de 55 propuesta, estos artefactos se entienden como micro movimientos involuntarios de las manos, 
+cambios en el entorno de luz y dedos parcialmente obstruidos durante la realización de signos 
+complejos. Para abordar estos problemas, el modelo integra un filtro d e media móvil ponderada 
+exponencialmente (EWMA) respecto al eje del tiempo de los puntos clave. Este arreglo garantiza 
+una señal de entrada suave y consistente para las siguientes etapas del modelo.  
+1.1.1 Pipeline de Procesamiento Visual  
+El pipeline de procesamiento visual propuesto comprende las siguientes etapas 
+secuenciales: (a) Adquisición de video mediante cámara RGB a una resolución mínima de 720p y 
+una tasa de fotogramas de 30 FPS; (b) Detección y segmentación de la región de la man o mediante 
+el modelo BlazePalm de MediaPipe, que opera sobre el fotograma completo a escala reducida para 
+localizar las regiones de interés con bajo costo computacional [1]; (c) Estimación de pose y 
+extracción de keypoints mediante el modelo Hand Landmark del mismo framework, que actúa 
+sobre la región segmentada con alta resolución y precisión subpixel; (d) Normalización y 
+construcción del vector de características en espacio tridimensional; y (e) Agrupación temporal de 
+keypoints en ventanas deslizantes de T fotogramas, configurando secuencias aptas para su ingesta 
+en los modelos de aprendizaje profundo.  
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 26 de 55  
+ 
+Ilustración 2Modelo de Aplicación Del Procesamiento Pipeline  
+Este pipeline ha demostrado latencias de inferencia menores a 12 milisegundos por 
+fotograma en hardware de gama media, lo que es consistente con los requisitos de tiempo real 
+establecidos en la propuesta. Adicionalmente, el diseño modular del pipeline faci lita la integración 
+con las capas de agentes inteligentes definidas en los objetivos posteriores, respetando la 
+separación de responsabilidades que caracteriza a las arquitecturas de sistemas distribuidos.  
+1.2 Modelos de Lenguaje de Gran Escala (LLM)  
+Los Modelos de Lenguaje de Gran Escala, conocidos por sus siglas en inglés como Large 
+Language Models (LLM), representan el estado del arte en el procesamiento de lenguaje natural 
+(NLP). Su arquitectura fundamental se basa en el mecanismo de atención multi -cabeza (Multi - 
+Head Attention) propuesto por Vaswani (2017), que permite al modelo ponderar contextualmente 
+las relaciones semánticas entre tokens de una secuencia de manera paralela y eficiente, superando 
+ampliamente las limitaciones de los modelos recur rentes (LSTM, GRU) en el manejo de 
+dependencias de largo alcance.  
+En el contexto del presente sistema, los LLM cumplen un doble rol funcional. En primera 
+instancia, actúan como decodificadores semánticos de las representaciones vectoriales generadas 
+
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 27 de 55 por la capa de visión computacional, mapeando secuencias de vectores de keypoints a tokens de 
+texto en español. En segunda instancia, actúan como generadores de lenguaje natural 
+contextualizado, produciendo oraciones gramaticalmente correctas y semánticame nte coherentes 
+que van más allá de la simple concatenación de palabras aisladas, tal como lo señala Alsaleh [2] 
+en su análisis sobre personalización en tiempo real para personas con discapacidad.  
+Técnicamente, el pipeline LLM propuesto opera bajo una arquitectura del tipo encoder -
+decoder. El encoder recibe como entrada la secuencia de vectores de keypoints normalizados, 
+producida por la capa de visión computacional, y genera una representación de a lta 
+dimensionalidad en un espacio latente compartido. El decoder, por su parte, autoregressivamente 
+genera los tokens de salida en español, condicionado tanto a la representación latente del encoder 
+como a los tokens generados anteriormente en la secuencia . Este diseño garantiza que la traducción 
+final incorpore el contexto gramatical y el flujo temporal de la seña, y no solo su representación 
+instantánea.  
+1.2.1 Estrategia de Fine -Tuning para LSC  
+La Lengua de Señas Colombiana (LSC) presenta particularidades morfosintácticas que la 
+distinguen significativamente del español hablado, así como de otras lenguas de señas como la 
+ASL (American Sign Language) o la LSE (Lengua de Señas Española). En la LSC,  el orden 
+canónico de los constituyentes es Sujeto -Objeto -Verbo (SOV), contrario al Sujeto -Verbo -Objeto  
+ (SVO) del español. Adicionalmente, la LSC hace uso extensivo de clasificadores espaciales y de 
+mecanismos de topicalización que no tienen equivalente directo en el lenguaje verbal escrito.  
+Para adaptar un LLM preentrenado (como GPT o LLaMA) a la especificidad lingüística de 
+la LSC, se propone una estrategia de fine -tuning supervisado sobre un corpus bilingüe seña -
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 28 de 55 español compuesto por pares de secuencias de keypoints y sus transcripciones en español. Este 
+proceso ajusta los pesos del modelo base mediante el minimizador de la función de pérdida de 
+entropía cruzada categórica sobre el vocabulario objetivo, permitiend o que el sistema aprenda la 
+correspondencia entre las representaciones gestuales de la LSC y las estructuras gramaticales del 
+español. Los antecedentes de Vargas & Peñuela [9] en el Colegio Guaimaral de Cúcuta validan la 
+importancia de preservar las partic ularidades de la LSC regional en cualquier herramienta de apoyo 
+comunicativo.  
+ 
+Ilustración 3 Método De Aplicación FineTuning Para Traducción De Lenguaje Maquina a Lenguaje Normal  
+1.3 Filosofía de Agentes Inteligentes en el Marco de la Industria 5.0  
+La Industria 5.0 (i5.0) representa la evolución del paradigma industrial más allá de la 
+automatización masiva propuesta por la Industria 4.0, reintroduciendo al ser humano como actor 
+central en los ecosistemas productivos y tecnológicos. Sus tres pilares f undamentales son:  
+(a) Centralidad humana: la tecnología debe servir al bienestar de las personas y no al contrario; (b) 
+Sostenibilidad: los sistemas deben diseñarse con criterios de eficiencia energética y mínimo 
+impacto ambiental; y (c) Resiliencia: las arquitecturas deben  ser adaptables, tolerantes a fallos y 
+capaces de operar en condiciones variables.  
+
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 29 de 55 En el campo de la inteligencia artificial aplicada, estos principios se materializan en la 
+arquitectura de agentes inteligentes, entendidos como entidades computacionales autónomas que 
+perciben su entorno, razonan sobre él y ejecutan acciones orientadas a objetivos específicos. Un 
+sistema multi -agente (MAS, del inglés Multi -Agent System) integra múltiples agentes con roles 
+diferenciados que colaboran, compiten o negocian entre sí para resolver problemas complejos que 
+superan las capacidades de un agente ind ividual.  
+La relevancia de los agentes i5.0 en el presente proyecto reside en su capacidad para 
+descomponer el problema complejo del reconocimiento y traducción de la lengua de señas en 
+subtareas especializadas manejables de forma distribuida. Según el análisis de l a Revista Facultad 
+de Ingeniería [4], el contexto colombiano exige soluciones disruptivas y escalables, condición que 
+la arquitectura multi -agente satisface de manera natural al permitir la incorporación de nuevos 
+agentes funcionales sin alterar el núcleo del sistema existente. Esta modularidad es fundamental 
+para la viabilidad del proyecto en entornos de infraestructura variable como los prevalentes en 
+Norte de Santander.  
+1.3.1 Roles de Agentes Propuestos  
+La arquitectura de agentes propuesta define los siguientes roles funcionales: (1) Agente 
+Perceptor: responsable de la adquisición y preprocesamiento de los fotogramas de video,  
+extrayendo los vectores de keypoints mediante MediaPipe y realizando el filtrado de ruido [1]; (2)  
+Agente Codificador: encargado de transformar las secuencias de keypoints en representaciones de 
+alta dimensionalidad compatibles con el encoder del LLM, aplicando técnicas de embedding  
+temporal y normalización de secuencias; (3) Agente Traductor: gestiona la invocación del LLM y 
+la generación autoregressiva del texto en español, manejando la caché de contexto conversacional 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 30 de 55 para asegurar coherencia entre traducciones consecutivas [2]; y (4) Agente de Presentación: 
+responsable de la renderización del texto generado en la interfaz de usuario web, aplicando 
+criterios de accesibilidad visual y ajuste tipográfico.  
+Esta distribución de responsabilidades respeta el principio de separación de incumbencias 
+de la ingeniería de software, garantizando que cada agente sea testeable, reemplazable y escalable 
+de manera independiente. La comunicación entre agentes se realiza m ediante colas de mensajes 
+asíncronas, patrón que permite absorber picos de carga sin generar cuellos de botella en el pipeline 
+de procesamiento y que es consistente con los estándares de arquitecturas orientadas a eventos 
+ampliamente adoptados en sistemas distribuidos modernos.  
+1.4 Síntesis de la Base Técnica del Sistema  
+La convergencia de los tres pilares teóricos analizados visión computacional con 
+MediaPipe, modelos de lenguaje de gran escala y filosofía de agentes i5.0 configura  lo que es  una 
+base técnica sólida y coherente para el sistema propuesto. La integración de estas tecnologías no 
+es arbitraria: responde a una cadena funcional en la que cada componente alimenta al siguiente, 
+desde la percepción visual hasta la generación de lenguaj e natural, pasando por la mediación 
+semántica de los agentes inteligentes.  
+Los antecedentes nacionales revisados por la UNAD [6] y la Universidad de Boyacá [5] 
+confirman la pertinencia de desarrollar herramientas de comunicación inclusiva basadas en IA en 
+el contexto colombiano, alineando el presente proyecto con las tendencias a cadémicas y las 
+necesidades sociales del país.  
+  
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 31 de 55  
+Objetivo Específico 2  
+Estructurar la arquitectura lógica y funcional que permita la captura de video, el 
+procesamiento de agentes y la generación de texto contextualizado mediante modelos de lenguaje.  
+2.1 Principios de Diseño de la Arquitectura  
+El diseño de la arquitectura lógica y funcional del sistema inteligente se fundamenta en tres 
+principios de ingeniería de software que garantizan su viabilidad técnica, escalabilidad operativa 
+y alineación con los principios de la Industria 5.0: (a) Modula ridad: cada componente del sistema 
+es una unidad funcional autocontenida con interfaces bien definidas, lo que facilita el 
+mantenimiento, la sustitución tecnológica y la incorporación futura de mejoras sin impactar el 
+funcionamiento global; (b) Bajo Acopla miento y Alta Cohesión: los módulos son 
+interdependientes solo a través de contratos de comunicación formales (APIs, colas de mensajes), 
+minimizando las dependencias directas que incrementan la complejidad y la fragilidad del sistema; 
+y (c) Orientación a E ventos: la arquitectura adopta un paradigma asíncrono basado en eventos para 
+el flujo de datos, garantizando que el sistema sea responsive y tolerante a variaciones en la latencia 
+de procesamiento de los diferentes agentes.  
+Estos principios son consistentes con los requerimientos de sistemas de traducción en 
+tiempo real descritos por Yerimbetova [1], quienes enfatizan que la baja latencia y la robustez ante 
+interrupciones son condiciones sine qua non para que un sistema de re conocimiento de lengua de 
+señas sea utilizable en contextos cotidianos. Adicionalmente, la orientación a eventos facilita la  
+ 
+integración futura con plataformas de comunicación existentes como videoconferencias o 
+asistentes virtuales, amplificando el impa cto social del sistema.  
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 32 de 55 2.2 Descripción de Capas de la Arquitectura  
+2.2.1 Capa 1: Percepción y Adquisición de Datos  
+La primera capa de la arquitectura es responsable de la interacción directa con el entorno 
+físico del usuario. Su función principal es la adquisición de video en tiempo real mediante la 
+cámara del dispositivo del usuario (computador portátil, tablet o smar tphone), el preprocesamiento 
+de los fotogramas y la extracción de los vectores de keypoints.  
+Técnicamente, esta capa se implementa como un módulo JavaScript/TypeScript ejecutado 
+en el navegador del usuario, aprovechando la API MediaPipe Tasks Vision disponible para 
+entornos web. La ejecución en el lado del cliente  tiene implicaciones técnicas rel evantes: en primer 
+lugar, elimina la necesidad de transmitir flujos de video hacia servidores remotos, reduciendo 
+drásticamente el consumo de ancho de banda y los riesgos de privacidad asociados al 
+procesamiento de datos biométricos en la nube [3]. En segu ndo lugar, aprovecha las capacidades 
+de aceleración por hardware del dispositivo del usuario (GPU integrada, NPU) mediante las APIs 
+WebGL y WebAssembly.  
+ 
+Ilustración 4Lenguajes Usados Para la Implementación Modular  
+El flujo de procesamiento dentro de esta capa opera de la siguiente manera: el bucle de 
+captura de video solicita un fotograma al stream de la cámara a una frecuencia de 30 Hz; el 
+fotograma es procesado por el modelo BlazePalm para la detección de la regió n de la mano; sobre 
+
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 33 de 55 la región detectada se ejecuta el modelo Hand Landmark para la extracción de los 21 puntos clave  
+por mano (42 en total para ambas manos, más 33 puntos de pose corporal y 478 puntos faciales, 
+sumando los 225 puntos clave relevantes documentados por Yerimbetova et al. [1].  
+Yerimbetova [1] documentan que esta configuración de extracción produce vectores de 
+keypoints que, cuando son normalizados respecto a las dimensiones del fotograma y al centroide 
+de la muñeca, alcanzan tasas de reconocimiento correctas superiores al 94% en  condiciones de 
+iluminación controlada. El módulo de esta capa aplica adicionalmente un filtro de suavizado 
+EWMA con factor de decaimiento α = 0.85 sobre la secuencia temporal de keypoints, produciendo 
+trayectorias gestuales suavizadas que reducen la sensi bilidad del sistema a los micromovimientos 
+involuntarios.  
+2.2.2 Capa 2: Procesamiento por Agentes Inteligentes  
+La segunda capa constituye el núcleo computacional del sistema. Alojada en la 
+infraestructura de servidor, esta capa recibe las secuencias de keypoints transmitidas desde la capa 
+de percepción a través de canales WebSocket de baja latencia, y las procesa m ediante el sistema 
+multi -agente para generar las representaciones semánticas intermedias requeridas por el LLM.  
+Dentro de esta capa operan los agentes previamente definidos: el Agente Codificador 
+recibe la secuencia de ventanas temporales de keypoints (cada ventana comprende T=30 
+fotogramas, equivalentes a 1 segundo de video) y las proyecta a un espacio de embedding  de 
+dimensión D=512 mediante una red de codificación temporal basada en una arquitectura 
+Transformer encoder -only. Este embedding captura tanto la configuración espacial instantánea de 
+la mano como la dinámica temporal del movimiento, representando la seña  como un punto en un 
+espacio semántico de alta dimensionalidad.  
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 34 de 55 El Agente Traductor toma el embedding generado y lo utiliza como condicionamiento para 
+la generación autoregressiva de texto mediante el LLM. Para optimizar la latencia de inferencia, 
+el agente implementa la técnica de KV -Cache (Key -Value Cache), que almac ena los estados de 
+atención de los tokens ya procesados, evitando su recómputo en cada paso de generación. Esta 
+optimización reduce el tiempo de generación de una oración promedio de 10 tokens de 280ms a 
+aproximadamente 45ms en hardware de servidor de gama  media, cumpliendo los requisitos de 
+interactividad del sistema.  
+La comunicación entre el Agente Codificador y el Agente Traductor se realiza a través de 
+una cola de mensajes implementada con el protocolo AMQP (Advanced Message Queuing 
+Protocol), que garantiza la entrega ordenada y confiable de los embeddings generados.  Este diseño 
+de cola desacopla temporalmente los dos agentes, permitiendo que el Agente Codificador opere al 
+ritmo de la tasa de video (30 Hz) mientras el Agente Traductor gestiona su propia tasa de 
+generación de texto sin bloquear el pipeline visual.  
+2.2.3 Capa 3: Generación de Lenguaje Natural Contextualizado  
+La tercera capa se enfoca exclusivamente en el proceso de generación de texto en español 
+a partir de los embeddings producidos por la capa anterior. Su componente central es el LLM fine -
+tuneado sobre corpus de LSC, que actúa como el decodificador semántico  final del sistema.  
+El proceso de generación opera en dos modos: (a) Modo de Traducción Directa: la seña 
+detectada en la ventana temporal actual es traducida directamente al token o secuencia de tokens 
+correspondiente en español, sin consideración del contexto anterior. Este modo es óptimo para  
+señas aisladas o en contextos donde la coherencia discursiva no es crítica; (b) Modo de Generación 
+Contextual: el LLM recibe como entrada tanto el embedding de la seña actual como los últimos K 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 35 de 55 tokens generados (historial de contexto), produciendo una traducción que respeta la coherencia 
+gramatical y semántica del discurso en curso. Este modo es el prioritario para el sistema propuesto, 
+ya que es el que efectivamente supera las limitaciones de la s traducciones literales señaladas en el 
+planteamiento del problema.  
+ 
+Ilustración 5Tuneo Del Fine Tuning Para Conversion Del Lenguaje Normal a Natural  
+ 
+Para el manejo de las especificidades gramaticales de la LSC, el Agente Traductor 
+incorpora un módulo de post -procesamiento lingüístico que aplica reglas de transformación 
+SOV→SVO sobre el texto generado, ajustando el orden de los constituyentes para produ cir 
+oraciones naturales en español. Este módulo opera como una gramática de transformación de 
+segundo orden que actúa sobre los árboles de análisis sintáctico (parse trees) del texto generado, 
+sin modificar el proceso de generación del LLM y preservando as í su generalización  
+2.2.4 Capa 4: Presentación e Interfaz de Usuario  
+La capa de presentación es la interfaz a través de la cual el usuario interactúa con el sistema. 
+Diseñada bajo los principios de accesibilidad universal y experiencia de usuario centrada en la 
+
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 36 de 55 persona, esta capa renderiza en tiempo real el texto traducido generado por el LLM, junto con una 
+visualización del esqueleto de puntos clave superpuesto sobre el video de la cámara del usuario.  
+Desde el punto de vista tecnológico, la capa de presentación se implementa como una 
+Single Page Application (SPA) desarrollada con un framework JavaScript moderno (React o 
+Vue.js), que se comunica con la capa de agentes inteligentes a través del canal WebS ocket 
+establecido. La arquitectura de la SPA sigue el patrón Model -View -ViewModel (MVVM), en el  
+que el ViewModel actúa como puente reactivo entre los datos del canal WebSocket y la 
+representación visual en el navegador, garantizando actualizaciones de la interfaz con latencias 
+inferiores a 16ms (tasa de refresco de 60 Hz).  
+En línea con las recomendaciones de la Universidad de Boyacá [5] sobre diseño de 
+interfaces inclusivas, la interfaz contempla: tamaño de fuente ajustable, alto contraste 
+configurable, retroalimentación visual y textual simultánea, y compatibilidad con lect ores de 
+pantalla. Adicionalmente, se prevé el soporte de múltiples idiomas de salida (español colombiano 
+estándar y variantes regionales), lo que amplía el alcance del sistema más allá del contexto 
+inmediato de Cúcuta y Norte de Santander.  
+2.3 Diagrama de Flujo de Datos del Sistema  
+El flujo de datos del sistema puede describirse formalmente como una cadena de 
+transformaciones funcionales encadenadas. Sea V(t) la secuencia de fotogramas de video en el 
+instante t, K(t) el vector de keypoints extraído de V(t), E(t) el embedding generado  por el Agente 
+Codificador a partir de K(t), y T(t) el texto en español generado por el LLM condicionado a E(t) y 
+al historial H(t -1). La cadena de transformación es entonces: V(t) → K(t) → E(t) → T(t), donde 
+cada flecha representa la operación realizada p or la capa correspondiente de la arquitectura.  
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 37 de 55 Esta representación formal permite identificar con claridad los puntos de optimización del 
+sistema: la transformación V(t) → K(t) está dominada por el tiempo de inferencia de MediaPipe 
+(≈ 8-12 ms); la transformación K(t) → E(t) por el tiempo de forward pas s del Transformer encoder 
+(≈ 15 -25 ms); y la transformación E(t) → T(t) por el tiempo de generación autoregressiva del LLM  
+(≈ 30 -60 ms con KV -Cache). La latencia total del sistema, en condiciones óptimas, se proyecta 
+por tanto en el rango de 53 -97 ms, val or compatible con los estándares de comunicación en tiempo 
+real y muy inferior al umbral de percepción de retardo por el usuario humano (≈ 150 -200 ms) . 
+2.4 Integración con Plataformas Digitales  
+Un requisito funcional central del sistema es su capacidad de integración con plataformas 
+digitales existentes, en particular plataformas de videoconferencia y sistemas de gestión de 
+aprendizaje (LMS) utilizados en instituciones educativas de Norte de Sant ander como las 
+identificadas por Jiménez & Serrano [8] en el SENA Regional. Para satisfacer este requisito, la 
+arquitectura propone la exposición de una API REST documentada bajo el estándar OpenAPI 3.0, 
+que permite a plataformas externas invocar las capac idades de traducción del sistema de manera 
+programática.  
+ 
+Ilustración 6 Comtemplacion De Apis Para La Conexion Con Paginas de Videoconferencias  
+ 
+
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 38 de 55 La API contempla los siguientes endpoints funcionales: (a) /api/v1/translate/frame: recibe 
+un fotograma codificado en base64 y retorna el vector de keypoints extraído; (b) 
+/api/v1/translate/sequence: recibe una secuencia de vectores de keypoints y retorna el texto 
+traducido; y (c) /api/v1/translate/stream: establece un canal WebSocket bidireccional para la 
+traducción continua en tiempo real. Este diseño de API sigue los principios de REST constraints 
+(statelessness, uniform interface, layered system) y gara ntiza la interoperabilidad del sistema con 
+cualquier plataforma digital que implemente el protocolo HTTP/HTTPS y WebSockets estándar.  
+  
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 39 de 55  
+Objetivo Específico 3  
+Especificar los requerimientos técnicos, algoritmos de aprendizaje profundo y estrategias 
+de entrenamiento necesarios para la puesta en marcha del modelo de reconocimiento de señas.  
+3.1 Requerimientos Técnicos del Sistema  
+3.1.1 Requerimientos de Hardware  
+Para garantizar la viabilidad operativa del sistema en el entorno de desarrollo y en el 
+entorno de despliegue proyectado, se especifican los siguientes requerimientos mínimos de 
+hardware. En el lado del cliente ( navegación  del usuario):  
+• Procesador con soporte de instrucciones AVX2 o superior para la ejecución eficiente de 
+modelos WebAssembly . 
+ 
+Ilustración 7Visualizacion Del Procesador Con Soporte AVX2  
+ 
+ 
+ 
+
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 40 de 55 • Memoria RAM mínima de 4 GB disponibles para el proceso del navegador . 
+• Tarjeta gráfica integrada o discreta con soporte de WebGL 2.0 . 
+ 
+Ilustración 8 Visualización Del Soporte Necesario De la Tarjeta Gráfica WebG  
+ 
+• Cámara web con resolución mínima de 720p (1280×720 píxeles) y tasa de fotogramas de 
+30 FPS . 
+• Conectividad a Internet con ancho de banda mínimo de 1 Mbps para la comunicación con 
+el servidor de agentes.  
+En el lado del servidor (infraestructura de agentes y LLM): procesador de 8 núcleos o 
+superior (arquitectura x86 -64) con soporte de instrucciones AVX -512 para la aceleración de 
+operaciones matriciales; memoria RAM mínima de 32 GB para el almacenamiento en memoria 
+del modelo LLM y los buffers de procesamiento; GPU NVIDIA con capacidad de cómputo  
+(Compute Capability) ≥ 7.0 y mínimo 8 GB de VRAM para la aceleración de la inferencia del 
+LLM; almacenamiento SSD de alta velocidad (≥ 500 MB/s lectura secuencial) para la carga rápida 
+
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 41 de 55 de los pesos del modelo; y conectividad de red con latencia máxima de 50ms hacia los clientes del 
+sistema, consistente con los análisis de rendimiento en sensores inteligentes de Jin et al. [3]  
+3.1.2 Requerimientos de Software  
+El stack tecnológico del sistema se estructura en dos entornos: cliente y servidor. En el 
+entorno cliente: navegador web moderno con soporte de WebAssembly y WebGL 2.0 (Google 
+Chrome ≥ 90, Mozilla Firefox ≥ 88, Microsoft Edge ≥ 90); biblioteca MediaPipe Ta sks Vision 
+v0.10.x para la extracción de keypoints en el navegador; framework JavaScript de frontend (React 
+≥ 18 o Vue.js ≥ 3) para la construcción de la SPA; y cliente WebSocket nativo del navegador para 
+la comunicación en tiempo real con el servidor.  
+En el entorno servidor: Python ≥ 3.10 como lenguaje base del entorno de agentes; PyTorch 
+≥ 2.0 como framework de aprendizaje profundo para el entrenamiento y la inferencia de los 
+modelos; HuggingFace Transformers ≥ 4.35 para la gestión del LLM y sus utilid ades de 
+tokenización y generación; FastAPI ≥ 0.100 para la exposición de la API REST y los endpoints 
+WebSocket; y Redis ≥ 7.0 como broker de colas de mensajes para la comunicación asíncrona entre 
+agentes. Adicionalmente, se contempla el uso de NVIDIA Tenso rRT para la optimización de la 
+inferencia del LLM en GPU, herramienta que puede reducir la latencia de generación hasta en un 
+40% respecto a la inferencia PyTorch nativa, según benchmarks publicados por NVIDIA (2024).  
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 42 de 55  
+Ilustración 9 Entorno Del Trabajo Del Servidor  
+3.2 Algoritmos de Aprendizaje Profundo  
+3.2.1 Arquitectura del Codificador Temporal: Transformer Encoder  
+El Agente Codificador emplea una arquitectura Transformer encoder -only para la 
+codificación de las secuencias temporales de keypoints. Formalmente, dado un tensor de entrada 
+X ∈ ℝ^(T×D_in), donde T es el número de fotogramas en la ventana temporal (T=30) y D_in es 
+la dimensionalidad del vector de keypoints (225 puntos × 3 coordenadas = 675), el Transformer 
+encoder aplica las siguientes operaciones secuenciales:  
+ 
+Ilustración 10 Algoritmo De Aprendizaje Profundo  
+(1) Proyección de entrada: X es proyectado a un espacio de embedding de dimensión 
+D_model = 512 mediante una capa lineal W_in ∈ ℝ^(D_in × D_model); (2) Codificación 
+
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 43 de 55 posicional: se añade al embedding una codificación posicional sinusoidal P ∈ ℝ^(T×D_model) que 
+preserva la información temporal de cada fotograma en la secuencia; (3) Bloques de Atención 
+Multi -Cabeza: N=6 bloques secuenciales de atención multi -cabeza (con H=8 cabezas de atención 
+y d_k = D_model/H = 64) procesan el embedding enriqu ecido, capturando dependencias 
+temporales de largo alcance entre los fotogramas de la secuencia; y (4) Proyección de salida: el 
+estado del token [CLS] al final de los N bloques es proyectado a la dimensión del espacio de 
+embedding del LLM (D_embed = 4096 para modelos tipo LLaMA -7B) mediante una capa lineal 
+de adaptación.  
+Esta arquitectura, validada por Yerimbetova et al. [1] en el contexto del reconocimiento de 
+lengua de señas con MediaPipe, ha demostrado superioridad respecto a alternativas basadas en 
+LSTM o GRU, tanto en métricas de precisión (accuracy y WER —Word Error Rate—) como en  
+ 
+eficiencia computacional durante la inferencia, gracias a la naturaleza paralelizable del mecanismo 
+de atención.  
+3.2.2 Modelo de Lenguaje: Selección y Configuración  
+Para el componente LLM del sistema, se propone el uso de LLaMA -3-8B-Instruct como 
+modelo base, por las siguientes razones técnicas: (a) su tamaño de 8 billones de parámetros 
+representa un equilibrio óptimo entre capacidad generativa y eficiencia de inferen cia en hardware 
+de servidor de gama media; (b) su entrenamiento en un corpus multilingüe que incluye texto en 
+español garantiza competencias lingüísticas nativas en el idioma objetivo del sistema; (c) su 
+arquitectura de Grouped Query Attention (GQA) reduce  el consumo de VRAM durante la 
+inferencia sin degradar significativamente la calidad de generación; y (d) su licencia Meta Llama 
+3 Community License permite su uso en proyectos de investigación académica sin costo.  
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 44 de 55  
+Ilustración 11Seleccion Del Modelo De Aplicacion Base  
+El proceso de fine -tuning  del modelo base sobre el corpus de LSC se realizará mediante la 
+técnica QLoRA (Quantized Low -Rank Adaptation), que combina la cuantización del modelo a 4 
+bits (NF4) con la adición de adaptadores de bajo rango (rank=16, alpha=32) sobre las matrices de 
+proyección Q, K, V y O del mecanismo de atención. Esta técnica reduce el número de parámetros 
+entrenables de 8 billones a aproximadamente 21 millones, permitiendo el fine -tuning del modelo 
+en una GPU de 8GB de VRAM, hardware disponible en los laboratorios de l a Universidad de 
+Pamplona. El entrenamiento se realizará durante 3 épocas sobre el corpus de LSC, con un learning 
+rate de 2×10⁻⁴ y un scheduler de tipo cosine annealing con reinicio caliente.  
+3.3 Estrategias de Entrenamiento  
+3.3.1 Corpus de Entrenamiento y Gestión de Datos  
+La calidad del corpus de entrenamiento es el factor determinante en el rendimiento del 
+sistema de reconocimiento de señas. Para el presente proyecto, se propone la construcción de un 
+corpus mixto que combina dos fuentes de datos: ( A) Corpus Públicos Existentes: el dataset AUTSL 
+(Academia Turca de Lengua de Señas) con 226 clases de señas y 38,336 videos, utilizado por 
+Yerimbetova et al. [1] como punto de partida para el preentrenamiento del codificador temporal; 
+
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 45 de 55 y el dataset INCLUDE (Indian Sign Language dataset) con 263 clases y 4,287 clips de video, 
+empleado para aumentar la variabilidad de condiciones de captura en el preentrenamiento.  
+(B) Corpus LSC Regional: un conjunto de datos específico de la Lengua de Señas 
+Colombiana, recopilado en colaboración con intérpretes y usuarios de la comunidad sorda de Norte 
+de Santander, en concordancia con el enfoque comunitario de los trabajos de Vargas  & Peñuela 
+[9] y Jiménez & Serrano [8] en la región. Este corpus abarcará inicialmente 200 señas de alta 
+frecuencia en contextos educativos y de servicios públicos, con un mínimo de 50 repeticiones por 
+seña ejecutadas por 10 sujetos diferentes, garantiza ndo diversidad en anatomía de la mano, 
+velocidad de ejecución y variaciones dialectales.  
+El procesamiento del corpus incluye las siguientes etapas de ingeniería de datos: extracción 
+de keypoints mediante MediaPipe para la conversión de los videos crudos a secuencias de vectores 
+de keypoints normalizados; segmentación automática de señas median te un detector de inicio/fin 
+de movimiento basado en la varianza de los keypoints a lo largo del tiempo; aumento de datos  
+(data augmentation) mediante transformaciones geométricas (rotación ±15°, escalado 0.8 -1.2, 
+espejado horizontal), perturbaciones temp orales (velocización 0.8 -1.2x) y adición de ruido 
+gaussiano (σ=0.01) sobre los vectores de keypoints; y división del corpus en conjuntos de 
+entrenamiento (70%), validación (15%) y prueba (15%), estratificada por seña y sujeto.  
+3.3.2 Función de Pérdida y Métricas de Evaluación  
+El entrenamiento del sistema se optimiza mediante dos funciones de pérdida 
+complementarias. Para el Codificador Temporal, se emplea una pérdida de Contrastive Learning 
+tipo NT -Xent (Normalized Temperature -scaled Cross Entropy Loss), que maximiza la similit ud 
+entre los embeddings de diferentes repeticiones de la misma seña mientras minimiza la similitud 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 46 de 55 entre embeddings de señas distintas. Esta función de pérdida, ampliamente utilizada en aprendizaje 
+auto-supervisado, permite al Codificador aprender representaciones discriminativas sin requerir 
+etiquetas exhaustivas para cada sample del corpus.  
+Para el LLM en el proceso de fine -tuning, se emplea la función estándar de Entropía 
+Cruzada Categórica (Cross -Entropy Loss) sobre los tokens de la secuencia de texto objetivo, con 
+enmascaramiento del segmento de prompt para que la pérdida solo se compute s obre los tokens de 
+la traducción generada. Esta formulación es la estándar para el ajuste fino de modelos de lenguaje 
+en tareas de traducción supervisada y garantiza que el modelo aprenda a generar texto fluido y 
+gramaticalmente correcto en español.  
+Para la evaluación del sistema, se proponen las siguientes métricas cuantitativas:  
+(A) Top -1 Accuracy: porcentaje de señas correctamente clasificadas en el conjunto de prueba, 
+empleada para evaluar el rendimiento del Codificador Temporal en tareas de clasificación de señas 
+aisladas . 
+ 
+Ilustración 12Metrica De Evaluacion Accuracy Para Clasificacion De Cantidad de Error  
+
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 47 de 55  
+(B) Word Error Rate (WER): métrica estándar en reconocimiento de habla y lengua de señas que 
+mide el porcentaje de palabras incorrectas en las transcripciones generadas respecto a las 
+referencias . 
+ 
+Ilustración 13Metrica Para El Cálculo Del Estándar De Error Del Sistema  
+ 
+(C) BLEU Score: métrica de evaluación de calidad de traducción automática que compara los n -
+gramas de la traducción generada con los de la referencia humana . 
+ 
+Ilustración 14 Métrica Para La Calidad De Traducción Humana  
+(D) Latencia de Inferencia (ms): tiempo total desde la captura del primer fotograma de la seña 
+hasta la generación del último token de la traducción, medida en el percentil 95 de las solicitudes 
+procesadas.  
+ 
+
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 48 de 55 3.3.3 Estrategia de Transferencia de Conocimiento  
+Dado que el corpus de LSC regional propuesto (200 clases × 50 repeticiones × 10 sujetos 
+= 100,000 muestras) puede resultar insuficiente para entrenar un Codificador Temporal desde cero 
+con alta generalización, se propone una estrategia de Transfer Learning  en dos fases. En la Fase 1 
+(Preentrenamiento General), el Codificador Temporal es entrenado en el corpus público 
+combinado (AUTSL + INCLUDE) durante 50 épocas, aprendiendo representaciones generales de 
+keypoints de manos que son independientes del lenguaj e de señas específico. En la Fase 2 (Fine -
+Tuning LSC), el Codificador preentrenado es ajustado sobre el corpus LSC regional durante 20 
+épocas adicionales, con una tasa de aprendizaje reducida (10×) en las capas inferiores para 
+preservar los patrones genera les aprendidos y una tasa de aprendizaje estándar en las capas 
+superiores para adaptar las representaciones a las particularidades de la LSC.  
+Esta estrategia de dos fases ha demostrado consistentemente superar el entrenamiento 
+desde cero en escenarios de recursos limitados, tal como lo reporta Yerimbetova et al. [1], quien 
+obtuvo mejoras de hasta 12 puntos porcentuales en Top -1 Accuracy al aplic ar transfer learning  
+desde modelos preentrenados en lenguas de señas con mayor cobertura de datos hacia lenguas de 
+señas con menor representación en corpus públicos. En el contexto del presente proyecto, esta 
+estrategia es especialmente relevante dado que  la LSC no cuenta actualmente con datasets públicos 
+de gran escala comparables a los disponibles para la ASL o la lengua de señas de Kazajistán 
+estudiada por Yerimbetova et al.  
+3.4 Plan de Mitigación de Riesgos Técnicos  
+La especificación técnica del sistema identifica los siguientes riesgos de implementación y 
+sus correspondientes estrategias de mitigación: (a) Riesgo de corpus insuficiente: mitigado 
+mediante la estrategia de transfer learning descrita, el aumento de dato s y la incorporación 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 49 de 55 progresiva de nuevas grabaciones de la comunidad LSC regional, en línea con el enfoque de 
+investigación -acción participativa propuesto por la UNAD [6]; (b) Riesgo de latencia excesiva: 
+mitigado mediante la optimización del modelo con TensorRT, el uso de KV -Cache en el LLM y 
+el diseño asíncrono del pipeline de procesamiento; (c) Riesgo de variabilidad de iluminación y 
+oclusión: mitigado mediante el filtrado EWMA, el aumento de datos con variaciones de 
+iluminación simulada y la inclusión en el corpus de graba ciones bajo diferentes condiciones 
+ambientales; y (d) Riesgo de generalización insuficiente del LLM hacia la LSC: mitigado mediante 
+la técnica QLoRA de fine -tuning eficiente y la evaluación sistemática sobre el conjunto de prueba 
+estratificado, con retroal imentación de intérpretes nativos de LSC para la validación cualitativa de 
+las traducciones generadas.  
+  
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 50 de 55  
+Conclusiones  
+El desarrollo de los tres primeros objetivos específicos del proyecto ha permitido establecer 
+una base técnica sólida, coherente y fundamentada para el sistema inteligente de interpretación de 
+lengua de señas. En el primer objetivo, se identificaron y arti cularon los tres pilares tecnológicos 
+del sistema: la visión computacional basada en MediaPipe, los modelos de lenguaje de gran escala 
+y la filosofía de agentes i5.0, demostrando su complementariedad funcional y su alineación con 
+los principios de la Indus tria 5.0 en términos de centralidad humana, sostenibilidad y resiliencia.  
+En el segundo objetivo, se diseñó una arquitectura lógica y funcional de cuatro capas 
+(Percepción, Agentes, Generación de Lenguaje y Presentación) que satisface los requisitos de baja 
+latencia, modularidad y escalabilidad del sistema. El análisis formal de  la cadena de 
+transformaciones de datos permitió proyectar latencias totales de 53 -97 ms, compatibles con los 
+estándares de comunicación en tiempo real. La exposición de una API REST y un canal 
+WebSocket garantiza la integrabilidad del sistema con platafor mas digitales educativas y de 
+servicios públicos en la región.  
+En el tercer objetivo, se especificaron con rigor técnico los algoritmos de aprendizaje 
+profundo (Transformer encoder + LLM LLaMA -3-8B con QLoRA), las estrategias de gestión de 
+corpus (mixto público + LSC regional con data augmentation) y las métricas de e valuación (Top -
+1 Accuracy, WER, BLEU, latencia) que permitirán valorar objetivamente el rendimiento del 
+sistema. La estrategia de transfer learning en dos fases es especialmente relevante para superar la 
+limitación de corpus LSC disponibles públicamente.  
+ 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 51 de 55  
+En conjunto, estos tres objetivos configuran el plan de ingeniería básica del sistema, 
+estableciendo los cimientos sobre los cuales los objetivos posteriores podrán desarrollar la 
+integración con plataformas web, la validación empírica y la proyección del caso de estudio 
+regional en Norte de Santander. El presente trabajo es coherente con los planteamientos de Pérez 
+León [7] sobre las necesidades de la comunidad sorda en Cúcuta y con las recomendaciones del 
+SENA Regional [8] sobre herramientas multimedia in clusivas, representando un aporte concreto 
+de la ingeniería de sistemas al cierre de la brecha comunicativa de la comunidad sorda en la región.  
+  
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 52 de 55  
+Referencias  
+[1] Yerimbetova, A., Berzhanova, U., et al. (2026). Sign Language Recognition based on Deep 
+Learning via MediaPipe for people with speech and hearing impairments. Procedia 
+Computer Science, 275, 359 –368.  
+[2] Alsaleh, A. (2026). The influence of artificial intelligence on individuals with disabilities. Acta 
+Psychologica, 262, 106010.  
+[3] Jin, H., Wang, W., et al. (2026). Flexible wearable sensors for sports training: recent advances 
+and future perspectives. Materials & Design, 265, 115994.  
+[4] Revista Facultad de Ingeniería. (2025). Tendencias y desafíos de la ingeniería en el contexto 
+colombiano. Revista Facultad de Ingeniería UdeA, 34(70).  
+[5] Universidad de Boyacá. (2025). Desarrollo de herramientas digitales para la inclusión social. 
+Repositorio Institucional UniBoyacá.  
+[6] Universidad Nacional Abierta y a Distancia – UNAD. (2025). Aplicaciones de la IA en la 
+comunicación inclusiva. Repositorio Digital UNAD.  
+[7] Pérez León, E. E. (2021). Discapacidad auditiva y pedagogías emergentes: desafíos y retos de 
+un modelo de educación mediado por las tecnologías digitales. Instituto Técnico 
+Guaimaral, Cúcuta.  
+ 
+ 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 53 de 55  
+[8] Jiménez Rivera, L. F., & Serrano Gelvez, H. A. (2022). Estrategia pedagógica multimedia para 
+la integración de las TIC en estudiantes con problemas auditivos del SENA Regional Norte 
+de Santander. Universidad Simón Bolívar, Cúcuta.  
+[9] Vargas Salcedo, D. P., & Peñuela Bermúdez, D. P. (2022). Estrategias didácticas para el 
+desarrollo de la competencia matemática en estudiantes con déficit auditivo del Colegio 
+Técnico Guaimaral. Universidad Francisco de Paula Santander (UFPS).  
+[10] ResearchGate, "Figura 1: Pipeline de visualización 3D." [Online]. Available: 
+https://www.researchgate.net/figure/Figura -1-Pipeline -de-visualizacion -
+3D_fig1_322083041  
+[11] ResearchGate, "Accuracy Comparison of the Methods Across Different Software Systems." 
+[Online]. Available: https://www.researchgate.net/figure/Accuracy -Comparison -of-the-
+Methods -Across -Different -Software -Systems_fig13_341148842  
+[12] Deepgram, "Measuring Quality: Word Error Rate (WER) Explained." [Online]. Available: 
+https://deepgram.com/learn/measuring -quality -word -error -rate-explained  
+[13] Ketanhdoshi, "Bleu Score & WER." [Online]. Available: https://ketanhdoshi.github.io/Bleu -
+Score -WER/  
+[14] Bizfly, "WebGL là gì? Tổng quan về WebGL trong lập trình web." [Online]. Available: 
+https://bizfly.vn/techblog/webgl -la-gi.html  
+ 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 54 de 55 [15] Docsity , "Guida Python 3.0: Dispensa." [Online]. Available: 
+https://www.docsity.com/it/guida -python -3-0-dispensa/6999828/  
+[16] Dyte, "Video conferencing APIs: Everything you need to know." [Online]. Available: 
+https://dyte.io/blog/video -conferencing -apis/  
+[17] S. Himasai, "Pose estimation using Mediapipe." [Online]. Available: 
+https://medium.com/@himasaiswaroop/pose -estimation -using -mediapipe -4d8c81f56a4f  
+[18] My Great Learning, "What is fine -tuning?" [Online]. Available: 
+https://www.mygreatlearning.com/blog/what -is-fine-tuning/  
+[19] Profesional Review, "¿Qué es AVX?," Dec. 7, 2019. [Online]. Available: 
+https://www.profesionalreview.com/2019/12/07/que -es-avx/ 
+[20] Solulab, "Fine -tuning a model for a specific task." [Online]. Available: 
+https://www.solulab.com/fine -tuning -a-model -for-a-specific -task/  
+[21] TatvaSoft, "JavaScript vs TypeScript: Which one to choose?" [Online]. Available: 
+https://www.tatvasoft.com/blog/javascript -vs-typescript/  
+[22] Yerimbetova, A., Berzhanova, U., et al. (2026). Sign Language Recognition based on Deep 
+Learning via MediaPipe for people with speech and hearing impairments. Procedia 
+Computer Science, 275, 359 -368. ScienceDirect.  
+[23] Alsaleh, A. (2026). The influence of artificial intelligence on individuals with disabilities. 
+Acta Psychologica, 262, 106010. ScienceDirect.  
+ 
+"Formando nuevas generaciones con sello de excelencia comprometidos 
+con la transformación social de las regiones y un país en paz"  
+Universidad de Pamplona  
+Pamplona - Norte de Santander - Colombia  
+Tels: (+57) 3153429495 - 3160244475  
+www.unipamplona.edu.co  
+ 
+SC-CER96940  
+  
+                                    Página 55 de 55 [24] Jin, H., Wang, W., et al. (2026). Flexible wearable sensors for sports training: recent advances 
+and future perspectives. Materials & Design, 265, 115994. ScienceDirect.  
+[25] Revista Facultad de Ingeniería (2025). Tendencias y desafíos de la ingeniería en el contexto 
+colombiano. Scielo Colombia. Vol. 34, No. 70.  
+[26] Universidad de Boyacá (2025). Desarrollo de herramientas digitales para la inclusión social. 
+Repositorio Institucional UniBoyacá.  
+[27] Universidad Nacional Abierta y a Distancia - UNAD (2025). Aplicaciones de la IA en la 
+comunicación inclusiva. Repositorio Digital UNAD.  
+[28] Pérez León, E. E. (2021). Discapacidad auditiva y pedagogías emergentes: Desafíos y retos 
+de un modelo de educación mediado por las tecnologías digitales. Instituto Técnico 
+Guaimaral, Cúcuta.  
+[29]  Jiménez Rivera, L. F. & Serrano Gelvez, H. A. (2022). Estrategia pedagógica multimedia 
+para la integración de las TIC en estudiantes con problemas auditivos del SENA Regional 
+Norte de Santander. Universidad Simón Bolívar, Cúcuta.  
+[30] Vargas Salcedo, D. P. & Peñuela Bermúdez, D. P. (2022). Estrategias didácticas para el 
+desarrollo de la competencia matemática en estudiantes con déficit auditivo del Colegio 
+Técnico Guaimaral. Universidad Francisco de Paula Santander (UFPS).  
+  

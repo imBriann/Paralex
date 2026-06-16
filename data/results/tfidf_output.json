@@ -1,0 +1,6329 @@
+{
+  "command": "tfidf",
+  "num_processes": 4,
+  "tfidf_scores": {
+    "1": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "2": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "3": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "4": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "5": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "6": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "7": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "8": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "9": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "10": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "11": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "12": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "13": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "14": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "15": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "16": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "17": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "18": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "19": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "20": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "21": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "22": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "23": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "24": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "25": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "26": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "27": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "28": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "29": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "30": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "31": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "32": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "33": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "34": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "35": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "36": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "37": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "38": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "39": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "40": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "41": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "42": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "43": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "44": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "45": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "46": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "47": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "48": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "49": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "50": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "51": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "52": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "53": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "54": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "55": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "56": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "57": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "58": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "59": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "60": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "61": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "62": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "63": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "64": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "65": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "66": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "67": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "68": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "69": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "70": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "71": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "72": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "73": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "74": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "75": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "76": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "77": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "78": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "79": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "80": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "81": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "82": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "83": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "84": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "85": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "86": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "87": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "88": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    },
+    "89": {
+      "aprendizaje": 0.481920,
+      "artificial": 0.481920,
+      "automático": 0.481920,
+      "búsqueda": 0.481920,
+      "cantidades": 0.481920,
+      "dependen": 0.481920,
+      "idf": 0.481920,
+      "inteligencia": 0.481920,
+      "medir": 0.481920,
+      "motores": 0.481920,
+      "palabras": 0.481920,
+      "relevancia": 0.481920,
+      "tf": 0.481920,
+      "usan": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890,
+      "clave": 0.173712
+    },
+    "90": {
+      "clústeres": 0.481920,
+      "conjuntos": 0.481920,
+      "distribuida": 0.481920,
+      "es": 0.481920,
+      "forma": 0.481920,
+      "mapreduce": 0.481920,
+      "mensajes": 0.481920,
+      "modelo": 0.481920,
+      "mpi": 0.481920,
+      "nodos": 0.481920,
+      "pasar": 0.481920,
+      "procesar": 0.481920,
+      "programación": 0.481920,
+      "utiliza": 0.481920,
+      "datos": 0.180890,
+      "grandes": 0.180890
+    },
+    "91": {
+      "acelera": 0.467680,
+      "computación": 0.467680,
+      "dividiendo": 0.467680,
+      "eficiencia": 0.467680,
+      "métricas": 0.467680,
+      "paralela": 0.467680,
+      "paralelo": 0.467680,
+      "procesamiento": 0.467680,
+      "rendimiento": 0.467680,
+      "speedup": 0.467680,
+      "tareas": 0.467680,
+      "clave": 0.173712
+    }
+  },
+  "keywords": {
+    "1": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_1"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_1"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_1"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_1"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_1"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_1"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_1"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_1"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_1"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_1"
+      }
+    ],
+    "2": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_2"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_2"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_2"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_2"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_2"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_2"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_2"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_2"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_2"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_2"
+      }
+    ],
+    "3": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_3"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_3"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_3"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_3"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_3"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_3"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_3"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_3"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_3"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_3"
+      }
+    ],
+    "4": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_4"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_4"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_4"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_4"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_4"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_4"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_4"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_4"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_4"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_4"
+      }
+    ],
+    "5": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_5"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_5"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_5"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_5"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_5"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_5"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_5"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_5"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_5"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_5"
+      }
+    ],
+    "6": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_6"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_6"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_6"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_6"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_6"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_6"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_6"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_6"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_6"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_6"
+      }
+    ],
+    "7": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_7"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_7"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_7"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_7"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_7"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_7"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_7"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_7"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_7"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_7"
+      }
+    ],
+    "8": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_8"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_8"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_8"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_8"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_8"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_8"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_8"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_8"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_8"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_8"
+      }
+    ],
+    "9": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_9"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_9"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_9"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_9"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_9"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_9"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_9"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_9"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_9"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_9"
+      }
+    ],
+    "10": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_10"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_10"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_10"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_10"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_10"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_10"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_10"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_10"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_10"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_10"
+      }
+    ],
+    "11": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_11"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_11"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_11"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_11"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_11"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_11"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_11"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_11"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_11"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_11"
+      }
+    ],
+    "12": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_12"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_12"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_12"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_12"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_12"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_12"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_12"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_12"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_12"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_12"
+      }
+    ],
+    "13": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_13"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_13"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_13"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_13"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_13"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_13"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_13"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_13"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_13"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_13"
+      }
+    ],
+    "14": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_14"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_14"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_14"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_14"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_14"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_14"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_14"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_14"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_14"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_14"
+      }
+    ],
+    "15": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_15"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_15"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_15"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_15"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_15"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_15"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_15"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_15"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_15"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_15"
+      }
+    ],
+    "16": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_16"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_16"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_16"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_16"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_16"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_16"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_16"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_16"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_16"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_16"
+      }
+    ],
+    "17": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_17"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_17"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_17"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_17"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_17"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_17"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_17"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_17"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_17"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_17"
+      }
+    ],
+    "18": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_18"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_18"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_18"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_18"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_18"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_18"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_18"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_18"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_18"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_18"
+      }
+    ],
+    "19": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_19"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_19"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_19"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_19"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_19"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_19"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_19"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_19"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_19"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_19"
+      }
+    ],
+    "20": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_20"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_20"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_20"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_20"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_20"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_20"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_20"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_20"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_20"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_20"
+      }
+    ],
+    "21": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_21"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_21"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_21"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_21"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_21"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_21"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_21"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_21"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_21"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_21"
+      }
+    ],
+    "22": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_22"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_22"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_22"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_22"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_22"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_22"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_22"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_22"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_22"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_22"
+      }
+    ],
+    "23": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_23"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_23"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_23"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_23"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_23"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_23"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_23"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_23"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_23"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_23"
+      }
+    ],
+    "24": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_24"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_24"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_24"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_24"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_24"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_24"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_24"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_24"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_24"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_24"
+      }
+    ],
+    "25": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_25"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_25"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_25"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_25"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_25"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_25"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_25"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_25"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_25"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_25"
+      }
+    ],
+    "26": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_26"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_26"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_26"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_26"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_26"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_26"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_26"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_26"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_26"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_26"
+      }
+    ],
+    "27": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_27"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_27"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_27"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_27"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_27"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_27"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_27"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_27"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_27"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_27"
+      }
+    ],
+    "28": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_28"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_28"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_28"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_28"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_28"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_28"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_28"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_28"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_28"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_28"
+      }
+    ],
+    "29": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_29"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_29"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_29"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_29"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_29"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_29"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_29"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_29"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_29"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_29"
+      }
+    ],
+    "30": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_30"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_30"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_30"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_30"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_30"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_30"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_30"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_30"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_30"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_30"
+      }
+    ],
+    "31": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_31"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_31"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_31"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_31"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_31"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_31"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_31"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_31"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_31"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_31"
+      }
+    ],
+    "32": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_32"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_32"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_32"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_32"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_32"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_32"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_32"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_32"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_32"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_32"
+      }
+    ],
+    "33": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_33"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_33"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_33"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_33"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_33"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_33"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_33"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_33"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_33"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_33"
+      }
+    ],
+    "34": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_34"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_34"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_34"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_34"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_34"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_34"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_34"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_34"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_34"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_34"
+      }
+    ],
+    "35": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_35"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_35"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_35"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_35"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_35"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_35"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_35"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_35"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_35"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_35"
+      }
+    ],
+    "36": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_36"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_36"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_36"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_36"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_36"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_36"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_36"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_36"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_36"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_36"
+      }
+    ],
+    "37": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_37"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_37"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_37"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_37"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_37"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_37"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_37"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_37"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_37"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_37"
+      }
+    ],
+    "38": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_38"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_38"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_38"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_38"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_38"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_38"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_38"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_38"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_38"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_38"
+      }
+    ],
+    "39": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_39"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_39"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_39"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_39"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_39"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_39"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_39"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_39"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_39"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_39"
+      }
+    ],
+    "40": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_40"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_40"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_40"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_40"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_40"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_40"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_40"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_40"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_40"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_40"
+      }
+    ],
+    "41": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_41"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_41"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_41"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_41"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_41"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_41"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_41"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_41"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_41"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_41"
+      }
+    ],
+    "42": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_42"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_42"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_42"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_42"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_42"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_42"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_42"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_42"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_42"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_42"
+      }
+    ],
+    "43": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_43"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_43"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_43"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_43"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_43"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_43"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_43"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_43"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_43"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_43"
+      }
+    ],
+    "44": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_44"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_44"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_44"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_44"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_44"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_44"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_44"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_44"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_44"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_44"
+      }
+    ],
+    "45": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_45"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_45"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_45"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_45"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_45"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_45"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_45"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_45"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_45"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_45"
+      }
+    ],
+    "46": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_46"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_46"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_46"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_46"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_46"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_46"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_46"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_46"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_46"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_46"
+      }
+    ],
+    "47": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_47"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_47"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_47"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_47"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_47"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_47"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_47"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_47"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_47"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_47"
+      }
+    ],
+    "48": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_48"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_48"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_48"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_48"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_48"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_48"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_48"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_48"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_48"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_48"
+      }
+    ],
+    "49": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_49"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_49"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_49"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_49"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_49"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_49"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_49"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_49"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_49"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_49"
+      }
+    ],
+    "50": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_50"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_50"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_50"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_50"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_50"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_50"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_50"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_50"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_50"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_50"
+      }
+    ],
+    "51": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_51"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_51"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_51"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_51"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_51"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_51"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_51"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_51"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_51"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_51"
+      }
+    ],
+    "52": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_52"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_52"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_52"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_52"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_52"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_52"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_52"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_52"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_52"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_52"
+      }
+    ],
+    "53": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_53"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_53"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_53"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_53"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_53"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_53"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_53"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_53"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_53"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_53"
+      }
+    ],
+    "54": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_54"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_54"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_54"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_54"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_54"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_54"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_54"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_54"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_54"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_54"
+      }
+    ],
+    "55": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_55"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_55"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_55"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_55"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_55"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_55"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_55"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_55"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_55"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_55"
+      }
+    ],
+    "56": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_56"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_56"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_56"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_56"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_56"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_56"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_56"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_56"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_56"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_56"
+      }
+    ],
+    "57": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_57"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_57"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_57"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_57"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_57"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_57"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_57"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_57"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_57"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_57"
+      }
+    ],
+    "58": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_58"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_58"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_58"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_58"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_58"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_58"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_58"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_58"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_58"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_58"
+      }
+    ],
+    "59": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_59"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_59"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_59"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_59"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_59"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_59"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_59"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_59"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_59"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_59"
+      }
+    ],
+    "60": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_60"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_60"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_60"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_60"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_60"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_60"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_60"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_60"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_60"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_60"
+      }
+    ],
+    "61": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_61"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_61"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_61"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_61"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_61"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_61"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_61"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_61"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_61"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_61"
+      }
+    ],
+    "62": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_62"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_62"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_62"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_62"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_62"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_62"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_62"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_62"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_62"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_62"
+      }
+    ],
+    "63": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_63"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_63"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_63"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_63"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_63"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_63"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_63"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_63"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_63"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_63"
+      }
+    ],
+    "64": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_64"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_64"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_64"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_64"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_64"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_64"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_64"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_64"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_64"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_64"
+      }
+    ],
+    "65": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_65"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_65"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_65"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_65"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_65"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_65"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_65"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_65"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_65"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_65"
+      }
+    ],
+    "66": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_66"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_66"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_66"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_66"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_66"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_66"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_66"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_66"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_66"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_66"
+      }
+    ],
+    "67": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_67"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_67"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_67"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_67"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_67"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_67"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_67"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_67"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_67"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_67"
+      }
+    ],
+    "68": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_68"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_68"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_68"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_68"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_68"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_68"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_68"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_68"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_68"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_68"
+      }
+    ],
+    "69": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_69"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_69"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_69"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_69"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_69"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_69"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_69"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_69"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_69"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_69"
+      }
+    ],
+    "70": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_70"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_70"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_70"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_70"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_70"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_70"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_70"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_70"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_70"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_70"
+      }
+    ],
+    "71": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_71"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_71"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_71"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_71"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_71"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_71"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_71"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_71"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_71"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_71"
+      }
+    ],
+    "72": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_72"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_72"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_72"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_72"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_72"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_72"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_72"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_72"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_72"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_72"
+      }
+    ],
+    "73": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_73"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_73"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_73"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_73"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_73"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_73"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_73"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_73"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_73"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_73"
+      }
+    ],
+    "74": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_74"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_74"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_74"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_74"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_74"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_74"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_74"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_74"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_74"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_74"
+      }
+    ],
+    "75": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_75"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_75"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_75"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_75"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_75"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_75"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_75"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_75"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_75"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_75"
+      }
+    ],
+    "76": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_76"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_76"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_76"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_76"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_76"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_76"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_76"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_76"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_76"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_76"
+      }
+    ],
+    "77": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_77"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_77"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_77"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_77"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_77"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_77"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_77"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_77"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_77"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_77"
+      }
+    ],
+    "78": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_78"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_78"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_78"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_78"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_78"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_78"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_78"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_78"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_78"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_78"
+      }
+    ],
+    "79": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_79"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_79"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_79"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_79"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_79"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_79"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_79"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_79"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_79"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_79"
+      }
+    ],
+    "80": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_80"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_80"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_80"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_80"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_80"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_80"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_80"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_80"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_80"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_80"
+      }
+    ],
+    "81": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_81"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_81"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_81"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_81"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_81"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_81"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_81"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_81"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_81"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_81"
+      }
+    ],
+    "82": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_82"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_82"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_82"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_82"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_82"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_82"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_82"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_82"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_82"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_82"
+      }
+    ],
+    "83": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_83"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_83"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_83"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_83"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_83"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_83"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_83"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_83"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_83"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_83"
+      }
+    ],
+    "84": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_84"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_84"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_84"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_84"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_84"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_84"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_84"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_84"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_84"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_84"
+      }
+    ],
+    "85": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_85"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_85"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_85"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_85"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_85"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_85"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_85"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_85"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_85"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_85"
+      }
+    ],
+    "86": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_86"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_86"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_86"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_86"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_86"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_86"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_86"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_86"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_86"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_86"
+      }
+    ],
+    "87": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_87"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_87"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_87"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_87"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_87"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_87"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_87"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_87"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_87"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_87"
+      }
+    ],
+    "88": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_88"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_88"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_88"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_88"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_88"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_88"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_88"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_88"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_88"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_88"
+      }
+    ],
+    "89": [
+{
+        "word": "aprendizaje",
+        "score": 0.481920,
+        "doc_name": "demo_doc_89"
+      },
+{
+        "word": "artificial",
+        "score": 0.481920,
+        "doc_name": "demo_doc_89"
+      },
+{
+        "word": "automático",
+        "score": 0.481920,
+        "doc_name": "demo_doc_89"
+      },
+{
+        "word": "búsqueda",
+        "score": 0.481920,
+        "doc_name": "demo_doc_89"
+      },
+{
+        "word": "cantidades",
+        "score": 0.481920,
+        "doc_name": "demo_doc_89"
+      },
+{
+        "word": "dependen",
+        "score": 0.481920,
+        "doc_name": "demo_doc_89"
+      },
+{
+        "word": "idf",
+        "score": 0.481920,
+        "doc_name": "demo_doc_89"
+      },
+{
+        "word": "inteligencia",
+        "score": 0.481920,
+        "doc_name": "demo_doc_89"
+      },
+{
+        "word": "medir",
+        "score": 0.481920,
+        "doc_name": "demo_doc_89"
+      },
+{
+        "word": "motores",
+        "score": 0.481920,
+        "doc_name": "demo_doc_89"
+      }
+    ],
+    "90": [
+{
+        "word": "clústeres",
+        "score": 0.481920,
+        "doc_name": "demo_doc_90"
+      },
+{
+        "word": "conjuntos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_90"
+      },
+{
+        "word": "distribuida",
+        "score": 0.481920,
+        "doc_name": "demo_doc_90"
+      },
+{
+        "word": "es",
+        "score": 0.481920,
+        "doc_name": "demo_doc_90"
+      },
+{
+        "word": "forma",
+        "score": 0.481920,
+        "doc_name": "demo_doc_90"
+      },
+{
+        "word": "mapreduce",
+        "score": 0.481920,
+        "doc_name": "demo_doc_90"
+      },
+{
+        "word": "mensajes",
+        "score": 0.481920,
+        "doc_name": "demo_doc_90"
+      },
+{
+        "word": "modelo",
+        "score": 0.481920,
+        "doc_name": "demo_doc_90"
+      },
+{
+        "word": "mpi",
+        "score": 0.481920,
+        "doc_name": "demo_doc_90"
+      },
+{
+        "word": "nodos",
+        "score": 0.481920,
+        "doc_name": "demo_doc_90"
+      }
+    ],
+    "91": [
+{
+        "word": "acelera",
+        "score": 0.467680,
+        "doc_name": "demo_doc_91"
+      },
+{
+        "word": "computación",
+        "score": 0.467680,
+        "doc_name": "demo_doc_91"
+      },
+{
+        "word": "dividiendo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_91"
+      },
+{
+        "word": "eficiencia",
+        "score": 0.467680,
+        "doc_name": "demo_doc_91"
+      },
+{
+        "word": "métricas",
+        "score": 0.467680,
+        "doc_name": "demo_doc_91"
+      },
+{
+        "word": "paralela",
+        "score": 0.467680,
+        "doc_name": "demo_doc_91"
+      },
+{
+        "word": "paralelo",
+        "score": 0.467680,
+        "doc_name": "demo_doc_91"
+      },
+{
+        "word": "procesamiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_91"
+      },
+{
+        "word": "rendimiento",
+        "score": 0.467680,
+        "doc_name": "demo_doc_91"
+      },
+{
+        "word": "speedup",
+        "score": 0.467680,
+        "doc_name": "demo_doc_91"
+      }
+    ]
+  },
+  "document_frequencies": {
+    "acelera": 31,
+    "aprendizaje": 30,
+    "artificial": 30,
+    "automático": 30,
+    "búsqueda": 30,
+    "cantidades": 30,
+    "clave": 61,
+    "clústeres": 30,
+    "computación": 31,
+    "conjuntos": 30,
+    "datos": 60,
+    "dependen": 30,
+    "distribuida": 30,
+    "dividiendo": 31,
+    "eficiencia": 31,
+    "es": 30,
+    "forma": 30,
+    "grandes": 60,
+    "idf": 30,
+    "inteligencia": 30,
+    "mapreduce": 30,
+    "medir": 30,
+    "mensajes": 30,
+    "modelo": 30,
+    "motores": 30,
+    "mpi": 30,
+    "métricas": 31,
+    "nodos": 30,
+    "palabras": 30,
+    "paralela": 31,
+    "paralelo": 31,
+    "pasar": 30,
+    "procesamiento": 31,
+    "procesar": 30,
+    "programación": 30,
+    "relevancia": 30,
+    "rendimiento": 31,
+    "speedup": 31,
+    "tareas": 31,
+    "tf": 30,
+    "usan": 30,
+    "utiliza": 30
+  },
+  "processing_time_ms": 28.18
+}

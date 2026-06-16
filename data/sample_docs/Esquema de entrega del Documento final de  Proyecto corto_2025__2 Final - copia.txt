@@ -1,0 +1,176 @@
+
+Sistema de Procesamiento Paralelo de Documentos Basado en MapReduce, para la Ejecución de Tareas de Análisis de Datos de Manera Eficiente, Escalable y Tolerante a Fallos Básicos.
+
+
+Brian David Acevedo Gomez
+1092526700
+Geron José Vergara García
+1116776436
+
+
+Informe final curso de Fundamentos de Computación Paralela y Distribuida
+
+
+Universidad de Pamplona 
+Facultad de Ingenierías y Arquitectura
+Ingeniería de Sistemas
+Villa del Rosario, Norte de Santander
+2026
+
+
+Índice
+
+Resumen 
+La cantidad de documentos digitales que circulan hoy en entornos académicos, investigativos y administrativos no para de crecer, y eso trae un problema concreto: encontrar, organizar y analizar información dentro de grandes colecciones de archivos se vuelve cada vez más lento con los métodos convencionales. No es que los métodos tradicionales estén mal, simplemente no fueron diseñados para manejar ese volumen. Ahí es donde la computación paralela y distribuida cobra sentido, porque permite repartir el trabajo entre múltiples procesos y reducir los tiempos de ejecución de forma significativa.
+La propuesta de este proyecto es construir un sistema de procesamiento paralelo basado en MapReduce, orientado a tres tareas específicas: analizar, indexar y recuperar información en colecciones documentales. La propuesta consiste en distribuir las operaciones, de modo que la extracción de texto y la consolidación de resultados no dependan de un solo proceso ejecutando todo en secuencia.
+El desarrollo se plantea en cuatro etapas. Primero, una revisión bibliográfica sobre computación paralela, sistemas distribuidos y MapReduce. Segundo, el diseño de la arquitectura del sistema. Tercero, la implementación del prototipo usando MPI y C++. Y cuarto, una fase de evaluación donde se miden el rendimiento, la escalabilidad y la capacidad básica de tolerancia a fallos.
+Para la validación se usarán documentos reales: artículos académicos, informes y registros en distintos formatos. Esto permitirá contrastar directamente los resultados del sistema contra el procesamiento secuencial, y así tener evidencia concreta de qué tanto mejora el tiempo y la eficiencia. El objetivo final es un prototipo que funcione y que deje claro por qué MapReduce sigue siendo una referencia válida cuando el análisis documental escala.
+Palabras clave: MapReduce; Computación Paralela; Sistemas Distribuidos; Análisis Documental.
+
+Abstract
+The volume of digital documents circulating today in academic, research, and administrative settings continues to grow, and this presents a specific problem: finding, organizing, and analyzing information within large collections of files is becoming increasingly time-consuming using conventional methods. It’s not that traditional methods are flawed; they simply weren’t designed to handle that volume. That’s where parallel and distributed computing comes into play, because it allows the work to be distributed across multiple processes and significantly reduces execution times.
+The goal of this project is to build a parallel processing system based on MapReduce, focused on three specific tasks: analyzing, indexing, and retrieving information in document collections. The logic is to distribute the operations so that text extraction and result consolidation do not depend on a single process executing everything sequentially.
+The development is planned in four stages. First, a literature review on parallel computing, distributed systems, and MapReduce. Second, the design of the system architecture. Third, the implementation of the prototype using MPI and C++. And fourth, an evaluation phase where performance, scalability, and basic fault tolerance are measured.
+Real-world documents will be used for validation: academic articles, reports, and records in various formats. This will allow us to directly compare the system’s results with those of sequential processing, thereby providing concrete evidence of the extent to which it improves both speed and efficiency. The goal is a working prototype that clearly demonstrates why MapReduce remains a valid standard when document analysis is scaled up.
+Keywords: MapReduce; Parallel Computing; Distributed Systems; Document Analysis.
+
+Introducción
+Hoy casi toda la información que producen organizaciones, universidades, empresas y centros de investigación termina almacenada en documentos digitales: artículos científicos, informes técnicos, registros administrativos, reportes corporativos. Formatos como TXT, PDF y DOCX concentran una cantidad enorme de datos que, en teoría, deberían estar disponibles para consultarse y analizarse con facilidad. El problema es que cuando esas colecciones crecen, encontrar información relevante y procesarla a tiempo se convierte en un verdadero reto.
+Durante mucho tiempo, la respuesta a ese reto fue el procesamiento secuencial: un solo proceso ejecutando todas las tareas, una detrás de otra. Funciona bien cuando el volumen de documentos es manejable, pero en cuanto la cantidad aumenta, los tiempos se disparan y los recursos computacionales disponibles quedan subutilizados. No es un fallo del método, es simplemente su límite natural.
+Frente a eso, la computación paralela y distribuida propone algo distinto: dividir el problema en partes más pequeñas y resolverlas al mismo tiempo. Uno de los modelos más conocidos bajo esa lógica es MapReduce, formulado por Dean y Ghemawat, que organiza el procesamiento en dos fases bien definidas.  La fase Map toma fragmentos independientes de datos y los procesa por separado; la fase Reduce toma esos resultados parciales y los consolida en una salida final. Es un enfoque que demostró ser especialmente útil para manejar grandes volúmenes de información de forma eficiente y ordenada. 
+Su efectividad no es solo teórica. Trabajos recientes han aplicado MapReduce para analizar datos no estructurados, hacer minería de texto y ejecutar análisis de sentimiento sobre colecciones masivas, obteniendo mejoras claras en rendimiento y distribución de la carga. En contextos tanto académicos como industriales, el procesamiento distribuido ha mostrado ser una opción real para reducir tiempos y optimizar el uso de recursos. , 
+Un componente clave para llevar esto a la práctica es MPI (Message Passing Interface), el estándar más consolidado para la comunicación entre procesos distribuidos. Su eficiencia para coordinar tareas paralelas y gestionar el intercambio de información entre nodos lo ha convertido en una herramienta de referencia en aplicaciones científicas e ingenieriles. 
+Partiendo de ese contexto, este proyecto propone construir un sistema de procesamiento paralelo basado en MapReduce, orientado al análisis, indexación y recuperación de información en colecciones de documentos TXT, PDF y DOCX. La arquitectura distribuirá la carga de trabajo entre múltiples procesos usando MPI y C++, y el sistema será capaz de extraer texto, generar estadísticas documentales, identificar términos relevantes, construir índices de búsqueda y recuperar información de manera eficiente.
+El objetivo no es reemplazar plataformas como Hadoop o Spark, sino algo más concreto y académicamente valioso: construir un prototipo funcional que permita entender, desde adentro, cómo operan los principios de paralelismo, distribución y escalabilidad cuando se aplican a un problema real. Para eso, el sistema se validará con documentos de distintos tamaños y formatos, midiendo métricas como tiempo de ejecución, speedup, eficiencia, balance de carga, escalabilidad y tolerancia básica a fallos, y comparando esos resultados contra una implementación secuencial equivalente.
+El documento está organizado de la siguiente forma: primero se presenta el planteamiento del problema, la justificación y los objetivos; luego el marco teórico, donde se desarrollan los conceptos de MapReduce, computación paralela, sistemas distribuidos, MPI y análisis documental; después el estado del arte y los antecedentes del proyecto; a continuación la metodología de diseño, implementación y validación; y al final los resultados, el análisis de desempeño, las conclusiones y las recomendaciones para trabajos futuros.
+
+
+Planteamiento del Problema
+Importancia del Problema
+Organizaciones, universidades y centros de investigación acumulan hoy volúmenes de documentos digitales que hace unos años habrían sido difíciles de imaginar. Dentro de esos archivos hay información valiosa para tomar decisiones y generar conocimiento, pero procesarla de forma eficiente es cada vez más complicado a medida que crece la cantidad de datos. Diversas investigaciones han mostrado que los modelos de procesamiento distribuido, y en particular MapReduce, ofrecen una respuesta concreta a ese desafío: dividen grandes cargas de trabajo en tareas paralelas y reducen considerablemente los tiempos de procesamiento.  Además, estudios recientes confirman que estas tecnologías se usan ampliamente para analizar datos no estructurados y colecciones documentales de gran escala. 
+Situación Actual
+Hoy existen plataformas como Hadoop y Spark que están diseñadas precisamente para esto: procesar información de forma distribuida, ejecutar tareas complejas de análisis, indexar documentos y recuperar datos con eficiencia. El problema no es que no funcionen, sino que para usarlas hace falta infraestructura robusta, configuraciones avanzadas y un nivel de conocimiento que va más allá de lo que un entorno académico introductorio puede ofrecer. El resultado es que muchos estudiantes entienden bien la teoría detrás de estos modelos, pero rara vez tienen la oportunidad de ver cómo funcionan por dentro.
+Situación Problemática
+Aunque las soluciones empresariales para procesamiento distribuido están consolidadas, hay un vacío que todavía no está bien cubierto: herramientas académicas que permitan experimentar directamente con conceptos como paralelismo, distribución de carga, indexación documental, recuperación de información y tolerancia básica a fallos. Sin sistemas de menor complejidad pensados para el aprendizaje, es difícil evaluar con datos reales qué tanto mejora el procesamiento paralelo frente al secuencial cuando se trabaja con archivos TXT, PDF y DOCX. Y sin esa evidencia práctica, las ventajas y limitaciones de los modelos distribuidos quedan en el plano teórico, sin una referencia concreta que las respalde.
+Pregunta de investigación 
+¿Cómo desarrollar un sistema de procesamiento paralelo basado en MapReduce que permita analizar, indexar y recuperar información de colecciones documentales de manera eficiente, escalable y con tolerancia básica a fallos?
+Justificación
+Las colecciones documentales digitales no van a dejar de crecer, y eso plantea una pregunta práctica: ¿cómo procesar toda esa información sin que el tiempo de ejecución se vuelva inmanejable? Este proyecto parte de esa pregunta y la responde construyendo algo concreto, un sistema que combina computación paralela, sistemas distribuidos y análisis documental en un entorno donde los conceptos se pueden ver funcionando, no solo describirse.
+Desde lo académico, la diferencia entre entender MapReduce y realmente comprenderlo está en implementarlo. Trabajar directamente con MPI y C++ obliga a tomar decisiones reales sobre cómo distribuir la carga, cómo coordinan los procesos entre sí y qué pasa con el rendimiento cuando el volumen de datos cambia. Ese tipo de experiencia no se consigue leyendo.
+El sistema estará en capacidad de procesar archivos TXT, PDF y DOCX para realizar análisis, indexación y recuperación de información. Y lo más importante: las mejoras respecto al procesamiento secuencial no van a quedar como suposiciones, sino que se van a respaldar con métricas como tiempo de ejecución, speedup, eficiencia y balance de carga.
+Más allá de los resultados inmediatos, el prototipo puede funcionar como base para trabajos futuros en minería de texto, recuperación de información, procesamiento de lenguaje natural o cualquier otra línea que involucre sistemas distribuidos aplicados al análisis documental.
+Objetivos
+Objetivo General
+Desarrollar un sistema de procesamiento paralelo de archivos de texto basado en MapReduce, para la ejecución de tareas de análisis de datos de manera eficiente, escalable y con tolerancia a fallos básicos.
+Objetivos Específicos
+Identificar los principios fundamentales de la computación paralela y distribuida aplicables al modelo MapReduce para el procesamiento y análisis de documentos digitales.
+Seleccionar la arquitectura, herramientas y tecnologías adecuadas para el diseño del sistema distribuido.
+Desarrollar un prototipo capaz del procesamiento de forma paralela contenido textual extraído de documentos TXT, PDF y DOCX mediante Message Passing Interface (MPI) y C++
+Validar el desempeño y funcionamiento del sistema mediante pruebas de rendimiento, escalabilidad y tolerancia a fallos básicos, comparando los resultados obtenidos con una implementación secuencial.
+Actividades
+Identificar los principios fundamentales de la computación paralela y distribuida aplicables al modelo MapReduce para el procesamiento y análisis de documentos digitales.
+Actividad 1: Revisar artículos científicos, libros y documentación técnica sobre computación paralela, sistemas distribuidos, recuperación de información y el modelo MapReduce.
+Actividad 2: Analizar el funcionamiento de las fases Map y Reduce y su aplicación en tareas de análisis documental, indexación y recuperación de información.
+Actividad 3: Elaborar un esquema conceptual con los componentes, etapas y flujo de procesamiento del sistema propuesto.
+Seleccionar la arquitectura, herramientas y tecnologías adecuadas para el diseño e implementación del sistema distribuido.
+Actividad 1: Evaluar herramientas de programación paralela y seleccionar Message Passing Interface (MPI) como mecanismo de comunicación entre procesos.
+Actividad 2: Configurar el entorno de desarrollo en C++ e integrar las bibliotecas necesarias para la lectura y procesamiento de documentos TXT, PDF y DOCX.
+Actividad 3: Diseñar la arquitectura general del sistema, incluyendo extracción de texto, distribución de datos, procesamiento paralelo e integración de resultados.
+Desarrollar un prototipo capaz de procesar de forma paralela contenido textual extraído de documentos TXT, PDF y DOCX mediante MPI y C++.
+Actividad 1: Implementar la fase Map para distribuir y procesar fragmentos de información provenientes de los documentos.
+Actividad 2: Implementar la fase Reduce para consolidar los resultados parciales generados por cada proceso.
+Actividad 3: Integrar funcionalidades de análisis documental, generación de estadísticas, identificación de términos relevantes e indexación de información.
+Validar el desempeño y funcionamiento del sistema mediante pruebas de rendimiento, escalabilidad y tolerancia a fallos básicos.
+Actividad 1: Ejecutar pruebas con colecciones documentales de diferentes tamaños y formatos.
+Actividad 2: Comparar los tiempos de ejecución y métricas de rendimiento entre la implementación secuencial y la implementación paralela.
+Actividad 3: Simular fallos básicos y verificar la capacidad del sistema para mantener el procesamiento y consolidar correctamente los resultados.
+
+
+Acotaciones de la Monografía
+Alcances
+El presente proyecto comprende el desarrollo completo de un prototipo funcional de procesamiento paralelo de documentos basado en MapReduce, desde la adquisición y preparación de los documentos hasta la validación de su desempeño mediante pruebas de rendimiento y escalabilidad. El sistema está orientado al procesamiento eficiente de colecciones documentales utilizando técnicas de computación paralela y distribuida implementadas mediante Message Passing Interface (MPI) y C++.
+El primer frente corresponde a la adquisición y preparación de los datos. El sistema trabajará con colecciones de documentos digitales en formatos TXT, PDF y DOCX, conformadas por artículos académicos, informes técnicos, documentos administrativos y otros archivos textuales utilizados como casos de prueba. Para los formatos PDF y DOCX se implementarán mecanismos de extracción de contenido textual que permitan transformar la información en una representación uniforme apta para su procesamiento paralelo. 
+El segundo frente corresponde al componente de procesamiento distribuido. Se implementará una arquitectura basada en el paradigma MapReduce, donde la fase Map será responsable de distribuir y procesar fragmentos de información entre múltiples procesos, mientras que la fase Reduce consolidará los resultados parciales generados durante la ejecución.  Esta arquitectura permitirá analizar grandes conjuntos documentales aprovechando los recursos computacionales disponibles de forma simultánea.
+El tercer frente corresponde a las funcionalidades de análisis documental. El prototipo permitirá realizar tareas como conteo de palabras, análisis de frecuencia de términos, identificación de palabras clave, generación de estadísticas documentales y construcción de índices de búsqueda. Estas funcionalidades servirán para demostrar la capacidad del sistema de procesar información textual de manera eficiente y organizada. 
+El cuarto frente corresponde al componente de recuperación de información. A partir de los índices generados durante el procesamiento, el sistema permitirá localizar documentos relacionados con términos específicos y recuperar información relevante dentro de la colección documental analizada. Esto permitirá evidenciar aplicaciones prácticas del procesamiento paralelo más allá del simple análisis estadístico de texto. 
+El quinto frente corresponde a la evaluación del sistema. Se realizarán pruebas utilizando colecciones documentales de diferentes tamaños para medir métricas como tiempo de ejecución, speedup, eficiencia, balance de carga, escalabilidad y tolerancia básica a fallos. Los resultados obtenidos serán comparados con una implementación secuencial equivalente para determinar las ventajas del procesamiento paralelo.
+El alcance del proyecto se limita al desarrollo de un prototipo académico orientado a demostrar los principios fundamentales de la computación paralela y distribuida. La solución será validada en equipos de propósito general utilizando MPI y C++ como tecnologías principales de implementación.
+Limitaciones
+La primera limitación de esta investigación está relacionada con el volumen de información utilizado durante las pruebas. Aunque se trabajará con colecciones documentales de diferentes tamaños, estas serán significativamente menores a los volúmenes de datos manejados por plataformas empresariales de Big Data, por lo que los resultados obtenidos representan un entorno académico y experimental.
+La segunda limitación corresponde a la arquitectura de procesamiento utilizada. El sistema será implementado mediante MPI sobre un conjunto limitado de procesos y recursos computacionales disponibles para el proyecto. No se contempla la implementación de infraestructuras distribuidas de gran escala ni el uso de plataformas empresariales como Hadoop o Spark.
+La tercera limitación se relaciona con las funcionalidades de análisis documental incorporadas. El prototipo estará enfocado en tareas de análisis textual, indexación y recuperación de información, sin incluir técnicas avanzadas de procesamiento de lenguaje natural, aprendizaje automático o inteligencia artificial para clasificación semántica de documentos.
+La cuarta limitación corresponde a los mecanismos de tolerancia a fallos. El sistema implementará únicamente estrategias básicas orientadas a evidenciar el concepto dentro del modelo MapReduce. No se incorporarán mecanismos avanzados de replicación de datos, recuperación automática de nodos o administración distribuida de recursos presentes en soluciones industriales.
+La quinta limitación está asociada al hardware disponible para la ejecución de las pruebas. Las métricas de rendimiento obtenidas dependerán de factores como la cantidad de núcleos del procesador, la memoria disponible y la carga del sistema operativo durante la ejecución, por lo que los resultados pueden variar en otros entornos de hardware.
+
+Estado del Arte
+A continuación, se presentan los antecedentes investigativos que sustentan el presente proyecto, organizados en referencias internacionales, nacionales y regionales.
+Marco Referencial
+ Referencias Internacionales
+ El modelo MapReduce surgió como respuesta al procesamiento masivo de datos en entornos distribuidos, siendo presentado por primera vez por Dean y Ghemawat (2004) en el artículo “MapReduce: Simplified Data Processing on Large Clusters”. Este trabajo establece los fundamentos teóricos del paradigma: la división de tareas en funciones map y reduce, la fragmentación de datos y la ejecución paralela en clústeres de nodos, con énfasis en escalabilidad y tolerancia a fallos básicos. 
+Posteriormente, otros autores lo han retomado en artículos centrados en Big Data, donde MapReduce se describe como un modelo de programación que permite procesar grandes volúmenes de datos en paralelo sobre sistemas distribuidos, ocultando la complejidad de la concurrencia y el manejo de fallos al desarrollador. 
+Además, estudios que aplican MapReduce al análisis de sentimientos sobre datos sociales (por ejemplo, “MapReduce Functions to Analyze Sentiment Information from Social Big Data”, Ha et al., 2015) demuestran cómo el modelo se puede adaptar a archivos de texto, mostrando su idoneidad para tareas de análisis de datos textuales en paralelo. 
+ Referencias Nacionales
+En el contexto colombiano, el modelo MapReduce ha sido adoptado como herramienta central en proyectos de Big Data y en sistemas de análisis de volúmenes grandes de información. 
+Un ejemplo es el trabajo de la Universidad Distrital Francisco José de Caldas, “Implementación de la técnica de Big Data MapReduce para la caracterización del consumo de energía de clientes residenciales y comerciales”, donde se muestra cómo MapReduce se configura en Hadoop para procesar grandes series de datos de consumo en paralelo, validando rendimiento y escalabilidad mediante pruebas de carga. 
+Este estudio consolida MapReduce como una arquitectura viable para sistemas distribuidos que requieren procesamiento eficiente de grandes volúmenes de datos, elementos clave para justificar el diseño de tu sistema de procesamiento paralelo de archivos de texto. 
+Otro apoyo nacional proviene de artículos como “Big Data” de la Universidad Externado de Colombia, que describen MapReduce como un modelo de programación práctico para desarrolladores que necesitan procesar grandes volúmenes de información sin dominar en profundidad la programación distribuida.[5] 
+Asimismo, la Universidad EAFIT presenta en el artículo “Procesamiento Paralelo en EAFIT” una visión de los principios de computación paralela y distribuida, subrayando el papel de tecnologías como MapReduce en entornos académicos y de investigación.[6]
+ Referencias Regionales
+A nivel regional, varios trabajos reafirman la utilidad de MapReduce y de algoritmos paralelos para el procesamiento de grandes volúmenes de datos, tanto en entornos académicos como en aplicaciones de minería de datos y análisis predictivo. 
+La tesis “Análisis de algoritmos paralelos para la tarea de minería de datos”, de la Universidad de Nariño, muestra cómo algoritmos paralelos permiten procesar grandes conjuntos de datos mediante estrategias de fragmentación y procesamiento simultáneo, lo que encaja directamente con los principios de paralelismo y distribución propios de MapReduce.[7] Este trabajo sirve como sustento teórico para argumentar que el uso de un sistema basado en MapReduce es coherente con la tradición de investigaciones en paralelismo y minería de datos en la región. 
+Por otro lado, el proyecto “Modelo de predicción de deserción estudiantil, apoyado en Big Data” de la UNAD aplica MapReduce en el contexto educativo, procesando grandes volúmenes de datos históricos de estudiantes en paralelo para construir modelos predictivos.[8] Este caso de uso muestra cómo MapReduce se usa para análisis de datos estructurados, pero las ideas de división de tareas, paralelismo y escalabilidad son directamente extrapolables al procesamiento de archivos de texto, lo que permite justificar el uso de MapReduce en tu sistema de análisis de datos textuales.
+Finalmente, la guía técnica de IDECA (“Guía de análisis espacial y no espacial usando herramientas Big Data”) describe cómo MapReduce se integra en entornos de Big Data para el procesamiento de datos heterogéneos, reforzando la idea de que el modelo MapReduce es una opción técnica madura y bien documentada en el contexto colombiano.[9] 
+Esta referencia apoya que tu sistema de procesamiento paralelo de archivos de texto basado en MapReduce se alinea con prácticas de análisis de datos a gran escala, tanto en entornos académicos como en entidades públicas.[9]
+Marco Conceptual
+La descripción de los conceptos claves,
+
+Metodología
+Exprese la metodología usada para lograr el alcance de los objetivos propuestos en la monografía.   Describa como relaciona las fases de la metodología con los objetivos generales)
+
+Desde el punto de vista de investigación teóricos y filosóficos
+Los paradigmas de investigación son marcos teóricos y filosóficos que orientan cómo se concibe, diseña y ejecuta una investigación. Cada paradigma implica una visión distinta sobre la realidad (ontología), cómo se conoce esa realidad (epistemología), y los métodos adecuados para estudiarla (metodología).
+ Paradigma Positivista  ( Método científico)  ( Los ingenieros) 
+Ontología: Realismo (la realidad existe independientemente del observador).
+Epistemología: Objetivismo (el conocimiento es objetivo y puede medirse). Basado en la objetividad, la medición y el análisis de datos numéricos. Busca leyes universales y relaciones causales.Inspirado en las ciencias naturales.
+Metodología: Cuantitativa, uso del método científico, experimentos, encuestas.
+Diseños de investigación cuantitativa
+Exploratorio
+Busca familiarizarse con un fenómeno poco conocido.
+Suele ser el paso previo a investigaciones más profundas.
+Ej: encuestas piloto, revisiones iniciales.
+Descriptivo
+Busca detallar características de una población o fenómeno.
+No busca relaciones causales.
+Ej: censos, estudios de prevalencia.
+Correlacional
+Analiza la relación entre dos o más variables, sin establecer causa-efecto.
+Ej: relación entre autoestima y rendimiento académico.
+Explicativo o causal
+Determina causas de un fenómeno.
+Usa diseños experimentales o cuasi-experimentales.
+Ej: efecto de una intervención educativa sobre el aprendizaje.
+Métodos:
+Experimentos controlados.
+Encuestas estandarizadas.
+Análisis estadístico.
+Bases de datos científicas 
+Revisión sistémica 
+
+Desde el punto de vista de desarrollo.
+Acá si que metodología desde el punto de desarrollo del sistema 
+                                        Etc.
+
+
+
+Desarrollo
+Expresa de manera puntual el desarrollo del tema teniendo presente cada uno de los alcances que tiene como propósito la monografía.
+Exposición del alcance objetivo específico 1 Exposición del alcance objetivo específico 2 Exposición del alcance objetivo específico n.
+
+
+Conclusiones y recomendaciones
+Exponga las opiniones personales o críticas de cada uno de los alcances propuesto en la monografía y que fueron expresados en el apartado de Desarrollo.
+
+Al menos dos conclusiones por cada objetivo específico
+Recomendación 1 por cada objetivo especifico
+
+Bibliografía y referencias según normas APA

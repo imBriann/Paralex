@@ -1,0 +1,1 @@
+MapReduce es un modelo de programación para procesar grandes conjuntos de datos de forma distribuida en clústeres. MPI se utiliza para pasar mensajes entre nodos. 

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\src\utils\logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\src\utils\text_processor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\src\utils\json_output.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\src\core\document.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\src\core\pipeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\src\mapreduce\mapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\src\mapreduce\reducer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\src\mapreduce\engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\src\indexing\inverted_index.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\src\indexing\tfidf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\src\search\search_engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\src\similarity\cosine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\src\analytics\analyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\src\database\sqlite_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\src\database\sqlite3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\aceve\Documents\8vo Semestre\Fundamentos de Computacion Paralela y Distribuida AR\Tercer Corte\Paralex\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{55AE178A-E397-3270-BE55-EFAD529FF465}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

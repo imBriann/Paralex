@@ -1,0 +1,196 @@
+Mundo Fesc, ISSN 2216-0388 (Electrónico), ISSN: 2216-0353 (Impreso)
+
+
+Sistema de Procesamiento Paralelo de Documentos Basado en MapReduce, para la Ejecución de Tareas de Análisis de Datos de Manera Eficiente, Escalable y Tolerante a Fallos Básicos
+
+
+Parallel Document Processing System Based on MapReduce, for the Efficient, Scalable and Basic Fault-Tolerant Execution of Data Analysis Tasks
+
+ a*Brian David Acevedo Gomez, b Geron José Vergara García, c José Gerardo Chacón Rangel
+
+a* Ingeniero, brian.acevedobri@unipamplona.edu.co, 0009-0004-9184-2402, Universidad de Pamplona, San José de Cúcuta, Colombia.
+b Ingeniero, geron.vergarager@unipamplona.edu.co, 0009-0007-6322-4588, Universidad de Pamplona, San José de Cúcuta, Colombia.
+c Ingeniero, jose.chacon@unipamplona.edu.co, 0000-0002-6582-3142, Universidad de Pamplona, Villa del Rosario, Colombia.
+
+Resumen
+
+En los últimos años, el crecimiento de la información digital ha sido bastante evidente, y con ello también ha aumentado la cantidad de documentos que necesitan ser almacenados y analizados en contextos como el académico o el científico. Sin embargo, cuando el volumen de estos documentos es alto, los métodos tradicionales empiezan a quedarse cortos, sobre todo por los tiempos que implican y porque no aprovechan del todo los recursos disponibles. A partir de esto, en este trabajo se desarrolló un sistema de procesamiento de documentos basado en el modelo MapReduce, buscando hacer más ágil el análisis de texto al dividir las tareas en varios procesos. Para llegar a esta solución, se revisaron conceptos de computación paralela, sistemas distribuidos y recuperación de información, lo que sirvió como base para definir cómo debía estructurarse el sistema. La implementación se realizó en C++, utilizando MPI para la comunicación entre procesos, lo cual permitió coordinar la ejecución de las tareas. El sistema puede trabajar con archivos en formatos TXT, PDF y DOCX, y realiza funciones como extracción de texto, conteo de palabras, análisis de frecuencias y detección de términos relevantes, además de organizar la información para facilitar búsquedas posteriores. También se hicieron pruebas para evaluar aspectos como el rendimiento, la eficiencia y la escalabilidad, comparando los resultados con una versión secuencial. En general, se observó que al repartir la carga de trabajo los tiempos mejoran, lo que indica que este enfoque puede ser útil tanto para manejar grandes volúmenes de información como para entender mejor cómo funciona la computación paralela en la práctica.
+
+Palabras clave: Análisis documental, computación paralela, MapReduce, MPI, recuperación de información, sistemas distribuidos.
+
+Abstract
+
+In recent years, the growth of digital information has been quite evident, and with it, the number of documents that need to be stored and analyzed in academic and scientific contexts has also increased. However, when the volume of these documents is high, traditional methods begin to fall short, primarily because of the time they require and because they do not fully utilize available resources. Based on this, this project developed a document processing system based on the MapReduce model, aiming to streamline text analysis by dividing tasks into multiple processes. To arrive at this solution, concepts in parallel computing, distributed systems, and information retrieval were reviewed, which served as the basis for defining how the system should be structured. The implementation was carried out in C++, using MPI for inter-process communication, which allowed for the coordination of task execution. The system can work with files in TXT, PDF, and DOCX formats and performs functions such as text extraction, word counting, frequency analysis, and detection of relevant terms, in addition to organizing the information to facilitate subsequent searches. Tests were also conducted to evaluate aspects such as performance, efficiency, and scalability, comparing the results with a sequential version. Overall, it was observed that distributing the workload improves processing times, suggesting that this approach can be useful both for handling large volumes of data and for gaining a better understanding of how parallel computing works in practice.
+
+Keywords: Document analysis, parallel computing, MapReduce, MPI, information retrieval, distributed systems.
+
+
+
+*Corresponding author. 
+E-mail: brian.acevedobri@unipamplona.edu.co
+    
+Introducción
+
+El crecimiento de los documentos digitales en entornos académicos, empresariales y de investigación ha generado nuevos desafíos relacionados con el almacenamiento, organización y análisis de la información. Formatos como TXT, PDF y DOCX concentran grandes volúmenes de datos que pueden aportar conocimiento valioso para la toma de decisiones; sin embargo, a medida que las colecciones documentales aumentan de tamaño, los métodos tradicionales de procesamiento comienzan a presentar limitaciones en términos de tiempo de ejecución y aprovechamiento de recursos computacionales [1].
+Ante esta problemática, la computación paralela y distribuida ha surgido como una alternativa para mejorar el rendimiento de aplicaciones que requieren procesar grandes cantidades de información. Dentro de este campo, MapReduce se ha consolidado como uno de los modelos más utilizados para distribuir tareas de procesamiento entre múltiples nodos o procesos, simplificando la ejecución de operaciones sobre grandes conjuntos de datos mediante las fases Map y Reduce [2]. Gracias a esta arquitectura, es posible dividir una carga de trabajo en tareas independientes, procesarlas de manera simultánea y posteriormente consolidar los resultados obtenidos.
+Diversas investigaciones han demostrado la efectividad de MapReduce en escenarios relacionados con Big Data, minería de texto y análisis de información no estructurada. Estudios recientes reportan mejoras significativas en el rendimiento y la escalabilidad de aplicaciones que emplean este paradigma para el procesamiento distribuido de datos, tanto en entornos académicos como industriales [3], [4]. Asimismo, la utilización de Message Passing Interface (MPI) ha permitido implementar soluciones paralelas eficientes mediante mecanismos de comunicación que facilitan la coordinación entre procesos distribuidos [5].
+A pesar de la existencia de plataformas consolidadas como Hadoop y Spark, su complejidad técnica y sus requerimientos de infraestructura pueden dificultar su adopción en contextos académicos orientados al aprendizaje de los principios fundamentales de la computación paralela. Por esta razón, resulta pertinente desarrollar soluciones que permitan comprender de manera práctica conceptos como distribución de carga, paralelismo, escalabilidad e intercambio de información entre procesos, sin depender de infraestructuras empresariales de gran escala [6].
+En este contexto, el presente trabajo desarrolla un sistema de procesamiento paralelo de documentos basado en MapReduce, implementado mediante MPI y C++, con capacidad para procesar documentos en formatos TXT, PDF y DOCX. La propuesta incorpora funcionalidades de extracción de texto, análisis documental, indexación y recuperación de información, además de una estrategia de evaluación basada en métricas de rendimiento, eficiencia y escalabilidad. De esta manera, se busca demostrar la viabilidad del procesamiento paralelo como alternativa para el análisis eficiente de colecciones documentales y como herramienta de apoyo para la comprensión práctica de los sistemas distribuidos.
+
+Materiales y métodos
+
+La investigación se desarrolló bajo un enfoque cuantitativo, orientado a evaluar el desempeño de una arquitectura de procesamiento paralelo aplicada al análisis documental. El trabajo se llevó a cabo en cuatro etapas principales: revisión bibliográfica, diseño de la arquitectura, desarrollo del prototipo y validación experimental [12].
+En la primera etapa se realizó una revisión de literatura sobre computación paralela, sistemas distribuidos, recuperación de información y el modelo MapReduce. Para ello se consultaron bases de datos científicas y repositorios académicos especializados, con el propósito de identificar los fundamentos teóricos y las tecnologías más adecuadas para la construcción del sistema [14].
+A partir de los resultados obtenidos se diseñó una arquitectura basada en el paradigma MapReduce. La solución fue implementada en C++ utilizando Message Passing Interface (MPI) como mecanismo de comunicación entre procesos. La arquitectura se estructuró en dos fases principales: una fase Map encargada de distribuir y procesar fragmentos de información de manera paralela, y una fase Reduce responsable de consolidar los resultados parciales generados durante la ejecución [1], [6].
+El prototipo fue diseñado para trabajar con documentos en formatos TXT, PDF y DOCX. Para los formatos PDF y DOCX se incorporaron mecanismos de extracción de contenido textual que permitieran transformar la información a una representación uniforme para su procesamiento. Una vez obtenido el texto, el sistema ejecuta tareas de análisis documental como conteo de palabras, cálculo de frecuencias de términos, identificación de palabras clave, generación de estadísticas e indexación de contenido para facilitar la recuperación de información [5].
+La validación se planteó mediante pruebas experimentales utilizando colecciones documentales de diferentes tamaños y formatos. El desempeño de la implementación paralela fue comparado con una versión secuencial equivalente, manteniendo las mismas condiciones de ejecución. Para el análisis de resultados se consideraron métricas como tiempo de ejecución, speedup, eficiencia paralela, balance de carga, escalabilidad y tolerancia básica a fallos [2], [6], [13].
+Las pruebas permitieron evaluar el impacto de la distribución de tareas sobre el rendimiento general del sistema, así como determinar la capacidad de la arquitectura propuesta para procesar colecciones documentales de manera más eficiente mediante el aprovechamiento simultáneo de múltiples procesos.
+
+Resultados y discusión
+
+Los resultados del proyecto evidencian que el fraude digital en mensajería instantánea constituye un problema vigente y de alto impacto, tanto por su escala económica como por la variedad de tácticas de ingeniería social utilizadas para inducir acciones inseguras (clic en enlaces, entrega de códigos, transferencias y descarga de archivos). Esta necesidad está respaldada por reportes globales de criminalidad financiera y por análisis regionales que describen modalidades frecuentes como smishing, suplantación y estafas asociadas a “paquetes retenidos” en WhatsApp [1], [2], [3], [8].
+
+Panorama bibliométrico y alineación con tendencias de investigación
+
+Como parte del análisis del estado del arte, se realizó una búsqueda estructurada en literatura reciente orientada a chatbots, asistentes virtuales, ciberseguridad, phishing/smishing y técnicas de IA aplicadas (PLN y OCR). La exploración permitió identificar un crecimiento sostenido de publicaciones que combinan procesamiento de texto con estrategias de clasificación y detección de patrones maliciosos en comunicaciones breves, lo cual coincide con trabajos que reportan la utilidad de modelos ligeros y enfoques lingüísticos para detectar mensajes fraudulentos en entornos de mensajería instantánea [21], [22].
+
+En el análisis de coocurrencia de palabras clave y densidad temática (VOSviewer), se observó una convergencia clara alrededor de términos como artificial intelligence, machine learning, natural language processing y cybersecurity, lo que sugiere que la detección de fraude está siendo abordada como un problema interdisciplinar, donde el texto y el comportamiento del usuario son variables críticas. Este resultado respalda la elección del enfoque del proyecto, que combina PLN clásico y clasificación supervisada para responder de forma práctica a escenarios reales de fraude en WhatsApp [23], [5], [24].
+
+
+
+Fig. 1. Visualización de coocurrencia de palabras clave (VOSviewer) para investigación en chatbots y ciberseguridad.
+
+Fuente: Elaboración propia (datos bibliográficos exportados y procesados con VOSviewer) [24].
+
+Señales de fraude priorizadas para la detección automática
+
+A partir del análisis documental y de la sistematización de patrones recurrentes descritos en reportes de fraude y estudios aplicados, se definieron señales de alto valor discriminante para el chatbot, especialmente en mensajes cortos y contextos de urgencia. En concordancia con la literatura y reportes técnicos, se priorizaron indicadores lingüísticos (urgencia, amenazas, premios), señales de suplantación (cambio repentino de tono) y señales técnicas (URLs ofuscadas y enlaces acortados), ya que suelen aparecer en campañas de phishing/smishing orientadas a robo de credenciales o toma de cuentas [3], [8], [21], [22].
+
+TABLA I. Señales priorizadas para detección de estafa y método de análisis
+
+
+Fuente: Elaboración propia, basada en reportes y estudios relacionados [3], [8], [4], [21].
+
+Comparación por plataforma y justificación del enfoque en WhatsApp
+
+El análisis comparativo muestra diferencias importantes entre plataformas. Telegram ofrece flexibilidad para bots y ciertos mecanismos para moderación en grupos, pero la detección depende principalmente del bot y de integraciones externas. Messenger incorpora sistemas de seguridad y moderación por parte de la plataforma; sin embargo, el nivel de acceso del bot puede variar según políticas y visibilidad del contenido. En WhatsApp, la seguridad y privacidad del canal implican que el sistema de detección debe ser implementado y controlado por el desarrollador, lo que hace necesario integrar componentes propios de análisis de texto, enlaces e imágenes para alertar al usuario [17], [25], [26].
+
+TABLA II. Comparación resumida de seguridad y limitaciones en plataformas de mensajería
+
+
+Fuente: Elaboración propia con base en documentación de plataforma [17], [25], [26].
+
+Estos hallazgos sostienen la pertinencia del prototipo: al no existir un mecanismo nativo de detección de estafas disponible para el usuario final en WhatsApp, el valor del chatbot recae en su capacidad de analizar mensajes reenviados, capturas y enlaces, y emitir recomendaciones claras y accionables [17], [3], [8].
+
+
+Desempeño del OCR en capturas reales
+
+La evaluación del OCR se enfocó en escenarios reales: capturas con compresión, texto pequeño, enlaces y comprobantes alterados. Las pruebas iniciales mostraron que EasyOCR tiende a mantener mejor rendimiento en imágenes complejas, especialmente para cadenas alfanuméricas y enlaces (donde confundir “l/I/1” cambia por completo el destino). Tesseract, por su parte, logra resultados competitivos en texto más “limpio” y permite configuración avanzada, aunque su tolerancia al ruido puede ser menor sin preprocesamiento [16], [27], [4].
+
+TABLA III. Resultados iniciales de OCR en capturas de WhatsApp
+
+
+Fuente: Elaboración propia, respaldada por documentación técnica y enfoque de OCR para smishing [4], [16], [27].
+
+
+
+Fig. 2. Flujo OCR aplicado a captura recibida por WhatsApp (preprocesamiento y extracción de texto).
+
+Fuente: Elaboración propia con soporte en herramientas OCR documentadas [16], [27].
+
+En la práctica, el OCR alcanzó extracción útil en la mayoría de las capturas con resolución y contraste suficientes. Como limitación, se identificó degradación cuando la imagen presenta borrosidad, baja iluminación o perspectiva inclinada. Este comportamiento es consistente con la literatura que señala que el rendimiento OCR depende fuertemente de la calidad del preprocesamiento y de la nitidez del texto embebido [4], [16].
+
+Clasificación de mensajes sospechosos y estabilidad del enfoque SVM
+
+El clasificador basado en SVM se seleccionó por su efectividad en problemas de separación binaria con alta dimensionalidad y por su rendimiento probado en clasificación de texto con representaciones tipo TF-IDF. En coherencia con el enfoque, los mensajes fueron vectorizados mediante TF-IDF y entrenados con un SVM lineal, priorizando la generalización para textos cortos y patrones comunes en phishing [13], [12], [14].
+
+TABLA IV. Desempeño estimado por enfoque de clasificación
+
+
+Fuente: Elaboración propia, sustentada en literatura de clasificación y documentación técnica [13], [14].
+
+Los resultados de pruebas funcionales mostraron un desempeño consistente del sistema en escenarios típicos de fraude, con acierto alto cuando existen señales lingüísticas claras (urgencia, suplantación, solicitud de códigos) o evidencia técnica (URL sospechosa). No obstante, se identifican falsos negativos principalmente cuando el mensaje fraudulento evita palabras gatillo, emplea lenguaje conversacional neutro o delega el engaño al enlace sin texto explícito; esta es una limitación esperable de enfoques basados en patrones léxicos y representaciones TF-IDF [8], [21], [14].
+
+
+
+Fig. 3. Distribución representativa del dataset de entrenamiento y clases usadas para el clasificador.
+
+Fuente: Elaboración propia (construcción y etiquetado del conjunto de entrenamiento) [14].
+Rendimiento operativo: texto, imágenes y tiempos de respuesta
+
+En operación, el sistema mostró tiempos de respuesta adecuados para interacción conversacional: el procesamiento de texto suele ser inferior al procesamiento de imágenes, ya que OCR agrega costo computacional (preprocesamiento + extracción + análisis). En general, el desempeño observado se mantiene dentro de márgenes aceptables para un chatbot que requiere entregar alertas rápidas y recomendaciones claras, y la arquitectura basada en FastAPI facilita el manejo concurrente de eventos entrantes desde webhooks [18], [17], [16].
+
+ 
+
+Fig. 4. Ejemplos de casos: detección de enlace sospechoso y recomendaciones generadas al usuario.
+
+Fuente: Elaboración propia, en coherencia con patrones reportados de estafa y phishing [3], [8].
+
+Validación funcional y cobertura de estafas frecuentes
+
+La validación funcional indicó estabilidad del sistema en interacciones controladas, incluyendo mensajes simulados y ejemplos representativos de estafas frecuentes (premios falsos, suplantación bancaria, “paquetes retenidos” y verificación falsa de cuentas). La precisión funcional cercana al 90% en ambiente operativo refleja un desempeño útil para detección temprana, especialmente como herramienta preventiva y educativa [3], [8], [21].
+
+
+
+Fig. 5. Resultados generales de pruebas funcionales.
+
+Fuente: Elaboración propia, con apoyo en criterios de evaluación de clasificación [14].
+
+ 
+
+Fig. 6. Validación del OCR en capturas reales recibidas por WhatsApp.
+
+Fuente: Elaboración propia con soporte en documentación OCR [16], [27].
+Protección de datos, inferencias y limitaciones
+
+El sistema se diseñó bajo principios de minimización y uso específico, preservando el contexto conversacional necesario y evitando retención innecesaria de contenido sensible. Adicionalmente, el uso de la API de mensajería exige mantener medidas de protección de credenciales y control de acceso, lo cual es coherente con las recomendaciones de seguridad y políticas de plataforma [17], [25].
+
+TABLA V. Verificación resumida de criterios de protección de datos en el prototipo
+
+
+Fuente: Elaboración propia con base en lineamientos de plataforma y amenazas comunes. [3], [17], [25]
+
+Como inferencia principal, se concluye que la combinación de OCR + PLN clásico + SVM es adecuada para prevención en tiempo real en WhatsApp, especialmente para ataques con señales explícitas y enlaces evidentes. La limitación más importante es la sensibilidad del enfoque a mensajes “suaves” (sin indicadores directos), además de la dependencia del OCR frente a calidad de captura. A futuro se recomienda ampliar el dataset con mayor diversidad lingüística y regional, incluir evaluaciones con usuarios finales (especialmente población vulnerable a estafas), y fortalecer el análisis de URLs con características adicionales y listas de reputación cuando sea viable [3], [8], [21], [14].
+
+Conclusiones
+
+El trabajo demostró la viabilidad de un chatbot orientado a la prevención de estafas y contenidos maliciosos en WhatsApp mediante un enfoque híbrido que integra análisis de texto, extracción de información desde imágenes y clasificación automatizada. Los hallazgos permitieron consolidar un conjunto de señales de riesgo frecuentes (lingüísticas, técnicas y contextuales) asociadas a phishing, smishing, suplantación de identidad y fraudes financieros, confirmando que la mensajería instantánea ofrece un vector de ataque altamente efectivo por su inmediatez y por el uso recurrente de ingeniería social.
+
+En la fase experimental, las pruebas comparativas del componente OCR evidenciaron que EasyOCR presenta mayor robustez en capturas con ruido visual, mientras que Tesseract mantiene un desempeño competitivo en texto más estructurado, lo que respalda la adopción de un flujo multimodal para cubrir tanto mensajes escritos como evidencias en formato imagen. Para la clasificación de texto sospechoso, el uso de vectorización TF-IDF y un SVM lineal mostró un desempeño consistente en escenarios con señales explícitas de fraude, posicionándose como una alternativa eficiente para despliegues con recursos limitados y requerimientos de respuesta rápida.
+
+En términos de operación, la integración mediante webhooks asincrónicos permitió mantener estabilidad en pruebas con concurrencia moderada y tiempos de respuesta adecuados para un entorno conversacional. No obstante, se identifican limitaciones relevantes: el desempeño del OCR depende de la calidad de la captura (resolución, contraste y distorsión), y los clasificadores basados en patrones léxicos tienden a disminuir su efectividad cuando los mensajes fraudulentos se redactan con lenguaje ambiguo o sin indicadores directos.
+
+Finalmente, el diseño priorizó criterios de protección de datos al reducir la retención de información sensible y restringir el acceso a credenciales y registros, lo cual favorece la confianza del usuario. Como trabajo futuro, se recomienda ampliar y diversificar el dataset con variaciones regionales y nuevas modalidades de estafa, incorporar evaluaciones sistemáticas con usuarios finales (especialmente población vulnerable) y fortalecer el análisis de enlaces con mecanismos adicionales de reputación y validación contextual para mejorar la cobertura frente a ataques emergentes.
+
+Los autores agradecen a la Universidad de Pamplona por el acompañamiento académico y el acceso a recursos formativos que facilitaron el desarrollo del proyecto. Asimismo, se reconoce el apoyo de docentes y revisores que aportaron observaciones para mejorar la calidad del prototipo y del manuscrito. 
+
+Referencias
+[1] Nasdaq Verafin, "2024 Global Financial Crime Report", 2024. [Online]. Disponible en: https://verafin.com/nasdaq-verafin-global-financial-crime-report/
+[2] Policía Nacional de Colombia, Dirección de Investigación Criminal e INTERPOL, Centro Cibernético Policial, "Balance Anual 2024", 2024. [Online]. Disponible en: https://caivirtual.policia.gov.co/sites/default/files/observatorio/BALANCE%20ANUAL%20CECIP%202024_1.pdf
+[3] ESET, "ESET Security Report LATAM 2023", 2023. [Online]. Disponible en: https://web-assets.esetstatic.com/wls/es/articulos/reportes/eset-security-report-latam2023.pdf
+[4] P. B. Medina, A. Carofilis, E. Fidalgo, and E. Alegre, "Preprocesado de imagen y OCR para mejorar detección de smishing", Jornadas de Automática, vol. 45, 2024.
+[5] D. E. Benavides Astudillo, "Detección de ataques de phishing basada en aprendizaje profundo y NLP", Tesis de grado, Escuela Politécnica Nacional, Quito, Ecuador, 2024.
+[6] P. H. H. José, "Análisis de la aplicación de la inteligencia artificial asociada a la ciberseguridad en el sector financiero", Tesis de grado, Universidad Nacional Abierta y a Distancia, Colombia, 2025.
+[7] M. V. Pineda and A. M. Á. Quiceno, "Análisis de herramientas de ciberseguridad para pymes en Colombia", Revista CIES, vol. 14, no. 2, pp. 221–241, 2023.
+[8] Kaspersky, "Kaspersky Security Bulletin 2024. Statistics", Securelist, 04-dic-2024. [Online]. Disponible en: https://securelist.com/ksb-2024-statistics/114795/
+[9] K. Beck, Extreme Programming Explained: Embrace Change, 2nd ed. Boston, MA, USA: Addison-Wesley, 2004.
+[10] S. Bird, E. Klein, and E. Loper, Natural Language Processing with Python. Sebastopol, CA, USA: O'Reilly Media, 2009.
+[11] C. D. Manning, P. Raghavan, and H. Schütze, Introduction to Information Retrieval. Cambridge, U.K.: Cambridge University Press, 2008. [Online]. Disponible en: https://nlp.stanford.edu/IR-book/
+[12] scikit-learn Developers, "TfidfVectorizer", scikit-learn Documentation. [Online]. Disponible en: https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html
+[13] C. Cortes and V. Vapnik, "Support-vector networks", Machine Learning, vol. 20, no. 3, pp. 273–297, 1995, doi: 10.1007/BF00994018. [Online]. Disponible en: https://doi.org/10.1007/BF00994018
+[14] scikit-learn Developers, "Support Vector Classification (SVC)", scikit-learn Documentation. [Online]. Disponible en: https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
+[15] OpenCV, "OpenCV-Python Tutorials", OpenCV Documentation. [Online]. Disponible en: https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html
+[16] tesseract-ocr, "Tesseract documentation", GitHub Pages. [Online]. Disponible en: https://tesseract-ocr.github.io
+[17] Meta Platforms, Inc., "WhatsApp Business Platform — Developer Documentation (Cloud API)", Meta for Developers. [Online]. Disponible en: https://developers.facebook.com/documentation/business-messaging/whatsapp/overview
+[18] S. R. Ramirez (Tiangolo), "FastAPI", Documentation. [Online]. Disponible en: https://fastapi.tiangolo.com/
+[19] Encode, "Uvicorn", Documentation. [Online]. Disponible en: https://uvicorn.dev/
+[20] PostgreSQL Global Development Group, "PostgreSQL Documentation", PostgreSQL. [Online]. Disponible en: https://www.postgresql.org/docs/
+[21] S. F. Schwarz, P. Fonseca, and A. Rocha, “Smishing Detection From a Messaging Platform View,” IEEE Access, 2025, doi: 10.1109/ACCESS.2025.3597903. [Online]. Disponible en: https://doi.org/10.1109/ACCESS.2025.3597903
+[22] U. Maqsood, S. ur Rehman, T. Ali, K. Mahmood, T. Alsaedi, and M. Kundi, “An Intelligent Framework Based on Deep Learning for SMS and E-mail Spam Detection,” Applied Computational Intelligence and Soft Computing, vol. 2023, Art. no. 6648970, 2023, doi: 10.1155/2023/6648970. [Online]. Disponible en: https://doi.org/10.1155/2023/6648970
+[23] J. R. León Naranjo, M. M. Oleas Morán, and K. Z. Pimentel Salazar, "El papel de la inteligencia artificial en la detección del phishing", LATAM Revista Latinoamericana de Ciencias Sociales y Humanidades, vol. 6, no. 4, pp. 2330–2340, Aug. 2025, doi: 10.56712/latam.v6i4.4437. [Online]. Disponible en: https://doi.org/10.56712/latam.v6i4.4437
+[24] N. J. van Eck and L. Waltman, "Software survey: VOSviewer, a computer program for bibliometric mapping", Scientometrics, vol. 84, no. 2, pp. 523–538, 2010, doi: 10.1007/s11192-009-0146-3. [Online]. Disponible en: https://doi.org/10.1007/s11192-009-0146-3
+[25] Meta, “Meta’s approach to safer private messaging,” Dec. 1, 2021 (updated Apr. 1, 2025). [Online]. Disponible en: https://about.fb.com/news/2021/12/metas-approach-to-safer-private-messaging/
+[26] Telegram, “Telegram Bot API,” Telegram Developers (actualizado Aug. 15, 2025). [Online]. Disponible en: https://core.telegram.org/bots/api
+[27] JaidedAI, "EasyOCR", GitHub repository. [Online]. Disponible en: https://github.com/JaidedAI/EasyOCR
+
+

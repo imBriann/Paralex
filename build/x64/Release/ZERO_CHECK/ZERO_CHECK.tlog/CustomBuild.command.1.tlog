@@ -1,0 +1,10 @@
+^C:\USERS\ACEVE\DOCUMENTS\8VO SEMESTRE\FUNDAMENTOS DE COMPUTACION PARALELA Y DISTRIBUIDA AR\TERCER CORTE\PARALEX\BUILD\CMAKEFILES\0B963A2D856EBBAF02DF9DB0FB9BB578\GENERATE.STAMP.RULE
+setlocal
+C:\Users\aceve\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe "-SC:/Users/aceve/Documents/8vo Semestre/Fundamentos de Computacion Paralela y Distribuida AR/Tercer Corte/Paralex" "-BC:/Users/aceve/Documents/8vo Semestre/Fundamentos de Computacion Paralela y Distribuida AR/Tercer Corte/Paralex/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/aceve/Documents/8vo Semestre/Fundamentos de Computacion Paralela y Distribuida AR/Tercer Corte/Paralex/build/Paralex.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

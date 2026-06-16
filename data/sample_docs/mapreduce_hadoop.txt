@@ -1,0 +1,13 @@
+MapReduce: Modelo de Programación para Procesamiento Masivo de Datos
+
+MapReduce es un modelo de programación diseñado por Google para el procesamiento y la generación de grandes conjuntos de datos de forma paralela y distribuida. El modelo fue presentado en un artículo seminal publicado en 2004 por Jeffrey Dean y Sanjay Ghemawat, y desde entonces se ha convertido en la base de numerosos frameworks de procesamiento de datos a gran escala como Apache Hadoop.
+
+El paradigma MapReduce se compone de dos fases principales. En la fase Map, una función definida por el usuario procesa cada elemento de entrada y produce un conjunto de pares clave-valor intermedios. En la fase Reduce, otra función definida por el usuario recibe todos los valores asociados a una misma clave intermedia y los combina para producir un resultado final. Entre ambas fases existe una etapa implícita de shuffle y sort que agrupa los pares intermedios por clave.
+
+El modelo MapReduce se implementa típicamente sobre un sistema de archivos distribuido como HDFS en el caso de Apache Hadoop. Los datos de entrada se dividen en splits que son procesados por diferentes instancias del mapper en paralelo. Cada mapper produce pares clave-valor que son particionados y enviados a los reducers correspondientes. Los reducers procesan todos los valores de cada clave y generan la salida final.
+
+La implementación de un sistema MapReduce para el análisis documental es particularmente relevante. En el conteo de palabras, la función Map emite un par por cada palabra encontrada en el documento con valor unitario. La función Reduce suma todos los valores asociados a cada palabra para obtener la frecuencia total. Este mismo patrón puede extenderse para construir índices invertidos, calcular frecuencias de términos y generar estadísticas sobre grandes colecciones de documentos.
+
+Los índices invertidos son estructuras de datos fundamentales en los motores de búsqueda y sistemas de recuperación de información. Un índice invertido mapea cada término del vocabulario a la lista de documentos que lo contienen, junto con información adicional como la frecuencia del término y las posiciones donde aparece. La construcción distribuida de índices invertidos mediante MapReduce permite indexar colecciones de documentos de escala masiva de forma eficiente.
+
+La eficiencia del procesamiento MapReduce depende de factores como el tamaño de los bloques de datos, el número de mappers y reducers, la localidad de datos y la capacidad de la red de comunicación. La optimización de estos parámetros es esencial para maximizar el rendimiento del sistema y minimizar el tiempo de procesamiento.

@@ -1,0 +1,7 @@
+[2026-06-16 11:18:16.648] [INFO] [Rank 7] [Engine] Inicializado rank 7 de 8 procesos
+[2026-06-16 12:44:02.652] [INFO] [Rank 7] [Engine] Inicializado rank 7 de 8 procesos
+[2026-06-16 12:44:53.045] [INFO] [Rank 7] [Engine] Inicializado rank 7 de 8 procesos
+[2026-06-16 16:34:57.822] [INFO] [Rank 7] [Engine] Inicializado rank 7 de 8 procesos
+[2026-06-16 16:34:57.863] [INFO] [Rank 7] [Mapper] Map completado: Ensayo_CUDA | palabras=991 | unicas=505
+[2026-06-16 16:35:29.672] [INFO] [Rank 7] [Engine] Inicializado rank 7 de 8 procesos
+[2026-06-16 16:35:29.694] [INFO] [Rank 7] [Mapper] Map completado: Ensayo_CUDA | palabras=991 | unicas=505

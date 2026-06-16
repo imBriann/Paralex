@@ -1,0 +1,20 @@
+# Paralex - Python Dependencies
+# Frontend & Dashboard
+streamlit>=1.30.0
+plotly>=5.18.0
+matplotlib>=3.8.0
+wordcloud>=1.9.3
+
+# Document extraction
+PyPDF2>=3.0.0
+python-docx>=1.1.0
+
+# Data handling
+pandas>=2.1.0
+numpy>=1.26.0
+
+# Database
+# sqlite3 is built-in to Python
+
+# Utilities
+chardet>=5.2.0

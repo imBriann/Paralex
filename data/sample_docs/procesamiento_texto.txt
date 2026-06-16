@@ -1,0 +1,13 @@
+Procesamiento de Texto y Análisis Documental
+
+El procesamiento de texto es un área fundamental de la ciencia de la computación que abarca las técnicas y algoritmos para transformar, analizar y extraer información de documentos de texto. En la era de la información digital, donde se generan enormes volúmenes de datos textuales diariamente, el procesamiento automatizado de texto se ha convertido en una necesidad crítica para organizaciones de todos los sectores.
+
+La primera etapa del procesamiento de texto es la ingesta documental, que consiste en la recopilación y lectura de documentos en diversos formatos. Los formatos más comunes incluyen texto plano TXT, documentos PDF y archivos DOCX de Microsoft Word. Cada formato requiere técnicas específicas de extracción de texto. Los archivos PDF pueden contener texto embebido, imágenes escaneadas o una combinación de ambos. Los archivos DOCX almacenan el contenido en formato XML comprimido dentro de un archivo ZIP.
+
+La tokenización es el proceso de dividir el texto en unidades mínimas llamadas tokens, que generalmente corresponden a palabras individuales. La tokenización debe manejar correctamente los signos de puntuación, las contracciones, los números y los caracteres especiales. Después de la tokenización, se aplican técnicas de normalización como la conversión a minúsculas y la eliminación de caracteres no alfanuméricos.
+
+Las palabras vacías o stopwords son términos extremadamente comunes que aportan poco valor semántico al análisis, como artículos, preposiciones y conjunciones. La eliminación de stopwords reduce significativamente el tamaño del vocabulario y mejora la calidad del análisis documental. Cada idioma tiene su propio conjunto de stopwords que debe ser considerado durante el preprocesamiento.
+
+El análisis de frecuencia de términos permite identificar las palabras más relevantes en un documento o colección de documentos. La densidad léxica, calculada como la proporción de palabras únicas respecto al total de palabras, indica la riqueza del vocabulario utilizado. La diversidad léxica complementa esta medida evaluando la variedad de términos empleados en el texto.
+
+La extracción de palabras clave es una tarea esencial del análisis documental que identifica los términos más representativos de un documento. Las técnicas basadas en estadísticas como TF-IDF permiten identificar automáticamente las palabras clave sin necesidad de supervisión humana. Estas palabras clave pueden utilizarse para la clasificación automática de documentos, la generación de resúmenes y la construcción de sistemas de recomendación.

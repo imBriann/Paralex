@@ -1,0 +1,3 @@
+C:/Users/aceve/Documents/8vo Semestre/Fundamentos de Computacion Paralela y Distribuida AR/Tercer Corte/Paralex/build/CMakeFiles/paralex_engine.dir
+C:/Users/aceve/Documents/8vo Semestre/Fundamentos de Computacion Paralela y Distribuida AR/Tercer Corte/Paralex/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/aceve/Documents/8vo Semestre/Fundamentos de Computacion Paralela y Distribuida AR/Tercer Corte/Paralex/build/CMakeFiles/ZERO_CHECK.dir

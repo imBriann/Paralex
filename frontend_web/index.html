@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paralex | Profesional</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <i data-lucide="zap"></i>
+                    <span>Paralex</span>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li class="active" onclick="navigate('home')"><i data-lucide="home"></i> Inicio</li>
+                <li onclick="navigate('explorer')"><i data-lucide="folder-open"></i> Explorador</li>
+                <li onclick="navigate('search')"><i data-lucide="search"></i> Búsqueda</li>
+                <li onclick="navigate('dashboard')"><i data-lucide="bar-chart-2"></i> Dashboard</li>
+                <li onclick="navigate('relations')"><i data-lucide="git-merge"></i> Relaciones</li>
+                <li onclick="navigate('insights')"><i data-lucide="lightbulb"></i> Insights</li>
+                <li onclick="navigate('performance')"><i data-lucide="activity"></i> Rendimiento</li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main id="main-content">
+            <!-- Header -->
+            <header>
+                <h2 id="page-title">Inicio</h2>
+                <div class="header-actions" style="display: flex; gap: 16px; align-items: center;">
+                    <button class="btn-primary" onclick="runDemoMode()" style="background-color: #34c759; padding: 6px 12px; font-size: 0.85rem;"><i data-lucide="play" style="width:14px;"></i> Modo Demo</button>
+                    <div id="status-indicator" class="status online">Conectado</div>
+                </div>
+            </header>
+
+            <!-- Views Container -->
+            <div id="views">
+                <!-- Home View -->
+                <section id="view-home" class="view active fade-in">
+                    <div class="hero">
+                        <h1>Plataforma de Análisis Paralelo</h1>
+                        <p>Extrae métricas, busca documentos e indexa grandes corpus a la velocidad de C++ con arquitectura MapReduce distribuida.</p>
+                        <button class="btn-primary" onclick="navigate('explorer')">Empezar ahora</button>
+                    </div>
+                </section>
+
+                <!-- Explorer View -->
+                <section id="view-explorer" class="view">
+                    <div class="card glass">
+                        <h3>Cargar Documentos</h3>
+                        <div class="upload-zone" id="upload-zone">
+                            <i data-lucide="upload-cloud"></i>
+                            <p>Arrastra archivos o haz clic para subir</p>
+                            <input type="file" id="file-input" multiple hidden>
+                        </div>
+                        <div id="upload-status"></div>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Documentos en el Corpus</h3>
+                        <div class="table-container">
+                            <table id="docs-table">
+                                <thead>
+                                    <tr>
+                                        <th>Nombre</th>
+                                        <th>Tamaño</th>
+                                        <th>Fecha</th>
+                                        <th>Palabras</th>
+                                        <th>Términos</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Populated by JS -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Search View -->
+                <section id="view-search" class="view">
+                    <div class="search-container glass">
+                        <i data-lucide="search" class="search-icon"></i>
+                        <input type="text" id="search-input" placeholder="Ingresa tu consulta para buscar en el corpus...">
+                        <button class="btn-primary" onclick="performSearch()">Buscar</button>
+                        <button class="btn-primary" onclick="exportSearchCSV()" style="background: transparent; color: var(--accent-color); border: 1px solid var(--accent-color);"><i data-lucide="download"></i> Exportar CSV</button>
+                    </div>
+                    <div id="correction-box" style="display:none;" class="alert info"></div>
+                    <div id="search-results" class="results-grid">
+                        <!-- Populated by JS -->
+                    </div>
+                </section>
+
+                <!-- Dashboard View -->
+                <section id="view-dashboard" class="view">
+                    <div class="kpi-grid">
+                        <div class="kpi-card glass">
+                            <h4>Total Documentos</h4>
+                            <div class="value" id="kpi-docs">0</div>
+                        </div>
+                        <div class="kpi-card glass">
+                            <h4>Palabras Procesadas</h4>
+                            <div class="value" id="kpi-words">0</div>
+                        </div>
+                        <div class="kpi-card glass">
+                            <h4>Términos Únicos</h4>
+                            <div class="value" id="kpi-terms">0</div>
+                        </div>
+                    </div>
+                    
+                    <div class="card mt-2">
+                        <h3>Palabras Clave (TF-IDF)</h3>
+                        <button class="btn-primary" onclick="generateTFIDF()">Generar Análisis Global</button>
+                        <div id="chart-container" style="margin-top: 20px; height: 300px; display: none;">
+                            <canvas id="tfidfChart"></canvas>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Relations View -->
+                <section id="view-relations" class="view">
+                    <div class="card glass">
+                        <h3>Mapa de Relaciones (Similitud del Coseno)</h3>
+                        <p>Nodos más cercanos indican alta similitud en su contenido temático.</p>
+                        <button class="btn-primary" onclick="generateRelations()">Mapear Corpus</button>
+                        <div id="network-container" style="height: 500px; border: 1px solid var(--border-color); border-radius: 8px; margin-top: 16px;"></div>
+                    </div>
+                </section>
+
+                <!-- Insights View -->
+                <section id="view-insights" class="view">
+                    <div class="card glass">
+                        <h3>Centro de Insights</h3>
+                        <button class="btn-primary" onclick="generateInsights()">Generar Takeaways</button>
+                        <div id="insights-container" style="margin-top: 24px; display: flex; flex-direction: column; gap: 16px;"></div>
+                    </div>
+                </section>
+
+                <!-- Performance View -->
+                <section id="view-performance" class="view">
+                    <div class="card glass">
+                        <h3>Benchmark de Rendimiento Paralelo</h3>
+                        <p>Compara el tiempo de ejecución secuencial vs paralelo.</p>
+                        <div style="display: flex; gap: 10px; align-items: center; margin: 20px 0;">
+                            <label>Procesos MPI:</label>
+                            <input type="number" id="mpi-nodes" value="4" min="2" max="16" class="input-modern">
+                            <button class="btn-primary" onclick="runBenchmark()">Iniciar Benchmark</button>
+                        </div>
+                        
+                        <div id="benchmark-results" style="display:none;">
+                            <div class="kpi-grid">
+                                <div class="kpi-card">
+                                    <h4>T. Secuencial</h4>
+                                    <div class="value" id="b-seq">0 ms</div>
+                                </div>
+                                <div class="kpi-card">
+                                    <h4>T. Paralelo</h4>
+                                    <div class="value" id="b-par">0 ms</div>
+                                </div>
+                                <div class="kpi-card">
+                                    <h4>Speedup</h4>
+                                    <div class="value" id="b-spd" style="color: #0071e3">0x</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- Document Modal -->
+    <div id="doc-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content glass">
+            <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-color); padding-bottom: 12px; margin-bottom: 16px;">
+                <h3 id="modal-title">Documento</h3>
+                <i data-lucide="x" style="cursor: pointer;" onclick="closeModal()"></i>
+            </div>
+            <pre id="modal-body" style="white-space: pre-wrap; font-family: inherit; font-size: 0.9rem; max-height: 60vh; overflow-y: auto; color: var(--text-secondary);"></pre>
+        </div>
+    </div>
+    
+    <script src="/static/app.js"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+</body>
+</html>

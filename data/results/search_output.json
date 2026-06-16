@@ -1,0 +1,57 @@
+{
+  "command": "search",
+  "query": "brian",
+  "num_results": 8,
+  "processing_time_ms": 76.04,
+  "num_processes": 4,
+  "results": [
+{
+      "doc_id": 12,
+      "doc_name": "Articulo - Palarex",
+      "score": 0.116693,
+      "match_count": 1
+    },
+{
+      "doc_id": 8,
+      "doc_name": "Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final - copia",
+      "score": 0.106139,
+      "match_count": 1
+    },
+{
+      "doc_id": 9,
+      "doc_name": "Ensayo_CUDA",
+      "score": 0.106032,
+      "match_count": 1
+    },
+{
+      "doc_id": 11,
+      "doc_name": "Avance",
+      "score": 0.105722,
+      "match_count": 1
+    },
+{
+      "doc_id": 1,
+      "doc_name": "InformeFinalFCPD",
+      "score": 0.104662,
+      "match_count": 1
+    },
+{
+      "doc_id": 2,
+      "doc_name": "InformeFinalFCPD",
+      "score": 0.104662,
+      "match_count": 1
+    },
+{
+      "doc_id": 5,
+      "doc_name": "Esquema de entrega del Documento final de  Proyecto corto_2025__2 Final",
+      "score": 0.104662,
+      "match_count": 1
+    },
+{
+      "doc_id": 10,
+      "doc_name": "AvancesObjetivosProyectoDeAula",
+      "score": 0.104662,
+      "match_count": 1
+    }
+  ]
+}

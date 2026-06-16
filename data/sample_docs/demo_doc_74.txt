@@ -1,0 +1,1 @@
+La inteligencia artificial y el aprendizaje automático dependen de grandes cantidades de datos. Los motores de búsqueda usan TF-IDF para medir la relevancia de las palabras clave. 

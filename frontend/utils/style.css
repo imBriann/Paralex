@@ -1,0 +1,101 @@
+/* Paralex V2 - Apple Aesthetic Custom CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+}
+
+/* Backgrounds and text colors */
+.stApp {
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+}
+
+/* Header style */
+header[data-testid="stHeader"] {
+    background: rgba(255, 255, 255, 0.7) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #ffffff !important;
+    border-right: 1px solid rgba(0,0,0,0.05) !important;
+}
+
+/* Cards / Containers */
+div.css-1r6slb0, div.css-12oz5g7 {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02), 0 1px 3px rgba(0, 0, 0, 0.02);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(0,0,0,0.03);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+div.css-1r6slb0:hover, div.css-12oz5g7:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.04), 0 4px 4px rgba(0, 0, 0, 0.02);
+}
+
+/* KPI Metrics */
+[data-testid="stMetricValue"] {
+    font-size: 2.2rem !important;
+    font-weight: 700 !important;
+    color: #0071e3 !important;
+    letter-spacing: -0.02em;
+}
+
+[data-testid="stMetricLabel"] {
+    font-size: 0.9rem !important;
+    font-weight: 500 !important;
+    color: #86868b !important;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #0071e3 !important;
+    color: #ffffff !important;
+    border-radius: 20px !important;
+    font-weight: 500 !important;
+    border: none !important;
+    padding: 0.5rem 1.2rem !important;
+    transition: all 0.2s ease !important;
+}
+
+.stButton > button:hover {
+    background-color: #0077ED !important;
+    transform: scale(1.02);
+    box-shadow: 0 4px 10px rgba(0, 113, 227, 0.3);
+}
+
+/* Dark mode adjustments (handled by Streamlit natively but we can override) */
+@media (prefers-color-scheme: dark) {
+    .stApp {
+        background-color: #000000;
+        color: #f5f5f7;
+    }
+    section[data-testid="stSidebar"] {
+        background-color: #1c1c1e !important;
+        border-right: 1px solid rgba(255,255,255,0.1) !important;
+    }
+    div.css-1r6slb0, div.css-12oz5g7 {
+        background-color: #1c1c1e;
+        border: 1px solid rgba(255,255,255,0.05);
+    }
+    [data-testid="stMetricValue"] {
+        color: #2997ff !important;
+    }
+    .stButton > button {
+        background-color: #2997ff !important;
+    }
+    header[data-testid="stHeader"] {
+        background: rgba(0, 0, 0, 0.7) !important;
+    }
+}
