@@ -3,9 +3,9 @@
   "num_processes": 4,
   "num_documents": 91,
   "total_words": 1362,
-  "time_sequential_ms": 4.51,
-  "time_parallel_ms": 7.29,
-  "speedup": 0.6191,
-  "efficiency": 0.1548,
-  "overhead_ms": 24.64
+  "time_sequential_ms": 7.22,
+  "time_parallel_ms": 11.48,
+  "speedup": 0.6286,
+  "efficiency": 0.1571,
+  "overhead_ms": 38.72
 }

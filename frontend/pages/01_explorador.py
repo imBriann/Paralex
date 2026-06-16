@@ -51,6 +51,13 @@ with st.expander("➕ Cargar Nuevos Documentos y Ejecutar MapReduce"):
 
 st.divider()
 
+col_title, col_clear = st.columns([3, 1])
+with col_clear:
+    if st.button("🗑️ Limpiar Corpus", help="Elimina todos los documentos y la base de datos", use_container_width=True):
+        bridge.clear_corpus()
+        st.success("Corpus limpiado exitosamente.")
+        st.rerun()
+
 if df_docs.empty:
     st.info("No hay documentos indexados. Sube algunos archivos para comenzar.")
 else:

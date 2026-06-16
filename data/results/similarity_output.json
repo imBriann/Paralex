@@ -1,7 +1,7 @@
 {
   "command": "similarity",
   "num_processes": 4,
-  "processing_time_ms": 20.76,
+  "processing_time_ms": 28.22,
   "num_documents": 91,
   "doc_ids": [
 1,

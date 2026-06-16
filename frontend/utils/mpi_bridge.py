@@ -110,3 +110,33 @@ class MPIBridge:
         if changed:
             return " ".join(corrected_words)
         return None
+
+    def clear_corpus(self):
+        import shutil
+        raw_dir = os.path.join(self.data_dir, "raw_uploads")
+        txt_dir = os.path.join(self.data_dir, "sample_docs")
+        manifest_path = os.path.join(self.data_dir, "manifest.txt")
+        
+        # Delete directories
+        if os.path.exists(raw_dir):
+            shutil.rmtree(raw_dir)
+        if os.path.exists(txt_dir):
+            shutil.rmtree(txt_dir)
+            
+        # Recreate empty directories
+        os.makedirs(raw_dir, exist_ok=True)
+        os.makedirs(txt_dir, exist_ok=True)
+        
+        # Delete manifest
+        if os.path.exists(manifest_path):
+            os.remove(manifest_path)
+            
+        # Create empty manifest
+        with open(manifest_path, 'w', encoding='utf-8') as f:
+            f.write("")
+            
+        # Delete database
+        if os.path.exists(self.db_path):
+            os.remove(self.db_path)
+            
+        return {"status": "success", "message": "Corpus cleared successfully"}

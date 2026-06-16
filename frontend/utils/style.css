@@ -20,6 +20,11 @@ header[data-testid="stHeader"] {
     border-bottom: 1px solid rgba(0,0,0,0.05);
 }
 
+/* Hide default Streamlit clutter */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+.stDeployButton {display: none;}
+
 /* Sidebar */
 section[data-testid="stSidebar"] {
     background-color: #ffffff !important;
@@ -73,6 +78,59 @@ div.css-1r6slb0:hover, div.css-12oz5g7:hover {
     background-color: #0077ED !important;
     transform: scale(1.02);
     box-shadow: 0 4px 10px rgba(0, 113, 227, 0.3);
+}
+
+/* Adjust Main Padding */
+.block-container {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    max-width: 1000px !important;
+}
+
+/* Inputs and File Uploader */
+.stTextInput > div > div > input {
+    border-radius: 12px !important;
+    border: 1px solid rgba(0,0,0,0.1) !important;
+    padding: 0.75rem 1rem !important;
+    background-color: rgba(255,255,255,0.8) !important;
+    transition: all 0.2s ease !important;
+}
+.stTextInput > div > div > input:focus {
+    box-shadow: 0 0 0 4px rgba(0, 113, 227, 0.2) !important;
+    border-color: #0071e3 !important;
+}
+
+/* File Uploader styling */
+[data-testid="stFileUploadDropzone"] {
+    border-radius: 16px !important;
+    border: 2px dashed rgba(0,0,0,0.1) !important;
+    background-color: rgba(255,255,255,0.6) !important;
+    backdrop-filter: blur(10px) !important;
+}
+[data-testid="stFileUploadDropzone"]:hover {
+    border-color: #0071e3 !important;
+    background-color: rgba(0, 113, 227, 0.02) !important;
+}
+
+/* Dataframes */
+[data-testid="stDataFrame"] {
+    border-radius: 12px !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03) !important;
+    border: 1px solid rgba(0,0,0,0.05) !important;
+}
+
+/* Headers */
+h1 {
+    font-weight: 700 !important;
+    letter-spacing: -0.02em !important;
+    background: linear-gradient(135deg, #1d1d1f 0%, #434344 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2, h3 {
+    font-weight: 600 !important;
+    letter-spacing: -0.01em !important;
 }
 
 /* Dark mode adjustments (handled by Streamlit natively but we can override) */
